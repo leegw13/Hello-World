@@ -1,0 +1,2970 @@
+{
+  "language": "vi",
+  "basic": [
+    {
+      "id": 0,
+      "korean": "인사 & 자기소개",
+      "local": "Chào hỏi & Giới thiệu",
+      "phrases": [
+        {
+          "ko": "안녕하세요.",
+          "vi": "Xin chào!",
+          "pron": "씬 짜오"
+        },
+        {
+          "ko": "저는 한국에서 왔어요.",
+          "vi": "Tôi đến từ Hàn Quốc.",
+          "pron": "또이 덴 뜨 하안 꾸옥"
+        },
+        {
+          "ko": "만나서 반가워요.",
+          "vi": "Rất vui được gặp bạn.",
+          "pron": "럿 부이 드억 갑 반"
+        },
+        {
+          "ko": "이름이 뭐예요?",
+          "vi": "Bạn tên là gì?",
+          "pron": "반 뗀 라 지?"
+        },
+        {
+          "ko": "제 이름은 ○○이에요.",
+          "vi": "Tên tôi là ○○.",
+          "pron": "뗀 또이 라 ○○"
+        },
+        {
+          "ko": "어디에서 왔어요?",
+          "vi": "Bạn đến từ đâu?",
+          "pron": "반 덴 뜨 더우?"
+        },
+        {
+          "ko": "베트남에 처음 왔어요.",
+          "vi": "Đây là lần đầu tôi đến Việt Nam.",
+          "pron": "데이 라 런 더우 또이 덴 비엣 남"
+        },
+        {
+          "ko": "베트남이 좋아요.",
+          "vi": "Tôi thích Việt Nam.",
+          "pron": "또이 틱 비엣 남"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "korean": "정중한 표현",
+      "local": "Cách nói lịch sự",
+      "phrases": [
+        {
+          "ko": "감사합니다.",
+          "vi": "Cảm ơn.",
+          "pron": "깜 언"
+        },
+        {
+          "ko": "미안해요.",
+          "vi": "Xin lỗi.",
+          "pron": "씬 로이"
+        },
+        {
+          "ko": "괜찮습니다.",
+          "vi": "Không sao.",
+          "pron": "콩 싸오"
+        },
+        {
+          "ko": "부탁드려요.",
+          "vi": "Làm ơn nhé.",
+          "pron": "람 언 녜"
+        },
+        {
+          "ko": "잠시만 기다려 주세요.",
+          "vi": "Vui lòng đợi một chút.",
+          "pron": "부이 롱 더이 못 쭛"
+        },
+        {
+          "ko": "다시 말씀해 주세요.",
+          "vi": "Vui lòng nói lại.",
+          "pron": "부이 롱 노이 라이"
+        },
+        {
+          "ko": "잘 모르겠어요.",
+          "vi": "Tôi không hiểu rõ.",
+          "pron": "또이 콩 히우 로"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "korean": "음식점에서",
+      "local": "Tại nhà hàng",
+      "phrases": [
+        {
+          "ko": "메뉴판을 볼 수 있을까요?",
+          "vi": "Tôi có thể xem thực đơn được không?",
+          "pron": "또이 꼬 테 쎔 특 던 드억 콩?"
+        },
+        {
+          "ko": "계산해 주세요.",
+          "vi": "Tính tiền giúp tôi.",
+          "pron": "띤 띠엔 줍 또이"
+        },
+        {
+          "ko": "물 한 병 주세요.",
+          "vi": "Cho tôi một chai nước.",
+          "pron": "쪼 또이 못 짜이 느억"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "korean": "카페에서",
+      "local": "Tại quán cà phê",
+      "phrases": [
+        {
+          "ko": "여기서 마실게요.",
+          "vi": "Tôi sẽ uống ở đây.",
+          "pron": "또이 세 우옹 어 데이"
+        },
+        {
+          "ko": "포장해 주세요.",
+          "vi": "Làm ơn gói mang đi.",
+          "pron": "람 언 고이 망 디"
+        },
+        {
+          "ko": "여기 좀 닦아 주세요.",
+          "vi": "Vui lòng lau chỗ này giúp tôi.",
+          "pron": "부이 롱 러우 쪼 나이 줍 또이"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "korean": "길을 물어볼 때",
+      "local": "Hỏi đường",
+      "phrases": [
+        {
+          "ko": "여기가 어디예요?",
+          "vi": "Đây là đâu?",
+          "pron": "데이 라 더우?"
+        },
+        {
+          "ko": "얼마나 걸려요?",
+          "vi": "Mất bao lâu?",
+          "pron": "멋 바오 러우?"
+        },
+        {
+          "ko": "도와주실 수 있나요?",
+          "vi": "Bạn có thể giúp tôi không?",
+          "pron": "반 꼬 테 줍 또이 콩?"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "korean": "일상 대화",
+      "local": "Hội thoại hằng ngày",
+      "phrases": [
+        {
+          "ko": "오늘 어때요?",
+          "vi": "Hôm nay bạn thế nào?",
+          "pron": "홈 나이 반 테 나오?"
+        },
+        {
+          "ko": "무슨 일을 하세요?",
+          "vi": "Bạn làm nghề gì?",
+          "pron": "반 람 응에 지?"
+        },
+        {
+          "ko": "학생이에요?",
+          "vi": "Bạn là sinh viên à?",
+          "pron": "반 라 신 비엔 아?"
+        },
+        {
+          "ko": "무엇을 공부하세요?",
+          "vi": "Bạn học gì?",
+          "pron": "반 혹 지?"
+        },
+        {
+          "ko": "취미가 뭐예요?",
+          "vi": "Sở thích của bạn là gì?",
+          "pron": "서 틱 꾸어 반 라 지?"
+        },
+        {
+          "ko": "음악을 좋아해요?",
+          "vi": "Bạn thích âm nhạc không?",
+          "pron": "반 틱 암 녁 콩?"
+        },
+        {
+          "ko": "축구를 좋아해요?",
+          "vi": "Bạn thích bóng đá không?",
+          "pron": "반 틱 봉 다 콩?"
+        },
+        {
+          "ko": "한국 음식 좋아해요?",
+          "vi": "Bạn thích món ăn Hàn Quốc không?",
+          "pron": "반 틱 몬 안 한 꾸옥 콩?"
+        },
+        {
+          "ko": "한국에 가본 적 있어요?",
+          "vi": "Bạn đã từng đến Hàn Quốc chưa?",
+          "pron": "반 다 뜽 덴 한 꾸옥 쯔어?"
+        },
+        {
+          "ko": "주말에는 무엇을 해요?",
+          "vi": "Cuối tuần bạn thường làm gì?",
+          "pron": "꾸오이 뚜언 반 트엉 람 지?"
+        },
+        {
+          "ko": "오늘 날씨가 좋네요.",
+          "vi": "Hôm nay thời tiết đẹp nhỉ.",
+          "pron": "홈 나이 터이 띠엣 데프 니"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "korean": "기초 단어",
+      "local": "Từ vựng cơ bản",
+      "subcategories": [
+        {
+          "title": "사람",
+          "phrases": [
+            {
+              "ko": "나 / 저",
+              "vi": "Tôi / tôi",
+              "pron": "또이"
+            },
+            {
+              "ko": "너 / 당신",
+              "vi": "Bạn / anh / chị",
+              "pron": "반"
+            },
+            {
+              "ko": "당신",
+              "vi": "Bạn / anh / chị",
+              "pron": "반"
+            },
+            {
+              "ko": "우리",
+              "vi": "Chúng tôi / chúng ta",
+              "pron": "쭝 또이 / 쭝 따"
+            },
+            {
+              "ko": "그들",
+              "vi": "Họ",
+              "pron": "호"
+            },
+            {
+              "ko": "친구",
+              "vi": "Bạn bè",
+              "pron": "반 베"
+            },
+            {
+              "ko": "사람",
+              "vi": "Người",
+              "pron": "응으어이"
+            },
+            {
+              "ko": "남자",
+              "vi": "Đàn ông",
+              "pron": "단 옹"
+            },
+            {
+              "ko": "여자",
+              "vi": "Phụ nữ",
+              "pron": "푸 녀"
+            }
+          ]
+        },
+        {
+          "title": "의문사",
+          "phrases": [
+            {
+              "ko": "무엇",
+              "vi": "Gì",
+              "pron": "지"
+            },
+            {
+              "ko": "누구",
+              "vi": "Ai",
+              "pron": "아이"
+            },
+            {
+              "ko": "어디",
+              "vi": "Ở đâu",
+              "pron": "어 더우"
+            },
+            {
+              "ko": "언제",
+              "vi": "Khi nào",
+              "pron": "키 나오"
+            },
+            {
+              "ko": "왜",
+              "vi": "Tại sao",
+              "pron": "따이 싸오"
+            },
+            {
+              "ko": "어떻게",
+              "vi": "Như thế nào",
+              "pron": "느 테 나오"
+            },
+            {
+              "ko": "얼마 / 몇",
+              "vi": "Bao nhiêu / mấy",
+              "pron": "바오 니에우 / 머이"
+            },
+            {
+              "ko": "어느",
+              "vi": "Nào",
+              "pron": "나오"
+            }
+          ]
+        },
+        {
+          "title": "기본 동사",
+          "phrases": [
+            {
+              "ko": "있다",
+              "vi": "Có",
+              "pron": "꼬"
+            },
+            {
+              "ko": "없다",
+              "vi": "Không có",
+              "pron": "콩 꼬"
+            },
+            {
+              "ko": "먹다",
+              "vi": "Ăn",
+              "pron": "안"
+            },
+            {
+              "ko": "마시다",
+              "vi": "Uống",
+              "pron": "우옹"
+            },
+            {
+              "ko": "가다",
+              "vi": "Đi",
+              "pron": "디"
+            },
+            {
+              "ko": "오다",
+              "vi": "Đến",
+              "pron": "덴"
+            },
+            {
+              "ko": "보다",
+              "vi": "Xem",
+              "pron": "쎔"
+            },
+            {
+              "ko": "알다",
+              "vi": "Biết",
+              "pron": "비엣"
+            },
+            {
+              "ko": "이해하다",
+              "vi": "Hiểu",
+              "pron": "히에우"
+            },
+            {
+              "ko": "말하다",
+              "vi": "Nói",
+              "pron": "노이"
+            },
+            {
+              "ko": "듣다",
+              "vi": "Nghe",
+              "pron": "응에"
+            },
+            {
+              "ko": "기다리다",
+              "vi": "Chờ",
+              "pron": "쩌"
+            },
+            {
+              "ko": "도와주다",
+              "vi": "Giúp",
+              "pron": "줍"
+            },
+            {
+              "ko": "사다",
+              "vi": "Mua",
+              "pron": "무어"
+            },
+            {
+              "ko": "주다",
+              "vi": "Cho",
+              "pron": "쪼"
+            },
+            {
+              "ko": "가져오다",
+              "vi": "Mang đến",
+              "pron": "망 덴"
+            },
+            {
+              "ko": "찾다",
+              "vi": "Tìm",
+              "pron": "띰"
+            },
+            {
+              "ko": "좋아하다",
+              "vi": "Thích",
+              "pron": "틱"
+            },
+            {
+              "ko": "원하다",
+              "vi": "Muốn",
+              "pron": "무온"
+            },
+            {
+              "ko": "할 수 있다",
+              "vi": "Có thể",
+              "pron": "꼬 테"
+            },
+            {
+              "ko": "해도 된다",
+              "vi": "Được phép",
+              "pron": "드억 펩"
+            }
+          ]
+        },
+        {
+          "title": "상태·성질",
+          "phrases": [
+            {
+              "ko": "좋다",
+              "vi": "Tốt",
+              "pron": "똣"
+            },
+            {
+              "ko": "맛있다",
+              "vi": "Ngon",
+              "pron": "응온"
+            },
+            {
+              "ko": "맵다",
+              "vi": "Cay",
+              "pron": "까이"
+            },
+            {
+              "ko": "달다",
+              "vi": "Ngọt",
+              "pron": "응옷"
+            },
+            {
+              "ko": "뜨겁다",
+              "vi": "Nóng",
+              "pron": "농"
+            },
+            {
+              "ko": "차갑다",
+              "vi": "Lạnh",
+              "pron": "라인"
+            },
+            {
+              "ko": "크다",
+              "vi": "Lớn",
+              "pron": "런"
+            },
+            {
+              "ko": "작다",
+              "vi": "Nhỏ",
+              "pron": "뇨"
+            },
+            {
+              "ko": "많다",
+              "vi": "Nhiều",
+              "pron": "니에우"
+            },
+            {
+              "ko": "적다 / 조금",
+              "vi": "Ít / một chút",
+              "pron": "잇 / 못 쭛"
+            },
+            {
+              "ko": "빠르다",
+              "vi": "Nhanh",
+              "pron": "냐인"
+            },
+            {
+              "ko": "느리다",
+              "vi": "Chậm",
+              "pron": "쩜"
+            },
+            {
+              "ko": "비싸다",
+              "vi": "Đắt",
+              "pron": "닷"
+            },
+            {
+              "ko": "싸다",
+              "vi": "Rẻ",
+              "pron": "제"
+            },
+            {
+              "ko": "쉽다",
+              "vi": "Dễ",
+              "pron": "제"
+            },
+            {
+              "ko": "어렵다",
+              "vi": "Khó",
+              "pron": "코"
+            },
+            {
+              "ko": "바쁘다",
+              "vi": "Bận",
+              "pron": "번"
+            },
+            {
+              "ko": "피곤하다",
+              "vi": "Mệt",
+              "pron": "멧"
+            },
+            {
+              "ko": "괜찮다",
+              "vi": "Ổn",
+              "pron": "온"
+            }
+          ]
+        },
+        {
+          "title": "시간",
+          "phrases": [
+            {
+              "ko": "지금",
+              "vi": "Bây giờ",
+              "pron": "바이 저"
+            },
+            {
+              "ko": "오늘",
+              "vi": "Hôm nay",
+              "pron": "홈 나이"
+            },
+            {
+              "ko": "내일",
+              "vi": "Ngày mai",
+              "pron": "응아이 마이"
+            },
+            {
+              "ko": "어제",
+              "vi": "Hôm qua",
+              "pron": "홈 꽈"
+            },
+            {
+              "ko": "아침",
+              "vi": "Buổi sáng",
+              "pron": "부오이 싸앙"
+            },
+            {
+              "ko": "점심",
+              "vi": "Buổi trưa",
+              "pron": "부오이 쯩"
+            },
+            {
+              "ko": "저녁",
+              "vi": "Buổi tối",
+              "pron": "부오이 또이"
+            },
+            {
+              "ko": "나중에",
+              "vi": "Lát nữa",
+              "pron": "랏 느어"
+            },
+            {
+              "ko": "지금 바로",
+              "vi": "Ngay bây giờ",
+              "pron": "응아이 바이 저"
+            }
+          ]
+        },
+        {
+          "title": "장소",
+          "phrases": [
+            {
+              "ko": "여기",
+              "vi": "Ở đây",
+              "pron": "어 데이"
+            },
+            {
+              "ko": "거기 / 저기",
+              "vi": "Ở đó / đằng kia",
+              "pron": "어 도 / 당 끼아"
+            },
+            {
+              "ko": "화장실",
+              "vi": "Nhà vệ sinh",
+              "pron": "냐 베 신"
+            },
+            {
+              "ko": "식당",
+              "vi": "Nhà hàng",
+              "pron": "냐 항"
+            },
+            {
+              "ko": "카페",
+              "vi": "Quán cà phê",
+              "pron": "꽌 까 페"
+            },
+            {
+              "ko": "편의점",
+              "vi": "Cửa hàng tiện lợi",
+              "pron": "끄어 항 띠엔 러이"
+            },
+            {
+              "ko": "약국",
+              "vi": "Nhà thuốc",
+              "pron": "냐 투옥"
+            },
+            {
+              "ko": "병원",
+              "vi": "Bệnh viện",
+              "pron": "베엔 비엔"
+            },
+            {
+              "ko": "공항",
+              "vi": "Sân bay",
+              "pron": "선 바이"
+            },
+            {
+              "ko": "호텔",
+              "vi": "Khách sạn",
+              "pron": "칵 싼"
+            },
+            {
+              "ko": "은행",
+              "vi": "Ngân hàng",
+              "pron": "응언 항"
+            },
+            {
+              "ko": "시장",
+              "vi": "Chợ",
+              "pron": "쩌"
+            },
+            {
+              "ko": "상점",
+              "vi": "Cửa hàng",
+              "pron": "끄어 항"
+            }
+          ]
+        },
+        {
+          "title": "음식·음료",
+          "phrases": [
+            {
+              "ko": "음식",
+              "vi": "Đồ ăn",
+              "pron": "도 안"
+            },
+            {
+              "ko": "물",
+              "vi": "Nước",
+              "pron": "느억"
+            },
+            {
+              "ko": "밥",
+              "vi": "Cơm",
+              "pron": "껌"
+            },
+            {
+              "ko": "커피",
+              "vi": "Cà phê",
+              "pron": "까 페"
+            },
+            {
+              "ko": "차",
+              "vi": "Trà",
+              "pron": "짜"
+            },
+            {
+              "ko": "우유",
+              "vi": "Sữa",
+              "pron": "쓰어"
+            },
+            {
+              "ko": "설탕",
+              "vi": "Đường",
+              "pron": "드엉"
+            },
+            {
+              "ko": "닭고기",
+              "vi": "Thịt gà",
+              "pron": "띳 가"
+            },
+            {
+              "ko": "소고기",
+              "vi": "Thịt bò",
+              "pron": "띳 보"
+            },
+            {
+              "ko": "돼지고기",
+              "vi": "Thịt heo",
+              "pron": "띳 헤오"
+            },
+            {
+              "ko": "생선",
+              "vi": "Cá",
+              "pron": "까"
+            },
+            {
+              "ko": "채소",
+              "vi": "Rau",
+              "pron": "라우"
+            },
+            {
+              "ko": "과일",
+              "vi": "Trái cây",
+              "pron": "짜이 꺼이"
+            }
+          ]
+        },
+        {
+          "title": "방향·위치",
+          "phrases": [
+            {
+              "ko": "왼쪽",
+              "vi": "Bên trái",
+              "pron": "벤 짜이"
+            },
+            {
+              "ko": "오른쪽",
+              "vi": "Bên phải",
+              "pron": "벤 파이"
+            },
+            {
+              "ko": "앞",
+              "vi": "Phía trước",
+              "pron": "피아 쯔억"
+            },
+            {
+              "ko": "뒤",
+              "vi": "Phía sau",
+              "pron": "피아 싸우"
+            },
+            {
+              "ko": "위",
+              "vi": "Phía trên",
+              "pron": "피아 쩬"
+            },
+            {
+              "ko": "아래",
+              "vi": "Phía dưới",
+              "pron": "피아 즈어이"
+            },
+            {
+              "ko": "안",
+              "vi": "Bên trong",
+              "pron": "벤 쫑"
+            },
+            {
+              "ko": "밖",
+              "vi": "Bên ngoài",
+              "pron": "벤 응오아이"
+            },
+            {
+              "ko": "가까이",
+              "vi": "Gần",
+              "pron": "건"
+            },
+            {
+              "ko": "멀리",
+              "vi": "Xa",
+              "pron": "싸"
+            }
+          ]
+        },
+        {
+          "title": "숫자",
+          "phrases": [
+            {
+              "ko": "하나",
+              "vi": "Một",
+              "pron": "못"
+            },
+            {
+              "ko": "둘",
+              "vi": "Hai",
+              "pron": "하이"
+            },
+            {
+              "ko": "셋",
+              "vi": "Ba",
+              "pron": "바"
+            },
+            {
+              "ko": "넷",
+              "vi": "Bốn",
+              "pron": "본"
+            },
+            {
+              "ko": "다섯",
+              "vi": "Năm",
+              "pron": "남"
+            },
+            {
+              "ko": "여섯",
+              "vi": "Sáu",
+              "pron": "싸우"
+            },
+            {
+              "ko": "일곱",
+              "vi": "Bảy",
+              "pron": "바이"
+            },
+            {
+              "ko": "여덟",
+              "vi": "Tám",
+              "pron": "땀"
+            },
+            {
+              "ko": "아홉",
+              "vi": "Chín",
+              "pron": "찐"
+            },
+            {
+              "ko": "열",
+              "vi": "Mười",
+              "pron": "므어이"
+            }
+          ]
+        },
+        {
+          "title": "기본 표현",
+          "phrases": [
+            {
+              "ko": "네 / 예",
+              "vi": "Vâng / dạ",
+              "pron": "봉 / 자"
+            },
+            {
+              "ko": "아니요",
+              "vi": "Không",
+              "pron": "콩"
+            },
+            {
+              "ko": "감사합니다",
+              "vi": "Cảm ơn",
+              "pron": "깜 언"
+            },
+            {
+              "ko": "미안해요",
+              "vi": "Xin lỗi",
+              "pron": "씬 로이"
+            },
+            {
+              "ko": "부탁해요",
+              "vi": "Làm ơn",
+              "pron": "람 언"
+            },
+            {
+              "ko": "괜찮아요",
+              "vi": "Không sao",
+              "pron": "콩 싸오"
+            },
+            {
+              "ko": "잠시만",
+              "vi": "Một chút / chờ một chút",
+              "pron": "못 쭛 / 쪄 못 쭛"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "topics": {
+    "food": {
+      "title": "🍜 음식 & 카페 · Ẩm thực & Cà phê",
+      "q": [
+        {
+          "ko": "가장 좋아하는 현지 음식은 무엇인가요?",
+          "vi": "Món ăn địa phương yêu thích nhất của bạn là gì?",
+          "pron": "몬 안 디아 프엉 이에우 틱 녓 꾸어 반 라 지?",
+          "choices": [
+            {
+              "ko": "저는 볶음밥을 좋아해요.",
+              "vi": "Tôi thích cơm chiên.",
+              "pron": "또이 틱 껌 찌엔.",
+              "followups": [
+                {
+                  "ko": "어떤 재료를 넣은 볶음밥을 좋아해요?",
+                  "vi": "Bạn thích cơm chiên với loại topping nào?",
+                  "pron": "반 틱 껌 찌엔 버이 로아이 토핑 나오?"
+                },
+                {
+                  "ko": "매운맛으로 드세요?",
+                  "vi": "Bạn có thích ăn cay không?",
+                  "pron": "반 꼬 틱 안 까이 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 분짜를 좋아해요.",
+              "vi": "Tôi thích bún chả.",
+              "pron": "또이 틱 분 짜.",
+              "followups": [
+                {
+                  "ko": "돼지고기와 소고기 중 어떤 걸 더 좋아해요?",
+                  "vi": "Bạn thích thịt heo hay thịt bò hơn?",
+                  "pron": "반 틱 팃 헤오 하이 팃 보 헌?"
+                },
+                {
+                  "ko": "숯불에 구운 고기를 좋아해요?",
+                  "vi": "Bạn có thích thịt nướng không?",
+                  "pron": "반 꼬 틱 팃 느엉 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 반쎄오를 좋아해요.",
+              "vi": "Tôi thích bánh xèo.",
+              "pron": "또이 틱 바인 쎄오.",
+              "followups": [
+                {
+                  "ko": "어디에서 처음 먹어봤어요?",
+                  "vi": "Bạn ăn thử món đó lần đầu ở đâu?",
+                  "pron": "반 안 트으 몬 도 런 더우 어 더우?"
+                },
+                {
+                  "ko": "집에서 만들어 본 적 있어요?",
+                  "vi": "Bạn đã từng tự nấu món đó chưa?",
+                  "pron": "반 다 뜽 뜨 너우 몬 도 쯔어?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "이 근처에 맛있는 식당이나 예쁜 카페를 추천해 주실 수 있나요?",
+          "vi": "Bạn có thể giới thiệu một nhà hàng ngon hoặc quán cà phê đẹp gần đây không?",
+          "pron": "반 꼬 테 저이 티에우 못 냐 항 응온 호악 꽌 까 페 뎁 건 데이 콩?",
+          "choices": [
+            {
+              "ko": "저기 있는 로컬 식당을 추천해요.",
+              "vi": "Tôi giới thiệu quán ăn địa phương ở đằng kia.",
+              "pron": "또이 저이 티에우 꽌 안 디아 프엉 어 당 끼아.",
+              "followups": [
+                {
+                  "ko": "거기서 무엇을 꼭 먹어봐야 해요?",
+                  "vi": "Ở đó tôi nhất định nên thử món gì?",
+                  "pron": "어 도 또이 녓 딘 넨 트으 몬 지?"
+                },
+                {
+                  "ko": "걸어서 얼마나 걸려요?",
+                  "vi": "Đi bộ đến đó mất bao lâu?",
+                  "pron": "디 보 덴 도 멋 바오 러우?"
+                }
+              ]
+            },
+            {
+              "ko": "분위기 좋은 카페를 추천해요.",
+              "vi": "Tôi giới thiệu một quán cà phê có không gian đẹp.",
+              "pron": "또이 저이 티에우 못 꽌 까 페 꼬 콩 지안 뎁.",
+              "followups": [
+                {
+                  "ko": "사진 찍기 좋은 곳이에요?",
+                  "vi": "Chỗ đó có thích hợp để chụp ảnh không?",
+                  "pron": "쪼 도 꼬 틱 헙 데 쭙 아인 콩?"
+                },
+                {
+                  "ko": "그곳의 시그니처 메뉴는 뭐예요?",
+                  "vi": "Món đặc trưng ở đó là gì?",
+                  "pron": "몬 닥 쯩 어 도 라 지?"
+                }
+              ]
+            },
+            {
+              "ko": "관광객에게 인기 있는 곳을 추천해요.",
+              "vi": "Tôi giới thiệu một nơi nổi tiếng với khách du lịch.",
+              "pron": "또이 저이 티에우 못 너이 노이 띠엥 버이 칵 주 릭.",
+              "followups": [
+                {
+                  "ko": "예약이 필요한가요?",
+                  "vi": "Có cần đặt chỗ trước không?",
+                  "pron": "꼬 껀 닷 쪼 쯔억 콩?"
+                },
+                {
+                  "ko": "가격대는 어느 정도예요?",
+                  "vi": "Mức giá khoảng bao nhiêu?",
+                  "pron": "믁 자 콰앙 바오 니에우?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "차와 커피 중 무엇을 더 좋아하세요?",
+          "vi": "Bạn thích trà hay cà phê hơn?",
+          "pron": "반 틱 짜 하이 까 페 헌?",
+          "choices": [
+            {
+              "ko": "저는 차를 더 좋아해요.",
+              "vi": "Tôi thích trà hơn.",
+              "pron": "또이 틱 짜 헌.",
+              "followups": [
+                {
+                  "ko": "어떤 종류의 차를 좋아해요?",
+                  "vi": "Bạn thích loại trà nào?",
+                  "pron": "반 틱 로아이 짜 나오?"
+                },
+                {
+                  "ko": "하루에 몇 잔 정도 마셔요?",
+                  "vi": "Bạn uống khoảng mấy ly một ngày?",
+                  "pron": "반 우옹 콰앙 머이 리 못 응아이?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 커피를 더 좋아해요.",
+              "vi": "Tôi thích cà phê hơn.",
+              "pron": "또이 틱 까 페 헌.",
+              "followups": [
+                {
+                  "ko": "어떤 커피를 자주 마셔요?",
+                  "vi": "Bạn thường uống loại cà phê nào?",
+                  "pron": "반 트엉 우옹 로아이 까 페 나오?"
+                },
+                {
+                  "ko": "설탕을 넣어서 마셔요?",
+                  "vi": "Bạn uống cà phê với đường không?",
+                  "pron": "반 우옹 까 페 버이 드엉 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 둘 다 좋아해요.",
+              "vi": "Tôi thích cả hai.",
+              "pron": "또이 틱 까 하이.",
+              "followups": [
+                {
+                  "ko": "상황에 따라 다르게 마셔요?",
+                  "vi": "Bạn chọn khác nhau tùy hoàn cảnh à?",
+                  "pron": "반 쫀 칵 냐우 뚜이 호안 까인 아?"
+                },
+                {
+                  "ko": "오늘은 뭘 마시고 싶어요?",
+                  "vi": "Hôm nay bạn muốn uống gì?",
+                  "pron": "홈 나이 반 무온 우옹 지?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "매운 음식을 잘 드시나요?",
+          "vi": "Bạn có ăn được đồ cay không?",
+          "pron": "반 꼬 안 드억 도 까이 콩?",
+          "choices": [
+            {
+              "ko": "네, 매운 음식을 아주 좋아해요.",
+              "vi": "Vâng, tôi rất thích đồ cay.",
+              "pron": "봉, 또이 럿 틱 도 까이.",
+              "followups": [
+                {
+                  "ko": "얼마나 매운 것까지 먹을 수 있어요?",
+                  "vi": "Bạn có thể ăn cay đến mức nào?",
+                  "pron": "반 꼬 테 안 까이 덴 믁 나오?"
+                },
+                {
+                  "ko": "고추 소스를 좋아해요?",
+                  "vi": "Bạn có thích tương ớt không?",
+                  "pron": "반 꼬 틱 뜨엉 엇 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "조금만 매운 걸 좋아해요.",
+              "vi": "Tôi thích hơi cay một chút.",
+              "pron": "또이 틱 허이 까이 못 쭛.",
+              "followups": [
+                {
+                  "ko": "어느 정도 수준이 딱 좋아요?",
+                  "vi": "Mức độ cay như thế nào là vừa?",
+                  "pron": "믁 도 까이 느 테 나오 라 브어?"
+                },
+                {
+                  "ko": "매운 음식을 먹으면 어때요?",
+                  "vi": "Bạn cảm thấy thế nào khi ăn cay?",
+                  "pron": "반 깜 터이 테 나오 키 안 까이?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 매운 음식은 잘 못 먹어요.",
+              "vi": "Không, tôi không ăn được đồ cay.",
+              "pron": "콩, 또이 콩 안 드억 도 까이.",
+              "followups": [
+                {
+                  "ko": "매운 걸 먹었을 때 어떻게 해요?",
+                  "vi": "Bạn làm gì khi ăn phải đồ cay?",
+                  "pron": "반 람 지 키 안 파이 도 까이?"
+                },
+                {
+                  "ko": "순한 맛 요리를 추천해줄 수 있어요?",
+                  "vi": "Bạn có thể giới thiệu món không cay không?",
+                  "pron": "반 꼬 테 저이 티에우 몬 콩 까이 콩?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "가장 좋아하는 과일이나 디저트는 무엇인가요?",
+          "vi": "Loại trái cây hoặc món tráng miệng yêu thích của bạn là gì?",
+          "pron": "로아이 짜이 꺼이 호악 몬 짱 미엥 이에우 틱 꾸어 반 라 지?",
+          "choices": [
+            {
+              "ko": "저는 두리안을 좋아해요.",
+              "vi": "Tôi thích sầu riêng.",
+              "pron": "또이 틱 써우 지엥.",
+              "followups": [
+                {
+                  "ko": "냄새가 강한데 괜찮아요?",
+                  "vi": "Mùi khá nặng, bạn có thấy ổn không?",
+                  "pron": "무이 카 낭, 반 꼬 터이 온 콩?"
+                },
+                {
+                  "ko": "어디서 신선한 두리안을 살 수 있어요?",
+                  "vi": "Tôi có thể mua sầu riêng tươi ở đâu?",
+                  "pron": "또이 꼬 테 무어 써우 지엥 뜨어이 어 더우?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 망고를 좋아해요.",
+              "vi": "Tôi thích xoài.",
+              "pron": "또이 틱 쏘아이.",
+              "followups": [
+                {
+                  "ko": "어떻게 먹는 걸 좋아해요?",
+                  "vi": "Bạn thích ăn xoài như thế nào?",
+                  "pron": "반 틱 안 쏘아이 느 테 나오?"
+                },
+                {
+                  "ko": "제철이 언제예요?",
+                  "vi": "Mùa xoài là khi nào?",
+                  "pron": "무어 쏘아이 라 키 나오?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 전통 디저트를 좋아해요.",
+              "vi": "Tôi thích các món tráng miệng truyền thống.",
+              "pron": "또이 틱 깍 몬 짱 미엥 쯔옌 통.",
+              "followups": [
+                {
+                  "ko": "어떤 디저트를 추천해요?",
+                  "vi": "Bạn giới thiệu món tráng miệng nào?",
+                  "pron": "반 저이 티에우 몬 짱 미엥 나오?"
+                },
+                {
+                  "ko": "어디서 살 수 있어요?",
+                  "vi": "Tôi có thể mua ở đâu?",
+                  "pron": "또이 꼬 테 무어 어 더우?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "music": {
+      "title": "🎵 음악 · Âm nhạc",
+      "q": [
+        {
+          "ko": "요즘 가장 자주 듣는 음악은 무엇인가요?",
+          "vi": "Gần đây bạn thường nghe loại nhạc nào nhất?",
+          "pron": "건 데이 반 트엉 응에 로아이 냑 나오 녓?",
+          "choices": [
+            {
+              "ko": "저는 베트남 팝을 자주 들어요.",
+              "vi": "Tôi thường nghe nhạc pop Việt Nam.",
+              "pron": "또이 트엉 응에 냑 팝 비엣 남.",
+              "followups": [
+                {
+                  "ko": "어떤 가수를 좋아해요?",
+                  "vi": "Bạn thích ca sĩ nào?",
+                  "pron": "반 틱 까 시 나오?"
+                },
+                {
+                  "ko": "그 노래는 어떤 분위기예요?",
+                  "vi": "Bài hát đó có không khí như thế nào?",
+                  "pron": "바이 핫 도 꼬 콩 키 느 테 나오?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 케이팝을 자주 들어요.",
+              "vi": "Tôi thường nghe K-pop.",
+              "pron": "또이 트엉 응에 케이팝.",
+              "followups": [
+                {
+                  "ko": "어떤 그룹을 좋아해요?",
+                  "vi": "Bạn thích nhóm nào?",
+                  "pron": "반 틱 뇸 나오?"
+                },
+                {
+                  "ko": "케이팝 댄스도 좋아해요?",
+                  "vi": "Bạn cũng thích nhảy K-pop không?",
+                  "pron": "반 꿍 틱 냐이 케이팝 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 팝송(서양 음악)을 자주 들어요.",
+              "vi": "Tôi thường nghe nhạc pop phương Tây.",
+              "pron": "또이 트엉 응에 냑 팝 프엉 떠이.",
+              "followups": [
+                {
+                  "ko": "어떤 가수의 노래를 자주 들어요?",
+                  "vi": "Bạn thường nghe bài hát của ca sĩ nào?",
+                  "pron": "반 트엉 응에 바이 핫 꾸어 까 시 나오?"
+                },
+                {
+                  "ko": "영어 가사를 이해하면서 들어요?",
+                  "vi": "Bạn có hiểu lời bài hát bằng tiếng Anh không?",
+                  "pron": "반 꼬 히에우 러이 바이 핫 방 띠엥 아인 콩?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "음악을 들을 때 어떤 분위기의 노래를 좋아하세요?",
+          "vi": "Bạn thích những bài hát có không khí như thế nào?",
+          "pron": "반 틱 니응 바이 핫 꼬 콩 키 느 테 나오?",
+          "choices": [
+            {
+              "ko": "신나고 밝은 음악을 좋아해요.",
+              "vi": "Tôi thích nhạc vui vẻ và sôi động.",
+              "pron": "또이 틱 냑 부이 베 바 쏘이 동.",
+              "followups": [
+                {
+                  "ko": "그런 음악을 언제 들어요?",
+                  "vi": "Bạn nghe loại nhạc đó khi nào?",
+                  "pron": "반 응에 로아이 냑 도 키 나오?"
+                },
+                {
+                  "ko": "그런 노래를 들으면 춤도 춰요?",
+                  "vi": "Bạn có nhảy khi nghe những bài hát đó không?",
+                  "pron": "반 꼬 냐이 키 응에 니응 바이 핫 도 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "잔잔하고 감성적인 음악을 좋아해요.",
+              "vi": "Tôi thích nhạc nhẹ nhàng và giàu cảm xúc.",
+              "pron": "또이 틱 냑 녜 냥 바 자우 깜 쑥.",
+              "followups": [
+                {
+                  "ko": "그런 음악은 언제 들어요?",
+                  "vi": "Bạn nghe loại nhạc đó khi nào?",
+                  "pron": "반 응에 로아이 냑 도 키 나오?"
+                },
+                {
+                  "ko": "가사를 잘 이해하려고 노력해요?",
+                  "vi": "Bạn có cố gắng hiểu lời bài hát không?",
+                  "pron": "반 꼬 꼬 강 히에우 러이 바이 핫 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "신나는 댄스 음악을 좋아해요.",
+              "vi": "Tôi thích nhạc dance sôi động.",
+              "pron": "또이 틱 냑 댄스 쏘이 동.",
+              "followups": [
+                {
+                  "ko": "클럽이나 파티에서도 들어요?",
+                  "vi": "Bạn cũng nghe nhạc đó ở câu lạc bộ hoặc tiệc không?",
+                  "pron": "반 꿍 응에 냑 도 어 꺼우 락 보 호악 띠엑 콩?"
+                },
+                {
+                  "ko": "좋아하는 DJ가 있어요?",
+                  "vi": "Bạn có DJ yêu thích không?",
+                  "pron": "반 꼬 디제이 이에우 틱 콩?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "좋아하는 베트남 가수나 한국 가수가 있나요?",
+          "vi": "Bạn có thích ca sĩ Việt Nam hay Hàn Quốc nào không?",
+          "pron": "반 꼬 틱 까 시 비엣 남 하이 한 꾸옥 나오 콩?",
+          "choices": [
+            {
+              "ko": "네, 베트남 가수를 좋아해요.",
+              "vi": "Vâng, tôi thích ca sĩ Việt Nam.",
+              "pron": "봉, 또이 틱 까 시 비엣 남.",
+              "followups": [
+                {
+                  "ko": "그 가수의 어떤 점이 좋아요?",
+                  "vi": "Bạn thích điểm gì ở ca sĩ đó?",
+                  "pron": "반 틱 디엠 지 어 까 시 도?"
+                },
+                {
+                  "ko": "콘서트에 가본 적 있어요?",
+                  "vi": "Bạn đã từng đi xem buổi hòa nhạc của họ chưa?",
+                  "pron": "반 다 뜽 디 쎔 부오이 호아 냑 꾸어 호 쯔어?"
+                }
+              ]
+            },
+            {
+              "ko": "네, 한국 가수를 좋아해요.",
+              "vi": "Vâng, tôi thích ca sĩ Hàn Quốc.",
+              "pron": "봉, 또이 틱 까 시 한 꾸옥.",
+              "followups": [
+                {
+                  "ko": "어떻게 그 가수를 알게 됐어요?",
+                  "vi": "Bạn biết đến ca sĩ đó như thế nào?",
+                  "pron": "반 비엣 덴 까 시 도 느 테 나오?"
+                },
+                {
+                  "ko": "뮤직비디오도 자주 봐요?",
+                  "vi": "Bạn cũng thường xem video âm nhạc của họ không?",
+                  "pron": "반 꿍 트엉 쎔 비디오 엄 냑 꾸어 호 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 특별히 좋아하는 가수는 없어요.",
+              "vi": "Không, tôi không có ca sĩ yêu thích đặc biệt.",
+              "pron": "콩, 또이 콩 꼬 까 시 이에우 틱 닥 비엣.",
+              "followups": [
+                {
+                  "ko": "그럼 어떤 장르를 좋아해요?",
+                  "vi": "Vậy bạn thích thể loại nhạc nào?",
+                  "pron": "버이 반 틱 테 로아이 냑 나오?"
+                },
+                {
+                  "ko": "추천해줄 만한 가수가 있어요?",
+                  "vi": "Có ca sĩ nào bạn có thể giới thiệu không?",
+                  "pron": "꼬 까 시 나오 반 꼬 테 저이 티에우 콩?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "콘서트에 가는 것을 좋아하시나요?",
+          "vi": "Bạn có thích đi xem hòa nhạc không?",
+          "pron": "반 꼬 틱 디 쎔 호아 냑 콩?",
+          "choices": [
+            {
+              "ko": "네, 콘서트에 자주 가요.",
+              "vi": "Vâng, tôi thường đi xem hòa nhạc.",
+              "pron": "봉, 또이 트엉 디 쎔 호아 냑.",
+              "followups": [
+                {
+                  "ko": "최근에 어떤 콘서트에 갔어요?",
+                  "vi": "Gần đây bạn đã đi xem buổi hòa nhạc nào?",
+                  "pron": "건 데이 반 다 디 쎔 부오이 호아 냑 나오?"
+                },
+                {
+                  "ko": "누구와 함께 가요?",
+                  "vi": "Bạn thường đi cùng ai?",
+                  "pron": "반 트엉 디 꿍 아이?"
+                }
+              ]
+            },
+            {
+              "ko": "가끔 가요.",
+              "vi": "Thỉnh thoảng tôi đi.",
+              "pron": "틴 토앙 또이 디.",
+              "followups": [
+                {
+                  "ko": "어떤 콘서트라면 꼭 가고 싶어요?",
+                  "vi": "Bạn muốn xem một buổi hòa nhạc như thế nào?",
+                  "pron": "반 무온 쎔 못 부오이 호아 냑 느 테 나오?"
+                },
+                {
+                  "ko": "티켓은 어떻게 구해요?",
+                  "vi": "Bạn mua vé bằng cách nào?",
+                  "pron": "반 무어 베 방 까익 나오?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 별로 안 가요.",
+              "vi": "Không, tôi không đi thường xuyên.",
+              "pron": "콩, 또이 콩 디 트엉 쑤옌.",
+              "followups": [
+                {
+                  "ko": "왜 콘서트에 잘 안 가요?",
+                  "vi": "Tại sao bạn ít đi xem hòa nhạc?",
+                  "pron": "따이 싸오 반 잇 디 쎔 호아 냑?"
+                },
+                {
+                  "ko": "대신 어떻게 음악을 즐겨요?",
+                  "vi": "Thay vào đó, bạn thưởng thức âm nhạc như thế nào?",
+                  "pron": "타이 바오 도, 반 트엉 특 엄 냑 느 테 나오?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "노래방에 가면 어떤 노래를 부르나요?",
+          "vi": "Khi đi karaoke, bạn thường hát bài gì?",
+          "pron": "키 디 까라오께, 반 트엉 핫 바이 지?",
+          "choices": [
+            {
+              "ko": "저는 신나는 댄스곡을 불러요.",
+              "vi": "Tôi hát những bài dance sôi động.",
+              "pron": "또이 핫 니응 바이 댄스 쏘이 동.",
+              "followups": [
+                {
+                  "ko": "부를 때 춤도 춰요?",
+                  "vi": "Bạn có nhảy khi hát không?",
+                  "pron": "반 꼬 냐이 키 핫 콩?"
+                },
+                {
+                  "ko": "어떤 곡을 제일 자신 있어요?",
+                  "vi": "Bạn tự tin nhất với bài hát nào?",
+                  "pron": "반 뜨 띤 녓 버이 바이 핫 나오?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 발라드를 불러요.",
+              "vi": "Tôi hát nhạc ballad.",
+              "pron": "또이 핫 냑 발라드.",
+              "followups": [
+                {
+                  "ko": "감정을 넣어서 부르는 편이에요?",
+                  "vi": "Bạn thường hát với nhiều cảm xúc không?",
+                  "pron": "반 트엉 핫 버이 니에우 깜 쑥 콩?"
+                },
+                {
+                  "ko": "좋아하는 발라드 가수가 있어요?",
+                  "vi": "Bạn có ca sĩ ballad yêu thích không?",
+                  "pron": "반 꼬 까 시 발라드 이에우 틱 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 한국 노래를 불러요.",
+              "vi": "Tôi hát các bài hát Hàn Quốc.",
+              "pron": "또이 핫 깍 바이 핫 한 꾸옥.",
+              "followups": [
+                {
+                  "ko": "가사를 외워서 불러요?",
+                  "vi": "Bạn có thuộc lời bài hát không?",
+                  "pron": "반 꼬 투옥 러이 바이 핫 콩?"
+                },
+                {
+                  "ko": "발음이 어렵지 않아요?",
+                  "vi": "Phát âm có khó không?",
+                  "pron": "팟 엄 꼬 코 콩?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sports": {
+      "title": "⚽ 스포츠 · Thể thao",
+      "q": [
+        {
+          "ko": "평소에 어떤 스포츠를 좋아하세요?",
+          "vi": "Bạn thường thích môn thể thao nào?",
+          "pron": "반 트엉 틱 몬 테 타오 나오?",
+          "choices": [
+            {
+              "ko": "저는 축구를 좋아해요.",
+              "vi": "Tôi thích bóng đá.",
+              "pron": "또이 틱 봉 다.",
+              "followups": [
+                {
+                  "ko": "직접 하는 것도 좋아해요?",
+                  "vi": "Bạn cũng thích tự chơi không?",
+                  "pron": "반 꿍 틱 뜨 쩌이 콩?"
+                },
+                {
+                  "ko": "어느 팀을 응원해요?",
+                  "vi": "Bạn cổ vũ đội nào?",
+                  "pron": "반 꼬 부 도이 나오?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 배드민턴을 좋아해요.",
+              "vi": "Tôi thích cầu lông.",
+              "pron": "또이 틱 꺼우 롱.",
+              "followups": [
+                {
+                  "ko": "얼마나 자주 쳐요?",
+                  "vi": "Bạn chơi bao lâu một lần?",
+                  "pron": "반 쩌이 바오 러우 못 런?"
+                },
+                {
+                  "ko": "누구와 함께 쳐요?",
+                  "vi": "Bạn thường chơi cùng ai?",
+                  "pron": "반 트엉 쩌이 꿍 아이?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 수영을 좋아해요.",
+              "vi": "Tôi thích bơi.",
+              "pron": "또이 틱 버이.",
+              "followups": [
+                {
+                  "ko": "어디서 수영해요?",
+                  "vi": "Bạn thường bơi ở đâu?",
+                  "pron": "반 트엉 버이 어 더우?"
+                },
+                {
+                  "ko": "얼마나 오래 수영을 배웠어요?",
+                  "vi": "Bạn đã học bơi được bao lâu rồi?",
+                  "pron": "반 다 혹 버이 드억 바오 러우 조이?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "좋아하는 팀이나 선수가 있나요?",
+          "vi": "Bạn có đội hoặc vận động viên yêu thích không?",
+          "pron": "반 꼬 도이 호악 번 동 비엔 이에우 틱 콩?",
+          "choices": [
+            {
+              "ko": "네, 좋아하는 축구팀이 있어요.",
+              "vi": "Vâng, tôi có một đội bóng đá yêu thích.",
+              "pron": "봉, 또이 꼬 못 도이 봉 다 이에우 틱.",
+              "followups": [
+                {
+                  "ko": "그 팀의 경기를 자주 봐요?",
+                  "vi": "Bạn thường xem các trận đấu của đội đó không?",
+                  "pron": "반 트엉 쎔 깍 쩐 더우 꾸어 도이 도 콩?"
+                },
+                {
+                  "ko": "그 팀의 유니폼도 있어요?",
+                  "vi": "Bạn có áo đấu của đội đó không?",
+                  "pron": "반 꼬 아오 더우 꾸어 도이 도 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "네, 좋아하는 선수가 있어요.",
+              "vi": "Vâng, tôi có một vận động viên yêu thích.",
+              "pron": "봉, 또이 꼬 못 번 동 비엔 이에우 틱.",
+              "followups": [
+                {
+                  "ko": "그 선수의 어떤 점이 멋있어요?",
+                  "vi": "Theo bạn, điểm gì ở vận động viên đó rất tuyệt?",
+                  "pron": "테오 반, 디엠 지 어 번 동 비엔 도 럿 뚜옛?"
+                },
+                {
+                  "ko": "그 선수의 경기를 챙겨봐요?",
+                  "vi": "Bạn có luôn xem các trận đấu của vận động viên đó không?",
+                  "pron": "반 꼬 루온 쎔 깍 쩐 더우 꾸어 번 동 비엔 도 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 특별히 없어요.",
+              "vi": "Không, tôi không có ai đặc biệt.",
+              "pron": "콩, 또이 콩 꼬 아이 닥 비엣.",
+              "followups": [
+                {
+                  "ko": "그럼 어떤 스포츠에 관심이 있어요?",
+                  "vi": "Vậy bạn quan tâm đến môn thể thao nào?",
+                  "pron": "버이 반 꽌 떰 덴 몬 테 타오 나오?"
+                },
+                {
+                  "ko": "관심 있는 팀이 생기면 알려줄래요?",
+                  "vi": "Nếu sau này bạn có đội yêu thích thì cho tôi biết nhé?",
+                  "pron": "네우 싸우 나이 반 꼬 도이 이에우 틱 티 쪼 또이 비엣 녜?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "주말에 운동을 하시나요?",
+          "vi": "Bạn có tập thể dục vào cuối tuần không?",
+          "pron": "반 꼬 떱 테 죽 바오 꾸오이 뚜언 콩?",
+          "choices": [
+            {
+              "ko": "네, 주말마다 운동해요.",
+              "vi": "Vâng, tôi tập thể dục mỗi cuối tuần.",
+              "pron": "봉, 또이 떱 테 죽 모이 꾸오이 뚜언.",
+              "followups": [
+                {
+                  "ko": "어떤 운동을 해요?",
+                  "vi": "Bạn tập môn gì?",
+                  "pron": "반 떱 몬 지?"
+                },
+                {
+                  "ko": "아침에 해요, 저녁에 해요?",
+                  "vi": "Bạn tập vào buổi sáng hay buổi tối?",
+                  "pron": "반 떱 바오 부오이 쌍 하이 부오이 또이?"
+                }
+              ]
+            },
+            {
+              "ko": "가끔 해요.",
+              "vi": "Thỉnh thoảng tôi tập thể dục.",
+              "pron": "틴 토앙 또이 떱 테 죽.",
+              "followups": [
+                {
+                  "ko": "날씨에 따라 달라져요?",
+                  "vi": "Có phụ thuộc vào thời tiết không?",
+                  "pron": "꼬 푸 투옥 바오 터이 띠엣 콩?"
+                },
+                {
+                  "ko": "어떤 운동을 제일 좋아해요?",
+                  "vi": "Bạn thích môn thể thao nào nhất?",
+                  "pron": "반 틱 몬 테 타오 나오 녓?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 주말에는 쉬어요.",
+              "vi": "Không, cuối tuần tôi nghỉ ngơi.",
+              "pron": "콩, 꾸오이 뚜언 또이 응이 응어이.",
+              "followups": [
+                {
+                  "ko": "평일에는 운동해요?",
+                  "vi": "Bạn có tập thể dục vào các ngày trong tuần không?",
+                  "pron": "반 꼬 떱 테 죽 바오 깍 응아이 쫑 뚜언 콩?"
+                },
+                {
+                  "ko": "주말에는 주로 뭘 해요?",
+                  "vi": "Cuối tuần bạn thường làm gì?",
+                  "pron": "꾸오이 뚜언 반 트엉 람 지?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "축구 경기를 자주 보시나요?",
+          "vi": "Bạn có thường xem bóng đá không?",
+          "pron": "반 꼬 트엉 쎔 봉 다 콩?",
+          "choices": [
+            {
+              "ko": "네, TV로 자주 봐요.",
+              "vi": "Vâng, tôi thường xem trên TV.",
+              "pron": "봉, 또이 트엉 쎔 쩬 띠비.",
+              "followups": [
+                {
+                  "ko": "어느 리그를 자주 봐요?",
+                  "vi": "Bạn thường xem giải đấu nào?",
+                  "pron": "반 트엉 쎔 자이 더우 나오?"
+                },
+                {
+                  "ko": "누구와 함께 봐요?",
+                  "vi": "Bạn thường xem cùng ai?",
+                  "pron": "반 트엉 쎔 꿍 아이?"
+                }
+              ]
+            },
+            {
+              "ko": "경기장에 직접 가서 봐요.",
+              "vi": "Tôi đến sân vận động để xem trực tiếp.",
+              "pron": "또이 덴 선 번 동 데 쎔 쯕 띠엡.",
+              "followups": [
+                {
+                  "ko": "어떤 분위기였어요?",
+                  "vi": "Không khí ở đó thế nào?",
+                  "pron": "콩 키 어 도 테 나오?"
+                },
+                {
+                  "ko": "티켓은 비쌌어요?",
+                  "vi": "Vé có đắt không?",
+                  "pron": "베 꼬 닷 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 별로 안 봐요.",
+              "vi": "Không, tôi ít xem.",
+              "pron": "콩, 또이 잇 쎔.",
+              "followups": [
+                {
+                  "ko": "왜 축구에 관심이 없어요?",
+                  "vi": "Tại sao bạn không quan tâm đến bóng đá?",
+                  "pron": "따이 싸오 반 콩 꽌 떰 덴 봉 다?"
+                },
+                {
+                  "ko": "다른 스포츠는 봐요?",
+                  "vi": "Bạn có xem các môn thể thao khác không?",
+                  "pron": "반 꼬 쎔 깍 몬 테 타오 칵 콩?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "한국 스포츠 중 관심 있는 것이 있나요?",
+          "vi": "Có môn thể thao Hàn Quốc nào bạn quan tâm không?",
+          "pron": "꼬 몬 테 타오 한 꾸옥 나오 반 꽌 떰 콩?",
+          "choices": [
+            {
+              "ko": "네, 태권도에 관심이 있어요.",
+              "vi": "Vâng, tôi quan tâm đến taekwondo.",
+              "pron": "봉, 또이 꽌 떰 덴 태권도.",
+              "followups": [
+                {
+                  "ko": "태권도를 배워본 적 있어요?",
+                  "vi": "Bạn đã từng học taekwondo chưa?",
+                  "pron": "반 다 뜽 혹 태권도 쯔어?"
+                },
+                {
+                  "ko": "무엇이 매력적이라고 생각해요?",
+                  "vi": "Bạn thấy điều gì hấp dẫn ở taekwondo?",
+                  "pron": "반 터이 디에우 지 헙 전 어 태권도?"
+                }
+              ]
+            },
+            {
+              "ko": "네, 야구에 관심이 있어요.",
+              "vi": "Vâng, tôi quan tâm đến bóng chày.",
+              "pron": "봉, 또이 꽌 떰 덴 봉 짜이.",
+              "followups": [
+                {
+                  "ko": "한국 야구를 본 적 있어요?",
+                  "vi": "Bạn đã từng xem bóng chày Hàn Quốc chưa?",
+                  "pron": "반 다 뜽 쎔 봉 짜이 한 꾸옥 쯔어?"
+                },
+                {
+                  "ko": "어떤 점이 재미있어요?",
+                  "vi": "Điều gì làm bạn thấy thú vị?",
+                  "pron": "디에우 지 람 반 터이 투 비?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 특별히 관심 있는 건 없어요.",
+              "vi": "Không, tôi không có môn nào đặc biệt.",
+              "pron": "콩, 또이 콩 꼬 몬 나오 닥 비엣.",
+              "followups": [
+                {
+                  "ko": "한국 스포츠에 대해 궁금한 게 있어요?",
+                  "vi": "Có điều gì về thể thao Hàn Quốc bạn muốn biết không?",
+                  "pron": "꼬 디에우 지 베 테 타오 한 꾸옥 반 무온 비엣 콩?"
+                },
+                {
+                  "ko": "제가 추천해드릴까요?",
+                  "vi": "Tôi giới thiệu cho bạn nhé?",
+                  "pron": "또이 저이 티에우 쪼 반 녜?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "school": {
+      "title": "🏫 일 & 학교 · Công việc & Trường học",
+      "q": [
+        {
+          "ko": "학교나 직장에서는 주로 어떤 일을 하세요?",
+          "vi": "Ở trường hoặc nơi làm việc, bạn thường làm gì?",
+          "pron": "어 쯔엉 호악 너이 람 비엑, 반 트엉 람 지?",
+          "choices": [
+            {
+              "ko": "저는 공부를 해요.",
+              "vi": "Tôi học.",
+              "pron": "또이 혹.",
+              "followups": [
+                {
+                  "ko": "어떤 과목을 공부해요?",
+                  "vi": "Bạn học môn gì?",
+                  "pron": "반 혹 몬 지?"
+                },
+                {
+                  "ko": "그 공부가 재미있어요?",
+                  "vi": "Môn học đó có thú vị không?",
+                  "pron": "몬 혹 도 꼬 투 비 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 사무직으로 일해요.",
+              "vi": "Tôi làm việc văn phòng.",
+              "pron": "또이 람 비엑 반 퐁.",
+              "followups": [
+                {
+                  "ko": "어떤 업무를 담당해요?",
+                  "vi": "Bạn phụ trách công việc gì?",
+                  "pron": "반 푸 짜익 꽁 비엑 지?"
+                },
+                {
+                  "ko": "동료들과 사이가 좋아요?",
+                  "vi": "Bạn có quan hệ tốt với đồng nghiệp không?",
+                  "pron": "반 꼬 꽌 헤 똣 버이 동 응이엡 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 서비스업에서 일해요.",
+              "vi": "Tôi làm trong ngành dịch vụ.",
+              "pron": "또이 람 쫑 응아인 직 부.",
+              "followups": [
+                {
+                  "ko": "손님을 많이 만나요?",
+                  "vi": "Bạn có thường gặp nhiều khách hàng không?",
+                  "pron": "반 꼬 트엉 갑 니에우 칵 항 콩?"
+                },
+                {
+                  "ko": "힘든 점은 뭐예요?",
+                  "vi": "Điều khó khăn nhất của công việc đó là gì?",
+                  "pron": "디에우 코 칸 녓 꾸어 꽁 비엑 도 라 지?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "학교나 직장에서 가장 재미있는 순간은 언제인가요?",
+          "vi": "Khoảnh khắc vui nhất ở trường hoặc nơi làm việc là khi nào?",
+          "pron": "코아인 칵 부이 녓 어 쯔엉 호악 너이 람 비엑 라 키 나오?",
+          "choices": [
+            {
+              "ko": "친구들과 이야기할 때가 제일 재미있어요.",
+              "vi": "Lúc vui nhất là khi nói chuyện với bạn bè.",
+              "pron": "룩 부이 녓 라 키 노이 쭈옌 버이 반 베.",
+              "followups": [
+                {
+                  "ko": "주로 무슨 이야기를 해요?",
+                  "vi": "Bạn thường nói chuyện gì?",
+                  "pron": "반 트엉 노이 쭈옌 지?"
+                },
+                {
+                  "ko": "쉬는 시간에 자주 그래요?",
+                  "vi": "Bạn có thường làm vậy vào giờ nghỉ không?",
+                  "pron": "반 꼬 트엉 람 버이 바오 저 응이 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "새로운 것을 배울 때가 제일 재미있어요.",
+              "vi": "Lúc vui nhất là khi học được điều mới.",
+              "pron": "룩 부이 녓 라 키 혹 드억 디에우 머이.",
+              "followups": [
+                {
+                  "ko": "최근에 배운 것 중 기억에 남는 게 있어요?",
+                  "vi": "Gần đây có điều gì mới bạn học được khiến bạn nhớ không?",
+                  "pron": "건 데이 꼬 디에우 지 머이 반 혹 드억 키엔 반 녀 콩?"
+                },
+                {
+                  "ko": "어떻게 새로운 걸 배워요?",
+                  "vi": "Bạn học điều mới bằng cách nào?",
+                  "pron": "반 혹 디에우 머이 방 까익 나오?"
+                }
+              ]
+            },
+            {
+              "ko": "프로젝트를 끝냈을 때가 제일 재미있어요.",
+              "vi": "Lúc vui nhất là khi hoàn thành một dự án.",
+              "pron": "룩 부이 녓 라 키 호안 타인 못 즈 안.",
+              "followups": [
+                {
+                  "ko": "최근에 어떤 프로젝트를 끝냈어요?",
+                  "vi": "Gần đây bạn đã hoàn thành dự án nào?",
+                  "pron": "건 데이 반 다 호안 타인 즈 안 나오?"
+                },
+                {
+                  "ko": "그 프로젝트는 어려웠어요?",
+                  "vi": "Dự án đó có khó không?",
+                  "pron": "즈 안 도 꼬 코 콩?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "쉬는 날에는 주로 무엇을 하면서 시간을 보내세요?",
+          "vi": "Ngày nghỉ bạn thường làm gì?",
+          "pron": "응아이 응이 반 트엉 람 지?",
+          "choices": [
+            {
+              "ko": "저는 집에서 쉬어요.",
+              "vi": "Tôi nghỉ ngơi ở nhà.",
+              "pron": "또이 응이 응어이 어 냐.",
+              "followups": [
+                {
+                  "ko": "집에서 주로 뭘 해요?",
+                  "vi": "Ở nhà bạn thường làm gì?",
+                  "pron": "어 냐 반 트엉 람 지?"
+                },
+                {
+                  "ko": "넷플릭스 같은 걸 봐요?",
+                  "vi": "Bạn có xem Netflix hay những thứ tương tự không?",
+                  "pron": "반 꼬 쎔 넷플릭스 하이 니응 트 뜨엉 뜨 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 밖에 나가서 놀아요.",
+              "vi": "Tôi ra ngoài chơi.",
+              "pron": "또이 자 응오아이 쩌이.",
+              "followups": [
+                {
+                  "ko": "주로 어디에 가요?",
+                  "vi": "Bạn thường đi đâu?",
+                  "pron": "반 트엉 디 더우?"
+                },
+                {
+                  "ko": "혼자 가요, 아니면 친구와 가요?",
+                  "vi": "Bạn đi một mình hay đi với bạn bè?",
+                  "pron": "반 디 못 밍 하이 디 버이 반 베?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 취미 생활을 해요.",
+              "vi": "Tôi dành thời gian cho sở thích của mình.",
+              "pron": "또이 자인 터이 지안 쪼 써 틱 꾸어 밍.",
+              "followups": [
+                {
+                  "ko": "어떤 취미가 있어요?",
+                  "vi": "Bạn có sở thích gì?",
+                  "pron": "반 꼬 써 틱 지?"
+                },
+                {
+                  "ko": "그 취미는 언제부터 시작했어요?",
+                  "vi": "Bạn bắt đầu sở thích đó từ khi nào?",
+                  "pron": "반 밧 더우 써 틱 도 뜨 키 나오?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "스트레스를 받았을 때 어떻게 풀어요?",
+          "vi": "Bạn giải tỏa căng thẳng như thế nào?",
+          "pron": "반 자이 또아 깡 탕 느 테 나오?",
+          "choices": [
+            {
+              "ko": "저는 운동을 해서 풀어요.",
+              "vi": "Tôi tập thể dục để giải tỏa căng thẳng.",
+              "pron": "또이 떱 테 죽 데 자이 또아 깡 탕.",
+              "followups": [
+                {
+                  "ko": "어떤 운동을 해요?",
+                  "vi": "Bạn tập môn gì?",
+                  "pron": "반 떱 몬 지?"
+                },
+                {
+                  "ko": "효과가 있어요?",
+                  "vi": "Có hiệu quả không?",
+                  "pron": "꼬 히에우 꽈 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 맛있는 음식을 먹어서 풀어요.",
+              "vi": "Tôi ăn món ngon để giải tỏa căng thẳng.",
+              "pron": "또이 안 몬 응온 데 자이 또아 깡 탕.",
+              "followups": [
+                {
+                  "ko": "어떤 음식을 먹어요?",
+                  "vi": "Bạn ăn món gì?",
+                  "pron": "반 안 몬 지?"
+                },
+                {
+                  "ko": "자주 그렇게 해요?",
+                  "vi": "Bạn có thường làm vậy không?",
+                  "pron": "반 꼬 트엉 람 버이 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 음악을 들으며 풀어요.",
+              "vi": "Tôi nghe nhạc để giải tỏa căng thẳng.",
+              "pron": "또이 응에 냑 데 자이 또아 깡 탕.",
+              "followups": [
+                {
+                  "ko": "어떤 음악을 들어요?",
+                  "vi": "Bạn nghe nhạc gì?",
+                  "pron": "반 응에 냑 지?"
+                },
+                {
+                  "ko": "효과가 바로 나타나요?",
+                  "vi": "Hiệu quả có xuất hiện ngay không?",
+                  "pron": "히에우 꽈 꼬 쑤엇 히엔 응아이 콩?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "앞으로 꼭 해보고 싶은 일이 있나요?",
+          "vi": "Có việc gì bạn nhất định muốn thử trong tương lai không?",
+          "pron": "꼬 비엑 지 반 녓 딘 무온 트으 쫑 뜨엉 라이 콩?",
+          "choices": [
+            {
+              "ko": "저는 여행을 많이 다니고 싶어요.",
+              "vi": "Tôi muốn đi du lịch nhiều.",
+              "pron": "또이 무온 디 주 릭 니에우.",
+              "followups": [
+                {
+                  "ko": "어느 나라에 가고 싶어요?",
+                  "vi": "Bạn muốn đi nước nào?",
+                  "pron": "반 무온 디 느억 나오?"
+                },
+                {
+                  "ko": "누구와 함께 가고 싶어요?",
+                  "vi": "Bạn muốn đi cùng ai?",
+                  "pron": "반 무온 디 꿍 아이?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 새로운 기술을 배우고 싶어요.",
+              "vi": "Tôi muốn học một kỹ năng mới.",
+              "pron": "또이 무온 혹 못 끼 낭 머이.",
+              "followups": [
+                {
+                  "ko": "어떤 기술을 배우고 싶어요?",
+                  "vi": "Bạn muốn học kỹ năng gì?",
+                  "pron": "반 무온 혹 끼 낭 지?"
+                },
+                {
+                  "ko": "왜 그 기술을 배우고 싶어요?",
+                  "vi": "Tại sao bạn muốn học kỹ năng đó?",
+                  "pron": "따이 싸오 반 무온 혹 끼 낭 도?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 제 사업을 시작하고 싶어요.",
+              "vi": "Tôi muốn bắt đầu công việc kinh doanh riêng.",
+              "pron": "또이 무온 밧 더우 꽁 비엑 낀 조아인 지엥.",
+              "followups": [
+                {
+                  "ko": "어떤 사업을 하고 싶어요?",
+                  "vi": "Bạn muốn kinh doanh gì?",
+                  "pron": "반 무온 낀 조아인 지?"
+                },
+                {
+                  "ko": "준비는 하고 있어요?",
+                  "vi": "Bạn đang chuẩn bị chưa?",
+                  "pron": "반 당 쭈언 비 쯔어?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "korea": {
+      "title": "🇰🇷 한국 문화 · Văn hóa Hàn Quốc",
+      "q": [
+        {
+          "ko": "한국에 오게 된다면 가장 가보고 싶은 곳은 어디인가요?",
+          "vi": "Nếu đến Hàn Quốc, nơi nào bạn muốn đến nhất?",
+          "pron": "네우 덴 한 꾸옥, 너이 나오 반 무온 덴 녓?",
+          "choices": [
+            {
+              "ko": "저는 서울에 가보고 싶어요.",
+              "vi": "Tôi muốn đến Seoul.",
+              "pron": "또이 무온 덴 서울.",
+              "followups": [
+                {
+                  "ko": "서울에서 어디를 가고 싶어요?",
+                  "vi": "Bạn muốn đi đâu ở Seoul?",
+                  "pron": "반 무온 디 더우 어 서울?"
+                },
+                {
+                  "ko": "왜 서울에 가보고 싶어요?",
+                  "vi": "Tại sao bạn muốn đến Seoul?",
+                  "pron": "따이 싸오 반 무온 덴 서울?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 제주도에 가보고 싶어요.",
+              "vi": "Tôi muốn đến đảo Jeju.",
+              "pron": "또이 무온 덴 다오 제주.",
+              "followups": [
+                {
+                  "ko": "제주도에 대해 뭘 알고 있어요?",
+                  "vi": "Bạn biết gì về đảo Jeju?",
+                  "pron": "반 비엣 지 베 다오 제주?"
+                },
+                {
+                  "ko": "그곳에서 무엇을 해보고 싶어요?",
+                  "vi": "Bạn muốn làm gì ở đó?",
+                  "pron": "반 무온 람 지 어 도?"
+                }
+              ]
+            },
+            {
+              "ko": "저는 부산에 가보고 싶어요.",
+              "vi": "Tôi muốn đến Busan.",
+              "pron": "또이 무온 덴 부산.",
+              "followups": [
+                {
+                  "ko": "부산에 대해 들어본 적 있어요?",
+                  "vi": "Bạn đã từng nghe về Busan chưa?",
+                  "pron": "반 다 뜽 응에 베 부산 쯔어?"
+                },
+                {
+                  "ko": "바다를 좋아해요?",
+                  "vi": "Bạn có thích biển không?",
+                  "pron": "반 꼬 틱 비엔 콩?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "한국 음식 중 먹어본 음식이 있나요?",
+          "vi": "Bạn đã từng ăn món Hàn Quốc nào chưa?",
+          "pron": "반 다 뜽 안 몬 한 꾸옥 나오 쯔어?",
+          "choices": [
+            {
+              "ko": "네, 김치를 먹어봤어요.",
+              "vi": "Vâng, tôi đã ăn thử kimchi.",
+              "pron": "봉, 또이 다 안 트으 김치.",
+              "followups": [
+                {
+                  "ko": "김치가 입맛에 맞았어요?",
+                  "vi": "Kimchi có hợp khẩu vị của bạn không?",
+                  "pron": "김치 꼬 헙 커우 비 꾸어 반 콩?"
+                },
+                {
+                  "ko": "매웠어요?",
+                  "vi": "Có cay không?",
+                  "pron": "꼬 까이 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "네, 불고기를 먹어봤어요.",
+              "vi": "Vâng, tôi đã ăn thử bulgogi.",
+              "pron": "봉, 또이 다 안 트으 불고기.",
+              "followups": [
+                {
+                  "ko": "맛이 어땠어요?",
+                  "vi": "Mùi vị thế nào?",
+                  "pron": "무이 비 테 나오?"
+                },
+                {
+                  "ko": "어디서 먹어봤어요?",
+                  "vi": "Bạn đã ăn thử ở đâu?",
+                  "pron": "반 다 안 트으 어 더우?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 아직 안 먹어봤어요.",
+              "vi": "Không, tôi chưa ăn thử.",
+              "pron": "콩, 또이 쯔어 안 트으.",
+              "followups": [
+                {
+                  "ko": "어떤 한국 음식을 먹어보고 싶어요?",
+                  "vi": "Bạn muốn thử món Hàn Quốc nào?",
+                  "pron": "반 무온 트으 몬 한 꾸옥 나오?"
+                },
+                {
+                  "ko": "제가 추천해드릴까요?",
+                  "vi": "Tôi giới thiệu cho bạn nhé?",
+                  "pron": "또이 저이 티에우 쪼 반 녜?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "K-pop을 좋아하시나요?",
+          "vi": "Bạn có thích K-pop không?",
+          "pron": "반 꼬 틱 케이팝 콩?",
+          "choices": [
+            {
+              "ko": "네, 아주 좋아해요.",
+              "vi": "Vâng, tôi rất thích.",
+              "pron": "봉, 또이 럿 틱.",
+              "followups": [
+                {
+                  "ko": "언제부터 좋아하게 됐어요?",
+                  "vi": "Bạn bắt đầu thích từ khi nào?",
+                  "pron": "반 밧 더우 틱 뜨 키 나오?"
+                },
+                {
+                  "ko": "춤도 따라 춰봐요?",
+                  "vi": "Bạn có thử nhảy theo không?",
+                  "pron": "반 꼬 트으 냐이 테오 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "조금 좋아해요.",
+              "vi": "Tôi thích một chút.",
+              "pron": "또이 틱 못 쭛.",
+              "followups": [
+                {
+                  "ko": "어떤 그룹을 알아요?",
+                  "vi": "Bạn biết nhóm nào?",
+                  "pron": "반 비엣 뇸 나오?"
+                },
+                {
+                  "ko": "더 알고 싶은 그룹이 있어요?",
+                  "vi": "Có nhóm nào bạn muốn tìm hiểu thêm không?",
+                  "pron": "꼬 뇸 나오 반 무온 띰 히에우 템 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 별로예요.",
+              "vi": "Không, tôi không thích lắm.",
+              "pron": "콩, 또이 콩 틱 람.",
+              "followups": [
+                {
+                  "ko": "어떤 음악 장르를 좋아해요?",
+                  "vi": "Bạn thích thể loại nhạc nào?",
+                  "pron": "반 틱 테 로아이 냑 나오?"
+                },
+                {
+                  "ko": "K-pop 말고 다른 한국 문화는 관심 있어요?",
+                  "vi": "Ngoài K-pop, bạn có quan tâm đến văn hóa Hàn Quốc khác không?",
+                  "pron": "응오아이 케이팝, 반 꼬 꽌 떰 덴 반 호아 한 꾸옥 칵 콩?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "한국 드라마나 영화를 본 적이 있나요?",
+          "vi": "Bạn đã từng xem phim truyền hình hoặc phim Hàn Quốc chưa?",
+          "pron": "반 다 뜽 쎔 핌 쯔옌 힌 호악 핌 한 꾸옥 쯔어?",
+          "choices": [
+            {
+              "ko": "네, 드라마를 자주 봐요.",
+              "vi": "Vâng, tôi thường xem phim truyền hình.",
+              "pron": "봉, 또이 트엉 쎔 핌 쯔옌 힌.",
+              "followups": [
+                {
+                  "ko": "어떤 드라마를 봤어요?",
+                  "vi": "Bạn đã xem phim truyền hình nào?",
+                  "pron": "반 다 쎔 핌 쯔옌 힌 나오?"
+                },
+                {
+                  "ko": "어떤 장르의 드라마를 좋아해요?",
+                  "vi": "Bạn thích thể loại phim truyền hình nào?",
+                  "pron": "반 틱 테 로아이 핌 쯔옌 힌 나오?"
+                }
+              ]
+            },
+            {
+              "ko": "네, 영화를 봤어요.",
+              "vi": "Vâng, tôi đã xem phim.",
+              "pron": "봉, 또이 다 쎔 핌.",
+              "followups": [
+                {
+                  "ko": "어떤 영화를 봤어요?",
+                  "vi": "Bạn đã xem phim nào?",
+                  "pron": "반 다 쎔 핌 나오?"
+                },
+                {
+                  "ko": "자막으로 봤어요, 더빙으로 봤어요?",
+                  "vi": "Bạn xem có phụ đề hay lồng tiếng?",
+                  "pron": "반 쎔 꼬 푸 데 하이 롱 띠엥?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 아직 본 적 없어요.",
+              "vi": "Không, tôi chưa xem.",
+              "pron": "콩, 또이 쯔어 쎔.",
+              "followups": [
+                {
+                  "ko": "추천해드려도 될까요?",
+                  "vi": "Tôi giới thiệu cho bạn nhé?",
+                  "pron": "또이 저이 티에우 쪼 반 녜?"
+                },
+                {
+                  "ko": "어떤 장르를 좋아해요?",
+                  "vi": "Bạn thích thể loại nào?",
+                  "pron": "반 틱 테 로아이 나오?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ko": "한국에 대해 더 알고 싶은 것이 있나요?",
+          "vi": "Có điều gì về Hàn Quốc bạn muốn biết thêm không?",
+          "pron": "꼬 디에우 지 베 한 꾸옥 반 무온 비엣 템 콩?",
+          "choices": [
+            {
+              "ko": "네, 한국의 전통문화가 궁금해요.",
+              "vi": "Vâng, tôi tò mò về văn hóa truyền thống Hàn Quốc.",
+              "pron": "봉, 또이 또 모 베 반 호아 쯔옌 통 한 꾸옥.",
+              "followups": [
+                {
+                  "ko": "구체적으로 어떤 게 궁금해요?",
+                  "vi": "Cụ thể bạn tò mò về điều gì?",
+                  "pron": "꾸 테 반 또 모 베 디에우 지?"
+                },
+                {
+                  "ko": "한복에 대해 알고 싶어요?",
+                  "vi": "Bạn muốn biết về hanbok không?",
+                  "pron": "반 무온 비엣 베 한복 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "네, 한국의 일상생활이 궁금해요.",
+              "vi": "Vâng, tôi tò mò về cuộc sống hằng ngày ở Hàn Quốc.",
+              "pron": "봉, 또이 또 모 베 꾸옥 송 항 응아이 어 한 꾸옥.",
+              "followups": [
+                {
+                  "ko": "어떤 부분이 궁금해요?",
+                  "vi": "Bạn tò mò về phần nào?",
+                  "pron": "반 또 모 베 펀 나오?"
+                },
+                {
+                  "ko": "한국 사람들의 식습관이 궁금해요?",
+                  "vi": "Bạn tò mò về thói quen ăn uống của người Hàn Quốc không?",
+                  "pron": "반 또 모 베 토이 꾸엔 안 우옹 꾸어 응으어이 한 꾸옥 콩?"
+                }
+              ]
+            },
+            {
+              "ko": "아니요, 지금은 충분히 알고 있어요.",
+              "vi": "Không, hiện tại tôi biết khá đủ rồi.",
+              "pron": "콩, 히엔 따이 또이 비엣 카 두 조이.",
+              "followups": [
+                {
+                  "ko": "그럼 베트남에 대해 이야기해줄래요?",
+                  "vi": "Vậy bạn có thể kể cho tôi về Việt Nam không?",
+                  "pron": "버이 반 꼬 테 께 쪼 또이 베 비엣 남 콩?"
+                },
+                {
+                  "ko": "다음에 궁금한 게 생기면 물어봐도 될까요?",
+                  "vi": "Sau này nếu có điều gì tò mò, tôi hỏi bạn thêm được không?",
+                  "pron": "싸우 나이 네우 꼬 디에우 지 또 모, 또이 호이 반 템 드억 콩?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "vocab": [
+    {
+      "ko": "나 / 저",
+      "vi": "Tôi",
+      "pron": "또이"
+    },
+    {
+      "ko": "너 / 당신",
+      "vi": "Bạn",
+      "pron": "반"
+    },
+    {
+      "ko": "당신",
+      "vi": "Anh / Chị",
+      "pron": "아인 / 찌"
+    },
+    {
+      "ko": "우리",
+      "vi": "Chúng tôi",
+      "pron": "쭝 또이"
+    },
+    {
+      "ko": "이것",
+      "vi": "Cái này",
+      "pron": "까이 나이"
+    },
+    {
+      "ko": "그것 / 저것",
+      "vi": "Cái đó",
+      "pron": "까이 도"
+    },
+    {
+      "ko": "무엇",
+      "vi": "Gì",
+      "pron": "지"
+    },
+    {
+      "ko": "누구",
+      "vi": "Ai",
+      "pron": "아이"
+    },
+    {
+      "ko": "어디",
+      "vi": "Ở đâu",
+      "pron": "어 더우"
+    },
+    {
+      "ko": "언제",
+      "vi": "Khi nào",
+      "pron": "키 나오"
+    },
+    {
+      "ko": "왜",
+      "vi": "Tại sao",
+      "pron": "따이 싸오"
+    },
+    {
+      "ko": "어떻게",
+      "vi": "Như thế nào",
+      "pron": "느 테 나오"
+    },
+    {
+      "ko": "얼마 / 몇",
+      "vi": "Bao nhiêu",
+      "pron": "바오 니에우"
+    },
+    {
+      "ko": "있다",
+      "vi": "Có",
+      "pron": "꼬"
+    },
+    {
+      "ko": "아니다 / ~않다",
+      "vi": "Không",
+      "pron": "콩"
+    },
+    {
+      "ko": "네 / 예",
+      "vi": "Vâng / Dạ",
+      "pron": "벙 / 자"
+    },
+    {
+      "ko": "가능하다 / ~해도 된다",
+      "vi": "Được",
+      "pron": "드억"
+    },
+    {
+      "ko": "~할 수 있다",
+      "vi": "Có thể",
+      "pron": "꼬 테"
+    },
+    {
+      "ko": "원하다 / ~하고 싶다",
+      "vi": "Muốn",
+      "pron": "무온"
+    },
+    {
+      "ko": "좋아하다",
+      "vi": "Thích",
+      "pron": "틱"
+    },
+    {
+      "ko": "좋다 / 좋은",
+      "vi": "Tốt",
+      "pron": "똣"
+    },
+    {
+      "ko": "맛있다",
+      "vi": "Ngon",
+      "pron": "응온"
+    },
+    {
+      "ko": "맛",
+      "vi": "Vị",
+      "pron": "비"
+    },
+    {
+      "ko": "맵다",
+      "vi": "Cay",
+      "pron": "까이"
+    },
+    {
+      "ko": "달다",
+      "vi": "Ngọt",
+      "pron": "응옷"
+    },
+    {
+      "ko": "뜨겁다",
+      "vi": "Nóng",
+      "pron": "농"
+    },
+    {
+      "ko": "차갑다",
+      "vi": "Lạnh",
+      "pron": "라인"
+    },
+    {
+      "ko": "크다",
+      "vi": "Lớn",
+      "pron": "런"
+    },
+    {
+      "ko": "작다",
+      "vi": "Nhỏ",
+      "pron": "뇨"
+    },
+    {
+      "ko": "많다",
+      "vi": "Nhiều",
+      "pron": "니에우"
+    },
+    {
+      "ko": "조금 / 적다",
+      "vi": "Ít / Một chút",
+      "pron": "잇 / 못 쭛"
+    },
+    {
+      "ko": "지금",
+      "vi": "Bây giờ",
+      "pron": "버이 저"
+    },
+    {
+      "ko": "오늘",
+      "vi": "Hôm nay",
+      "pron": "홈 나이"
+    },
+    {
+      "ko": "내일",
+      "vi": "Ngày mai",
+      "pron": "응아이 마이"
+    },
+    {
+      "ko": "어제",
+      "vi": "Hôm qua",
+      "pron": "홈 꽈"
+    },
+    {
+      "ko": "여기",
+      "vi": "Ở đây",
+      "pron": "어 데이"
+    },
+    {
+      "ko": "거기 / 저기",
+      "vi": "Ở đó / Đằng kia",
+      "pron": "어 도 / 당 끼아"
+    },
+    {
+      "ko": "먹다",
+      "vi": "Ăn",
+      "pron": "안"
+    },
+    {
+      "ko": "마시다",
+      "vi": "Uống",
+      "pron": "우옹"
+    },
+    {
+      "ko": "가다",
+      "vi": "Đi",
+      "pron": "디"
+    },
+    {
+      "ko": "오다",
+      "vi": "Đến",
+      "pron": "덴"
+    },
+    {
+      "ko": "보다",
+      "vi": "Xem",
+      "pron": "쎔"
+    },
+    {
+      "ko": "알다",
+      "vi": "Biết",
+      "pron": "비엣"
+    },
+    {
+      "ko": "이해하다",
+      "vi": "Hiểu",
+      "pron": "히에우"
+    },
+    {
+      "ko": "말하다",
+      "vi": "Nói",
+      "pron": "노이"
+    },
+    {
+      "ko": "기다리다",
+      "vi": "Chờ",
+      "pron": "쩌"
+    },
+    {
+      "ko": "도와주다",
+      "vi": "Giúp",
+      "pron": "줍"
+    },
+    {
+      "ko": "사다",
+      "vi": "Mua",
+      "pron": "무어"
+    },
+    {
+      "ko": "주다",
+      "vi": "Cho",
+      "pron": "쪼"
+    },
+    {
+      "ko": "돈",
+      "vi": "Tiền",
+      "pron": "띠엔"
+    },
+    {
+      "ko": "가격",
+      "vi": "Giá",
+      "pron": "자"
+    },
+    {
+      "ko": "음식",
+      "vi": "Đồ ăn",
+      "pron": "도 안"
+    },
+    {
+      "ko": "물",
+      "vi": "Nước",
+      "pron": "느억"
+    },
+    {
+      "ko": "커피",
+      "vi": "Cà phê",
+      "pron": "까 페"
+    },
+    {
+      "ko": "차",
+      "vi": "Trà",
+      "pron": "짜"
+    },
+    {
+      "ko": "빵",
+      "vi": "Bánh mì",
+      "pron": "바인 미"
+    },
+    {
+      "ko": "케이크",
+      "vi": "Bánh ngọt",
+      "pron": "바인 응옷"
+    },
+    {
+      "ko": "주스",
+      "vi": "Nước ép",
+      "pron": "느억 엡"
+    },
+    {
+      "ko": "우유",
+      "vi": "Sữa",
+      "pron": "쓰어"
+    },
+    {
+      "ko": "설탕",
+      "vi": "Đường",
+      "pron": "드엉"
+    },
+    {
+      "ko": "얼음",
+      "vi": "Đá",
+      "pron": "다"
+    },
+    {
+      "ko": "화장실",
+      "vi": "Nhà vệ sinh",
+      "pron": "냐 베 신"
+    },
+    {
+      "ko": "식당",
+      "vi": "Nhà hàng",
+      "pron": "냐 항"
+    },
+    {
+      "ko": "카페",
+      "vi": "Quán cà phê",
+      "pron": "꽌 까 페"
+    },
+    {
+      "ko": "편의점",
+      "vi": "Cửa hàng tiện lợi",
+      "pron": "끄어 항 띠엔 러이"
+    },
+    {
+      "ko": "약국",
+      "vi": "Nhà thuốc",
+      "pron": "냐 투옥"
+    },
+    {
+      "ko": "병원",
+      "vi": "Bệnh viện",
+      "pron": "베인 비엔"
+    },
+    {
+      "ko": "공항",
+      "vi": "Sân bay",
+      "pron": "선 바이"
+    },
+    {
+      "ko": "호텔",
+      "vi": "Khách sạn",
+      "pron": "칵 싼"
+    },
+    {
+      "ko": "출구",
+      "vi": "Lối ra",
+      "pron": "로이 자"
+    },
+    {
+      "ko": "버스 정류장",
+      "vi": "Trạm xe buýt",
+      "pron": "짬 쎄 부잇"
+    },
+    {
+      "ko": "기차역",
+      "vi": "Ga tàu",
+      "pron": "가 따우"
+    },
+    {
+      "ko": "시장",
+      "vi": "Chợ",
+      "pron": "쩌"
+    },
+    {
+      "ko": "은행",
+      "vi": "Ngân hàng",
+      "pron": "응언 항"
+    },
+    {
+      "ko": "ATM",
+      "vi": "Máy ATM",
+      "pron": "마이 에이티엠"
+    },
+    {
+      "ko": "왼쪽",
+      "vi": "Bên trái",
+      "pron": "벤 짜이"
+    },
+    {
+      "ko": "오른쪽",
+      "vi": "Bên phải",
+      "pron": "벤 파이"
+    },
+    {
+      "ko": "앞",
+      "vi": "Phía trước",
+      "pron": "피아 쯔억"
+    },
+    {
+      "ko": "뒤",
+      "vi": "Phía sau",
+      "pron": "피아 싸우"
+    },
+    {
+      "ko": "가까이",
+      "vi": "Gần",
+      "pron": "건"
+    },
+    {
+      "ko": "멀리",
+      "vi": "Xa",
+      "pron": "싸"
+    },
+    {
+      "ko": "길",
+      "vi": "Đường",
+      "pron": "드엉"
+    },
+    {
+      "ko": "장소",
+      "vi": "Địa điểm",
+      "pron": "디아 디엠"
+    },
+    {
+      "ko": "사람",
+      "vi": "Người",
+      "pron": "응으어이"
+    },
+    {
+      "ko": "친구",
+      "vi": "Bạn bè",
+      "pron": "반 베"
+    },
+    {
+      "ko": "가족",
+      "vi": "Gia đình",
+      "pron": "자 딘"
+    },
+    {
+      "ko": "이름",
+      "vi": "Tên",
+      "pron": "뗀"
+    },
+    {
+      "ko": "학교",
+      "vi": "Trường học",
+      "pron": "쯔엉 혹"
+    },
+    {
+      "ko": "직장 / 일",
+      "vi": "Công việc",
+      "pron": "꽁 비엑"
+    },
+    {
+      "ko": "학생",
+      "vi": "Sinh viên",
+      "pron": "신 비엔"
+    },
+    {
+      "ko": "선생님",
+      "vi": "Giáo viên",
+      "pron": "자오 비엔"
+    },
+    {
+      "ko": "취미",
+      "vi": "Sở thích",
+      "pron": "서 틱"
+    },
+    {
+      "ko": "음악",
+      "vi": "Âm nhạc",
+      "pron": "엄 냑"
+    },
+    {
+      "ko": "스포츠",
+      "vi": "Thể thao",
+      "pron": "테 타오"
+    },
+    {
+      "ko": "축구",
+      "vi": "Bóng đá",
+      "pron": "봉 다"
+    },
+    {
+      "ko": "한국",
+      "vi": "Hàn Quốc",
+      "pron": "한 꾸옥"
+    },
+    {
+      "ko": "베트남",
+      "vi": "Việt Nam",
+      "pron": "비엣 남"
+    },
+    {
+      "ko": "감사합니다",
+      "vi": "Cảm ơn",
+      "pron": "깜 언"
+    },
+    {
+      "ko": "죄송합니다",
+      "vi": "Xin lỗi",
+      "pron": "씬 로이"
+    },
+    {
+      "ko": "부탁합니다 / 도와주세요",
+      "vi": "Làm ơn",
+      "pron": "람 언"
+    },
+    {
+      "ko": "괜찮아요",
+      "vi": "Không sao",
+      "pron": "콩 싸오"
+    }
+  ],
+  "extra": [
+    {
+      "ko": "도와주세요.",
+      "vi": "Làm ơn giúp tôi.",
+      "pron": "람 언 줍 또이."
+    },
+    {
+      "ko": "조금만 깎아주세요.",
+      "vi": "Giảm giá một chút được không?",
+      "pron": "잠 자 못 쭛 드억 콩?"
+    },
+    {
+      "ko": "너무 비싸요.",
+      "vi": "Đắt quá.",
+      "pron": "닷 꽈."
+    },
+    {
+      "ko": "이거 매워요?",
+      "vi": "Món này có cay không?",
+      "pron": "몬 나이 꼬 까이 콩?"
+    },
+    {
+      "ko": "맵지 않게 해주세요.",
+      "vi": "Làm ơn đừng cay.",
+      "pron": "람 언 등 까이."
+    },
+    {
+      "ko": "얼음은 빼주세요.",
+      "vi": "Không cho đá nhé.",
+      "pron": "콩 쪼 다 녜."
+    },
+    {
+      "ko": "물 한 병 주세요.",
+      "vi": "Cho tôi một chai nước.",
+      "pron": "쪼 또이 못 짜이 느억."
+    },
+    {
+      "ko": "계산해 주세요.",
+      "vi": "Tính tiền giúp tôi.",
+      "pron": "띤 띠엔 줍 또이."
+    },
+    {
+      "ko": "돼지고기가 들어 있나요?",
+      "vi": "Món này có thịt heo không?",
+      "pron": "몬 나이 꼬 팃 헤오 콩?"
+    },
+    {
+      "ko": "천천히 말해주세요.",
+      "vi": "Làm ơn nói chậm lại.",
+      "pron": "람 언 노이 쩜 라이."
+    },
+    {
+      "ko": "다시 한 번 말해주세요.",
+      "vi": "Làm ơn nói lại một lần nữa.",
+      "pron": "람 언 노이 라이 못 런 느어."
+    },
+    {
+      "ko": "이해하지 못했어요.",
+      "vi": "Tôi không hiểu.",
+      "pron": "또이 콩 히에우."
+    },
+    {
+      "ko": "잠깐만요.",
+      "vi": "Chờ một chút.",
+      "pron": "쩌 못 쭛."
+    },
+    {
+      "ko": "죄송합니다.",
+      "vi": "Xin lỗi.",
+      "pron": "씬 로이."
+    },
+    {
+      "ko": "괜찮아요.",
+      "vi": "Không sao.",
+      "pron": "콩 싸오."
+    },
+    {
+      "ko": "길을 잃었어요.",
+      "vi": "Tôi bị lạc đường.",
+      "pron": "또이 비 락 드엉."
+    },
+    {
+      "ko": "공항까지 얼마예요?",
+      "vi": "Đến sân bay bao nhiêu tiền?",
+      "pron": "덴 선 바이 바오 니에우 띠엔?"
+    },
+    {
+      "ko": "사진 찍어도 될까요?",
+      "vi": "Tôi chụp ảnh được không?",
+      "pron": "또이 쭙 아인 드억 콩?"
+    },
+    {
+      "ko": "와이파이 비밀번호가 뭐예요?",
+      "vi": "Mật khẩu wifi là gì?",
+      "pron": "멋 커우 와이파이 라 지?"
+    },
+    {
+      "ko": "배가 아파요.",
+      "vi": "Tôi bị đau bụng.",
+      "pron": "또이 비 다우 붕."
+    },
+    {
+      "ko": "약국이 어디예요?",
+      "vi": "Nhà thuốc ở đâu?",
+      "pron": "냐 투옥 어 더우?"
+    },
+    {
+      "ko": "병원에 가야 해요.",
+      "vi": "Tôi cần đến bệnh viện.",
+      "pron": "또이 껀 덴 베인 비엔."
+    }
+  ]
+}
