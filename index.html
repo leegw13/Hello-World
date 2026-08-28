@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f5f1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="HelloWorld">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<title>HelloWorld</title>
+<link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body class="picker">
+<div class="app">
+  <header class="hero">
+    <div class="logo">🌏</div>
+    <h1>HelloWorld</h1>
+    <p>현장에서 바로 사용하는<br>언어 & 대화 도우미</p>
+  </header>
+  <main>
+    <div class="title"><h2>어느 나라에서 사용하시나요?</h2><p>Choose a country</p></div>
+    <div class="country-list">
+      <a class="country" href="./indonesia/index.html">
+        <span class="flag">🇮🇩</span><span class="info"><span class="name">Indonesia</span><span class="ko">인도네시아</span></span><span class="arrow">›</span>
+      </a>
+      <a class="country" href="./vietnam/index.html">
+        <span class="flag">🇻🇳</span><span class="info"><span class="name">Vietnam</span><span class="ko">베트남</span></span><span class="arrow">›</span>
+      </a>
+    </div>
+    <div class="note">Basic Phrases · Let's Talk! · Translate</div>
+  </main>
+</div>
+<script>
+if("serviceWorker" in navigator){addEventListener("load",()=>navigator.serviceWorker.register("./sw.js"));}
+</script>
+</body>
+</html>

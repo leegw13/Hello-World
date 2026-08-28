@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#f7f5f1" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="default" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="HelloWorld" name="apple-mobile-web-app-title"/>
+<link href="../manifest.webmanifest" rel="manifest"/>
+<link href="../icons/icon-192.png" rel="apple-touch-icon"/>
+<title>HelloWorld — Vietnam</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app">
+<header>
+<a class="back" href="../index.html"><span class="back-arrow">←</span> 국가 선택</a>
+<div class="logo">🇻🇳</div>
+<h1>Xin chào Việt Nam</h1>
+<div class="subtitle">Small Talk &amp; Culture Exchange</div>
+</header>
+<main>
+<section class="screen" id="basic">
+<div class="section-title">
+<h2>📚 Basic Phrases</h2>
+<p>현장에서 자주 쓰는 기본 표현 · Cụm từ cơ bản</p>
+</div>
+<div class="basic-accordion">
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-0" onclick="toggleBasic(0)" type="button"><span class="basic-icon">👋</span><span class="basic-title"><span class="basic-ko">인사 &amp; 자기소개</span><span class="basic-id">Chào hỏi &amp; Giới thiệu</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-0"><div class="phrase-list"><div class="phrase"><div class="ko">안녕하세요.</div><div class="vi">Xin chào!</div><div class="pron">씬 짜오</div></div><div class="phrase"><div class="ko">저는 한국에서 왔어요.</div><div class="vi">Tôi đến từ Hàn Quốc.</div><div class="pron">또이 덴 뜨 하안 꾸옥</div></div><div class="phrase"><div class="ko">만나서 반가워요.</div><div class="vi">Rất vui được gặp bạn.</div><div class="pron">럿 부이 드억 갑 반</div></div><div class="phrase"><div class="ko">이름이 뭐예요?</div><div class="vi">Bạn tên là gì?</div><div class="pron">반 뗀 라 지?</div></div><div class="phrase"><div class="ko">제 이름은 ○○이에요.</div><div class="vi">Tên tôi là ○○.</div><div class="pron">뗀 또이 라 ○○</div></div><div class="phrase"><div class="ko">어디에서 왔어요?</div><div class="vi">Bạn đến từ đâu?</div><div class="pron">반 덴 뜨 더우?</div></div><div class="phrase"><div class="ko">베트남에 처음 왔어요.</div><div class="vi">Đây là lần đầu tôi đến Việt Nam.</div><div class="pron">데이 라 런 더우 또이 덴 비엣 남</div></div><div class="phrase"><div class="ko">베트남이 좋아요.</div><div class="vi">Tôi thích Việt Nam.</div><div class="pron">또이 틱 비엣 남</div></div></div></div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-1" onclick="toggleBasic(1)" type="button"><span class="basic-icon">🙏</span><span class="basic-title"><span class="basic-ko">정중한 표현</span><span class="basic-id">Cách nói lịch sự</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-1"><div class="phrase-list"><div class="phrase"><div class="ko">감사합니다.</div><div class="vi">Cảm ơn.</div><div class="pron">깜 언</div></div><div class="phrase"><div class="ko">미안해요.</div><div class="vi">Xin lỗi.</div><div class="pron">씬 로이</div></div><div class="phrase"><div class="ko">괜찮습니다.</div><div class="vi">Không sao.</div><div class="pron">콩 싸오</div></div><div class="phrase"><div class="ko">부탁드려요.</div><div class="vi">Làm ơn nhé.</div><div class="pron">람 언 녜</div></div><div class="phrase"><div class="ko">잠시만 기다려 주세요.</div><div class="vi">Vui lòng đợi một chút.</div><div class="pron">부이 롱 더이 못 쭛</div></div><div class="phrase"><div class="ko">다시 말씀해 주세요.</div><div class="vi">Vui lòng nói lại.</div><div class="pron">부이 롱 노이 라이</div></div><div class="phrase"><div class="ko">잘 모르겠어요.</div><div class="vi">Tôi không hiểu rõ.</div><div class="pron">또이 콩 히우 로</div></div></div></div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-2" onclick="toggleBasic(2)" type="button"><span class="basic-icon">🍽️</span><span class="basic-title"><span class="basic-ko">음식점에서</span><span class="basic-id">Tại nhà hàng</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-2">
+<div class="basic-kiosk-card">
+<div class="basic-kiosk-title">🍽️ 자주 쓰는 표현</div>
+<button class="kiosk-action" onclick="openKiosk('food-order')" type="button">🍽️ ○○ 주세요</button>
+<button class="kiosk-action" onclick="openKiosk('food-question')" type="button">❓ ○○인가요?</button>
+<button class="kiosk-action" onclick="openKiosk('food-request')" type="button">🙏 요청하기</button>
+<div class="kiosk-result" hidden="" id="kiosk-result-food"></div>
+</div>
+<div class="basic-extra-title">다른 표현</div>
+<div class="phrase-list">
+<div class="phrase"><div class="ko">메뉴판을 볼 수 있을까요?</div><div class="vi">Tôi có thể xem thực đơn được không?</div><div class="pron">또이 꼬 테 쎔 특 던 드억 콩?</div></div>
+<div class="phrase"><div class="ko">계산해 주세요.</div><div class="vi">Tính tiền giúp tôi.</div><div class="pron">띤 띠엔 줍 또이</div></div>
+<div class="phrase"><div class="ko">물 한 병 주세요.</div><div class="vi">Cho tôi một chai nước.</div><div class="pron">쪼 또이 못 짜이 느억</div></div>
+</div>
+</div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-3" onclick="toggleBasic(3)" type="button"><span class="basic-icon">☕</span><span class="basic-title"><span class="basic-ko">카페에서</span><span class="basic-id">Tại quán cà phê</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-3">
+<div class="basic-kiosk-card">
+<div class="basic-kiosk-title">☕ 주문하기</div>
+<button class="kiosk-action" onclick="openKiosk('cafe-menu')" type="button">☕ 메뉴 선택</button>
+<button class="kiosk-action" onclick="openKiosk('cafe-option')" type="button">⚙️ 옵션 선택</button>
+<div class="kiosk-result" hidden="" id="kiosk-result-cafe"></div>
+</div>
+<div class="basic-extra-title">다른 표현</div>
+<div class="phrase-list">
+<div class="phrase"><div class="ko">여기서 마실게요.</div><div class="vi">Tôi sẽ uống ở đây.</div><div class="pron">또이 세 우옹 어 데이</div></div>
+<div class="phrase"><div class="ko">포장해 주세요.</div><div class="vi">Làm ơn gói mang đi.</div><div class="pron">람 언 고이 망 디</div></div>
+<div class="phrase"><div class="ko">여기 좀 닦아 주세요.</div><div class="vi">Vui lòng lau chỗ này giúp tôi.</div><div class="pron">부이 롱 러우 쪼 나이 줍 또이</div></div>
+</div>
+</div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-4" onclick="toggleBasic(4)" type="button"><span class="basic-icon">📍</span><span class="basic-title"><span class="basic-ko">길을 물어볼 때</span><span class="basic-id">Hỏi đường</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-4">
+<div class="basic-kiosk-card">
+<div class="basic-kiosk-title">📍 장소를 선택하세요</div>
+<button class="kiosk-action" onclick="openKiosk('loc-place')" type="button">📍 장소 선택</button>
+<div class="kiosk-result" hidden="" id="kiosk-result-loc"></div>
+</div>
+<div class="basic-extra-title">다른 표현</div>
+<div class="phrase-list">
+<div class="phrase"><div class="ko">여기가 어디예요?</div><div class="vi">Đây là đâu?</div><div class="pron">데이 라 더우?</div></div>
+<div class="phrase"><div class="ko">얼마나 걸려요?</div><div class="vi">Mất bao lâu?</div><div class="pron">멋 바오 러우?</div></div>
+<div class="phrase"><div class="ko">도와주실 수 있나요?</div><div class="vi">Bạn có thể giúp tôi không?</div><div class="pron">반 꼬 테 줍 또이 콩?</div></div>
+</div>
+</div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-5" onclick="toggleBasic(5)" type="button"><span class="basic-icon">💬</span><span class="basic-title"><span class="basic-ko">일상 대화</span><span class="basic-id">Hội thoại hằng ngày</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-5"><div class="phrase-list"><div class="phrase"><div class="ko">오늘 어때요?</div><div class="vi">Hôm nay bạn thế nào?</div><div class="pron">홈 나이 반 테 나오?</div></div><div class="phrase"><div class="ko">무슨 일을 하세요?</div><div class="vi">Bạn làm nghề gì?</div><div class="pron">반 람 응에 지?</div></div><div class="phrase"><div class="ko">학생이에요?</div><div class="vi">Bạn là sinh viên à?</div><div class="pron">반 라 신 비엔 아?</div></div><div class="phrase"><div class="ko">무엇을 공부하세요?</div><div class="vi">Bạn học gì?</div><div class="pron">반 혹 지?</div></div><div class="phrase"><div class="ko">취미가 뭐예요?</div><div class="vi">Sở thích của bạn là gì?</div><div class="pron">서 틱 꾸어 반 라 지?</div></div><div class="phrase"><div class="ko">음악을 좋아해요?</div><div class="vi">Bạn thích âm nhạc không?</div><div class="pron">반 틱 암 녁 콩?</div></div><div class="phrase"><div class="ko">축구를 좋아해요?</div><div class="vi">Bạn thích bóng đá không?</div><div class="pron">반 틱 봉 다 콩?</div></div><div class="phrase"><div class="ko">한국 음식 좋아해요?</div><div class="vi">Bạn thích món ăn Hàn Quốc không?</div><div class="pron">반 틱 몬 안 한 꾸옥 콩?</div></div><div class="phrase"><div class="ko">한국에 가본 적 있어요?</div><div class="vi">Bạn đã từng đến Hàn Quốc chưa?</div><div class="pron">반 다 뜽 덴 한 꾸옥 쯔어?</div></div><div class="phrase"><div class="ko">주말에는 무엇을 해요?</div><div class="vi">Cuối tuần bạn thường làm gì?</div><div class="pron">꾸오이 뚜언 반 트엉 람 지?</div></div><div class="phrase"><div class="ko">오늘 날씨가 좋네요.</div><div class="vi">Hôm nay thời tiết đẹp nhỉ.</div><div class="pron">홈 나이 터이 띠엣 데프 니</div></div></div></div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-6" onclick="toggleBasic(6)" type="button"><span class="basic-icon">🔤</span><span class="basic-title"><span class="basic-ko">기초 단어</span><span class="basic-id">Từ vựng cơ bản</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-6"><div class="basic-sub-list"><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-people" onclick="toggleBasicSub('vocab-people')" type="button"><span class="basic-sub-title">🔤 사람</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-people"><div class="phrase-list"><div class="phrase"><div class="ko">나 / 저</div><div class="vi">Tôi / tôi</div><div class="pron">또이</div></div><div class="phrase"><div class="ko">너 / 당신</div><div class="vi">Bạn / anh / chị</div><div class="pron">반</div></div><div class="phrase"><div class="ko">당신</div><div class="vi">Bạn / anh / chị</div><div class="pron">반</div></div><div class="phrase"><div class="ko">우리</div><div class="vi">Chúng tôi / chúng ta</div><div class="pron">쭝 또이 / 쭝 따</div></div><div class="phrase"><div class="ko">그들</div><div class="vi">Họ</div><div class="pron">호</div></div><div class="phrase"><div class="ko">친구</div><div class="vi">Bạn bè</div><div class="pron">반 베</div></div><div class="phrase"><div class="ko">사람</div><div class="vi">Người</div><div class="pron">응으어이</div></div><div class="phrase"><div class="ko">남자</div><div class="vi">Đàn ông</div><div class="pron">단 옹</div></div><div class="phrase"><div class="ko">여자</div><div class="vi">Phụ nữ</div><div class="pron">푸 녀</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-question" onclick="toggleBasicSub('vocab-question')" type="button"><span class="basic-sub-title">🔤 의문사</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-question"><div class="phrase-list"><div class="phrase"><div class="ko">무엇</div><div class="vi">Gì</div><div class="pron">지</div></div><div class="phrase"><div class="ko">누구</div><div class="vi">Ai</div><div class="pron">아이</div></div><div class="phrase"><div class="ko">어디</div><div class="vi">Ở đâu</div><div class="pron">어 더우</div></div><div class="phrase"><div class="ko">언제</div><div class="vi">Khi nào</div><div class="pron">키 나오</div></div><div class="phrase"><div class="ko">왜</div><div class="vi">Tại sao</div><div class="pron">따이 싸오</div></div><div class="phrase"><div class="ko">어떻게</div><div class="vi">Như thế nào</div><div class="pron">느 테 나오</div></div><div class="phrase"><div class="ko">얼마 / 몇</div><div class="vi">Bao nhiêu / mấy</div><div class="pron">바오 니에우 / 머이</div></div><div class="phrase"><div class="ko">어느</div><div class="vi">Nào</div><div class="pron">나오</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-verbs" onclick="toggleBasicSub('vocab-verbs')" type="button"><span class="basic-sub-title">🔤 기본 동사</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-verbs"><div class="phrase-list"><div class="phrase"><div class="ko">있다</div><div class="vi">Có</div><div class="pron">꼬</div></div><div class="phrase"><div class="ko">없다</div><div class="vi">Không có</div><div class="pron">콩 꼬</div></div><div class="phrase"><div class="ko">먹다</div><div class="vi">Ăn</div><div class="pron">안</div></div><div class="phrase"><div class="ko">마시다</div><div class="vi">Uống</div><div class="pron">우옹</div></div><div class="phrase"><div class="ko">가다</div><div class="vi">Đi</div><div class="pron">디</div></div><div class="phrase"><div class="ko">오다</div><div class="vi">Đến</div><div class="pron">덴</div></div><div class="phrase"><div class="ko">보다</div><div class="vi">Xem</div><div class="pron">쎔</div></div><div class="phrase"><div class="ko">알다</div><div class="vi">Biết</div><div class="pron">비엣</div></div><div class="phrase"><div class="ko">이해하다</div><div class="vi">Hiểu</div><div class="pron">히에우</div></div><div class="phrase"><div class="ko">말하다</div><div class="vi">Nói</div><div class="pron">노이</div></div><div class="phrase"><div class="ko">듣다</div><div class="vi">Nghe</div><div class="pron">응에</div></div><div class="phrase"><div class="ko">기다리다</div><div class="vi">Chờ</div><div class="pron">쩌</div></div><div class="phrase"><div class="ko">도와주다</div><div class="vi">Giúp</div><div class="pron">줍</div></div><div class="phrase"><div class="ko">사다</div><div class="vi">Mua</div><div class="pron">무어</div></div><div class="phrase"><div class="ko">주다</div><div class="vi">Cho</div><div class="pron">쪼</div></div><div class="phrase"><div class="ko">가져오다</div><div class="vi">Mang đến</div><div class="pron">망 덴</div></div><div class="phrase"><div class="ko">찾다</div><div class="vi">Tìm</div><div class="pron">띰</div></div><div class="phrase"><div class="ko">좋아하다</div><div class="vi">Thích</div><div class="pron">틱</div></div><div class="phrase"><div class="ko">원하다</div><div class="vi">Muốn</div><div class="pron">무온</div></div><div class="phrase"><div class="ko">할 수 있다</div><div class="vi">Có thể</div><div class="pron">꼬 테</div></div><div class="phrase"><div class="ko">해도 된다</div><div class="vi">Được phép</div><div class="pron">드억 펩</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-state" onclick="toggleBasicSub('vocab-state')" type="button"><span class="basic-sub-title">🔤 상태·성질</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-state"><div class="phrase-list"><div class="phrase"><div class="ko">좋다</div><div class="vi">Tốt</div><div class="pron">똣</div></div><div class="phrase"><div class="ko">맛있다</div><div class="vi">Ngon</div><div class="pron">응온</div></div><div class="phrase"><div class="ko">맵다</div><div class="vi">Cay</div><div class="pron">까이</div></div><div class="phrase"><div class="ko">달다</div><div class="vi">Ngọt</div><div class="pron">응옷</div></div><div class="phrase"><div class="ko">뜨겁다</div><div class="vi">Nóng</div><div class="pron">농</div></div><div class="phrase"><div class="ko">차갑다</div><div class="vi">Lạnh</div><div class="pron">라인</div></div><div class="phrase"><div class="ko">크다</div><div class="vi">Lớn</div><div class="pron">런</div></div><div class="phrase"><div class="ko">작다</div><div class="vi">Nhỏ</div><div class="pron">뇨</div></div><div class="phrase"><div class="ko">많다</div><div class="vi">Nhiều</div><div class="pron">니에우</div></div><div class="phrase"><div class="ko">적다 / 조금</div><div class="vi">Ít / một chút</div><div class="pron">잇 / 못 쭛</div></div><div class="phrase"><div class="ko">빠르다</div><div class="vi">Nhanh</div><div class="pron">냐인</div></div><div class="phrase"><div class="ko">느리다</div><div class="vi">Chậm</div><div class="pron">쩜</div></div><div class="phrase"><div class="ko">비싸다</div><div class="vi">Đắt</div><div class="pron">닷</div></div><div class="phrase"><div class="ko">싸다</div><div class="vi">Rẻ</div><div class="pron">제</div></div><div class="phrase"><div class="ko">쉽다</div><div class="vi">Dễ</div><div class="pron">제</div></div><div class="phrase"><div class="ko">어렵다</div><div class="vi">Khó</div><div class="pron">코</div></div><div class="phrase"><div class="ko">바쁘다</div><div class="vi">Bận</div><div class="pron">번</div></div><div class="phrase"><div class="ko">피곤하다</div><div class="vi">Mệt</div><div class="pron">멧</div></div><div class="phrase"><div class="ko">괜찮다</div><div class="vi">Ổn</div><div class="pron">온</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-time" onclick="toggleBasicSub('vocab-time')" type="button"><span class="basic-sub-title">🔤 시간</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-time"><div class="phrase-list"><div class="phrase"><div class="ko">지금</div><div class="vi">Bây giờ</div><div class="pron">바이 저</div></div><div class="phrase"><div class="ko">오늘</div><div class="vi">Hôm nay</div><div class="pron">홈 나이</div></div><div class="phrase"><div class="ko">내일</div><div class="vi">Ngày mai</div><div class="pron">응아이 마이</div></div><div class="phrase"><div class="ko">어제</div><div class="vi">Hôm qua</div><div class="pron">홈 꽈</div></div><div class="phrase"><div class="ko">아침</div><div class="vi">Buổi sáng</div><div class="pron">부오이 싸앙</div></div><div class="phrase"><div class="ko">점심</div><div class="vi">Buổi trưa</div><div class="pron">부오이 쯩</div></div><div class="phrase"><div class="ko">저녁</div><div class="vi">Buổi tối</div><div class="pron">부오이 또이</div></div><div class="phrase"><div class="ko">나중에</div><div class="vi">Lát nữa</div><div class="pron">랏 느어</div></div><div class="phrase"><div class="ko">지금 바로</div><div class="vi">Ngay bây giờ</div><div class="pron">응아이 바이 저</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-places" onclick="toggleBasicSub('vocab-places')" type="button"><span class="basic-sub-title">🔤 장소</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-places"><div class="phrase-list"><div class="phrase"><div class="ko">여기</div><div class="vi">Ở đây</div><div class="pron">어 데이</div></div><div class="phrase"><div class="ko">거기 / 저기</div><div class="vi">Ở đó / đằng kia</div><div class="pron">어 도 / 당 끼아</div></div><div class="phrase"><div class="ko">화장실</div><div class="vi">Nhà vệ sinh</div><div class="pron">냐 베 신</div></div><div class="phrase"><div class="ko">식당</div><div class="vi">Nhà hàng</div><div class="pron">냐 항</div></div><div class="phrase"><div class="ko">카페</div><div class="vi">Quán cà phê</div><div class="pron">꽌 까 페</div></div><div class="phrase"><div class="ko">편의점</div><div class="vi">Cửa hàng tiện lợi</div><div class="pron">끄어 항 띠엔 러이</div></div><div class="phrase"><div class="ko">약국</div><div class="vi">Nhà thuốc</div><div class="pron">냐 투옥</div></div><div class="phrase"><div class="ko">병원</div><div class="vi">Bệnh viện</div><div class="pron">베엔 비엔</div></div><div class="phrase"><div class="ko">공항</div><div class="vi">Sân bay</div><div class="pron">선 바이</div></div><div class="phrase"><div class="ko">호텔</div><div class="vi">Khách sạn</div><div class="pron">칵 싼</div></div><div class="phrase"><div class="ko">은행</div><div class="vi">Ngân hàng</div><div class="pron">응언 항</div></div><div class="phrase"><div class="ko">시장</div><div class="vi">Chợ</div><div class="pron">쩌</div></div><div class="phrase"><div class="ko">상점</div><div class="vi">Cửa hàng</div><div class="pron">끄어 항</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-food" onclick="toggleBasicSub('vocab-food')" type="button"><span class="basic-sub-title">🔤 음식·음료</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-food"><div class="phrase-list"><div class="phrase"><div class="ko">음식</div><div class="vi">Đồ ăn</div><div class="pron">도 안</div></div><div class="phrase"><div class="ko">물</div><div class="vi">Nước</div><div class="pron">느억</div></div><div class="phrase"><div class="ko">밥</div><div class="vi">Cơm</div><div class="pron">껌</div></div><div class="phrase"><div class="ko">커피</div><div class="vi">Cà phê</div><div class="pron">까 페</div></div><div class="phrase"><div class="ko">차</div><div class="vi">Trà</div><div class="pron">짜</div></div><div class="phrase"><div class="ko">우유</div><div class="vi">Sữa</div><div class="pron">쓰어</div></div><div class="phrase"><div class="ko">설탕</div><div class="vi">Đường</div><div class="pron">드엉</div></div><div class="phrase"><div class="ko">닭고기</div><div class="vi">Thịt gà</div><div class="pron">띳 가</div></div><div class="phrase"><div class="ko">소고기</div><div class="vi">Thịt bò</div><div class="pron">띳 보</div></div><div class="phrase"><div class="ko">돼지고기</div><div class="vi">Thịt heo</div><div class="pron">띳 헤오</div></div><div class="phrase"><div class="ko">생선</div><div class="vi">Cá</div><div class="pron">까</div></div><div class="phrase"><div class="ko">채소</div><div class="vi">Rau</div><div class="pron">라우</div></div><div class="phrase"><div class="ko">과일</div><div class="vi">Trái cây</div><div class="pron">짜이 꺼이</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-direction" onclick="toggleBasicSub('vocab-direction')" type="button"><span class="basic-sub-title">🔤 방향·위치</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-direction"><div class="phrase-list"><div class="phrase"><div class="ko">왼쪽</div><div class="vi">Bên trái</div><div class="pron">벤 짜이</div></div><div class="phrase"><div class="ko">오른쪽</div><div class="vi">Bên phải</div><div class="pron">벤 파이</div></div><div class="phrase"><div class="ko">앞</div><div class="vi">Phía trước</div><div class="pron">피아 쯔억</div></div><div class="phrase"><div class="ko">뒤</div><div class="vi">Phía sau</div><div class="pron">피아 싸우</div></div><div class="phrase"><div class="ko">위</div><div class="vi">Phía trên</div><div class="pron">피아 쩬</div></div><div class="phrase"><div class="ko">아래</div><div class="vi">Phía dưới</div><div class="pron">피아 즈어이</div></div><div class="phrase"><div class="ko">안</div><div class="vi">Bên trong</div><div class="pron">벤 쫑</div></div><div class="phrase"><div class="ko">밖</div><div class="vi">Bên ngoài</div><div class="pron">벤 응오아이</div></div><div class="phrase"><div class="ko">가까이</div><div class="vi">Gần</div><div class="pron">건</div></div><div class="phrase"><div class="ko">멀리</div><div class="vi">Xa</div><div class="pron">싸</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-numbers" onclick="toggleBasicSub('vocab-numbers')" type="button"><span class="basic-sub-title">🔤 숫자</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-numbers"><div class="phrase-list"><div class="phrase"><div class="ko">하나</div><div class="vi">Một</div><div class="pron">못</div></div><div class="phrase"><div class="ko">둘</div><div class="vi">Hai</div><div class="pron">하이</div></div><div class="phrase"><div class="ko">셋</div><div class="vi">Ba</div><div class="pron">바</div></div><div class="phrase"><div class="ko">넷</div><div class="vi">Bốn</div><div class="pron">본</div></div><div class="phrase"><div class="ko">다섯</div><div class="vi">Năm</div><div class="pron">남</div></div><div class="phrase"><div class="ko">여섯</div><div class="vi">Sáu</div><div class="pron">싸우</div></div><div class="phrase"><div class="ko">일곱</div><div class="vi">Bảy</div><div class="pron">바이</div></div><div class="phrase"><div class="ko">여덟</div><div class="vi">Tám</div><div class="pron">땀</div></div><div class="phrase"><div class="ko">아홉</div><div class="vi">Chín</div><div class="pron">찐</div></div><div class="phrase"><div class="ko">열</div><div class="vi">Mười</div><div class="pron">므어이</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-polite" onclick="toggleBasicSub('vocab-polite')" type="button"><span class="basic-sub-title">🔤 기본 표현</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-polite"><div class="phrase-list"><div class="phrase"><div class="ko">네 / 예</div><div class="vi">Vâng / dạ</div><div class="pron">봉 / 자</div></div><div class="phrase"><div class="ko">아니요</div><div class="vi">Không</div><div class="pron">콩</div></div><div class="phrase"><div class="ko">감사합니다</div><div class="vi">Cảm ơn</div><div class="pron">깜 언</div></div><div class="phrase"><div class="ko">미안해요</div><div class="vi">Xin lỗi</div><div class="pron">씬 로이</div></div><div class="phrase"><div class="ko">부탁해요</div><div class="vi">Làm ơn</div><div class="pron">람 언</div></div><div class="phrase"><div class="ko">괜찮아요</div><div class="vi">Không sao</div><div class="pron">콩 싸오</div></div><div class="phrase"><div class="ko">잠시만</div><div class="vi">Một chút / chờ một chút</div><div class="pron">못 쭛 / 쪄 못 쭛</div></div></div></div>
+</div></div></div>
+</div>
+</div>
+</section>
+<section class="screen" hidden="" id="talk">
+<div class="section-title">
+<h2>💬 Let's Talk!</h2>
+<p>대화 주제를 선택하세요 · Chọn chủ đề trò chuyện</p>
+</div>
+<div class="topic-grid" id="topicPicker">
+<button class="topic" onclick="openTopic('food')"><div class="emoji">🍜</div><div class="ko">음식 &amp; 카페</div><div class="vi">Ẩm thực &amp; Cà phê</div></button>
+<button class="topic" onclick="openTopic('music')"><div class="emoji">🎵</div><div class="ko">음악</div><div class="vi">Âm nhạc</div></button>
+<button class="topic" onclick="openTopic('sports')"><div class="emoji">⚽</div><div class="ko">스포츠</div><div class="vi">Thể thao</div></button>
+<button class="topic" onclick="openTopic('school')"><div class="emoji">🏫</div><div class="ko">일 &amp; 학교</div><div class="vi">Công việc &amp; Trường học</div></button>
+<button class="topic" onclick="openTopic('korea')"><div class="emoji">🇰🇷</div><div class="ko">한국 문화</div><div class="vi">Văn hóa Hàn Quốc</div></button>
+</div>
+<div id="talkFlow"></div>
+</section>
+<section class="screen" hidden="" id="translate">
+<div class="section-title">
+<h2>🔄 Translate</h2>
+<p>한국어 ↔ 베트남어 · 글로 주고받는 양방향 통역</p>
+</div>
+<div class="translation-box">
+<div class="dir-row">
+<div class="dir-chip" id="dirFrom">🇰🇷 한국어</div>
+<button aria-label="방향 바꾸기" class="swap-btn" id="swapBtn" onclick="swapDirection()" type="button">⇄</button>
+<div class="dir-chip" id="dirTo">🇻🇳 Tiếng Việt</div>
+</div>
+<textarea class="tr-input" id="srcText" oninput="updateCounter()" onkeydown="inputKey(event)" placeholder="번역할 문장을 입력하세요." rows="3"></textarea>
+<div class="tr-meta">
+<span id="charCount">0자</span>
+<span class="tr-hint">Ctrl/⌘ + Enter 로도 번역</span>
+</div>
+<div class="tr-actions">
+<button class="tr-go" onclick="runTranslate()" type="button">🔄 번역하기</button>
+<button class="tr-clear" onclick="clearInput()" type="button">지우기</button>
+</div>
+</div>
+<div id="trResult"></div>
+<div class="tr-quick">
+<div class="tr-quick-label">⚡ 자주 쓰는 문장</div>
+<div class="tr-quick-list">
+<button class="tr-quick-btn" onclick="quickFill('너무 비싸요.')" type="button">너무 비싸요</button>
+<button class="tr-quick-btn" onclick="quickFill('화장실이 어디예요?')" type="button">화장실이 어디예요?</button>
+<button class="tr-quick-btn" onclick="quickFill('도와주세요.')" type="button">도와주세요</button>
+<button class="tr-quick-btn" onclick="quickFill('이거 매워요?')" type="button">이거 매워요?</button>
+<button class="tr-quick-btn" onclick="quickFill('다시 말씀해 주세요.')" type="button">다시 말씀해 주세요</button>
+<button class="tr-quick-btn" onclick="quickFill('계산해 주세요.')" type="button">계산해 주세요</button>
+</div>
+</div>
+<div class="tr-history" hidden="" id="trHistoryWrap">
+<div class="tr-history-head">
+<span>🕘 최근 번역</span>
+<button class="tr-history-clear" onclick="clearHistory()" type="button">전체 삭제</button>
+</div>
+<div id="trHistory"></div>
+</div>
+<div class="note">
+    🔤 기초 단어는 온라인 번역보다 먼저 앱 사전에서 찾습니다.<br/>
+    📚 앱에 들어 있는 문장은 <b>인터넷 없이</b> 즉시 번역됩니다.<br/>
+    🌐 기초 어휘·앱 문장에 없는 문장은 온라인 번역을 사용합니다.<br/>
+    발음은 베트남어 발음을 한국어로 쉽게 읽을 수 있도록 옮긴 표기입니다.
+  </div>
+</section>
+<div class="big-view" hidden="" id="bigView" onclick="closeBig()">
+<div class="big-inner">
+<div class="big-label">상대에게 보여주세요</div>
+<div class="big-text" id="bigText"></div>
+<div class="big-sub" id="bigSub"></div>
+<div class="big-close">화면을 누르면 닫힙니다</div>
+</div>
+</div>
+</main>
+</div>
+<nav class="bottom-nav">
+<div class="bottom-nav-inner">
+<button class="nav-btn active" id="nav-basic" onclick="showTab('basic')"><span class="nav-icon">📚</span><span class="nav-label">Basic Phrases</span></button>
+<button class="nav-btn" id="nav-talk" onclick="showTab('talk')"><span class="nav-icon">💬</span><span class="nav-label">Let's Talk!</span></button>
+<button class="nav-btn" id="nav-translate" onclick="showTab('translate')"><span class="nav-icon">🔄</span><span class="nav-label">Translate</span></button>
+</div>
+</nav>
+<script src="../data/vietnam.js"></script>
+<script>
+/* Let's Talk 대화 데이터 — 한국어/베트남어/발음이 한자리에 있습니다.
+   발음은 데이터로 저장되며 실행 중에 생성하지 않습니다. */
+let topics={};
+
+// Static Vietnamese dataset: no online translation is used for Let's Talk.
+
+// 베트남어 한글 발음: 자주 쓰이는 표현을 기준으로 한 실사용용 근사 표기입니다.
+const VI_PRON_WORDS={
+'nướng':'느엉',
+'Busan':'부산','Hàn Quốc':'한 꾸옥','Jeju':'제주','K-pop':'케이팝','Netflix':'넷플릭스','Seoul':'서울','ai':'아이','americano':'아메리까노','anh':'아인','atm':'에이티엠','ballad':'발라드','bao':'바오','bay':'바이','biết':'비엣','biển':'비엔','biệt':'비엣','bulgogi':'불고기','busan':'부산','buýt':'부잇','buổi':'부오이','bà':'바','bài':'바이','bánh':'바인','bè':'베','bò':'보','bóng':'봉','bún':'분','bơ':'버','bơi':'버이','bạn':'반','bạn bè':'반 베','bảy':'바이','bận':'번','bắt':'밧','bằng':'방','bệnh':'베인','bị':'비','bốn':'본','bộ':'보','bởi':'버이','ca':'까','canh':'까인','cappuccino':'까푸치노','cay':'까이','chai':'짜이','chanh':'짜인','chiên':'찌엔','chiếc':'찌엑','cho':'쪼','chua':'쭈어','chuyện':'쭈옌','chuẩn':'쭈언','chào':'짜오','chày':'짜이','chín':'찐','chút':'쭛','chơi':'쩌이','chưa':'쯔어','chả':'짜','chậm':'쩜','chị':'찌','chọn':'쫀','chỗ':'쪼','chờ':'쩌','chợ':'쩌','chụp':'쭙','con':'꼰','croissant':'크루아상','cuối':'꾸오이','cuốn':'꾸온','cuộc':'꾸옥','cà':'까','cá':'까','các':'깍','cách':'까익','câu':'꺼우','cây':'꺼이','có':'꼬','cô':'꼬','công':'꽁','cùng':'꿍','căng':'깡','cũng':'꿍','cơm':'껌','cả':'까','cảm':'깜','cảnh':'까인','cần':'껀','cầu':'꺼우','cố':'꼬','cốc':'꼭','cổ':'꼬','cỡ':'꺼','cụ':'꾸','của':'꾸어','cửa':'끄어','dance':'댄스','dj':'디제이','doanh':'조아인','du':'주','dành':'자인','dạ':'자','dẫn':'전','dễ':'제','dịch':'직','dục':'죽','dừa':'즈어','dự':'즈','em':'엠','espresso':'에스프레소','ga':'가','gia':'자','gian':'지안','giàu':'자우','giá':'자','giúp':'줍','giải':'자이','giới':'저이','giờ':'저','gà':'가','gì':'지','gói':'고이','gần':'건','gần đây':'건 데이','gắng':'강','gặp':'갑','gỏi':'고이','hai':'하이','hanbok':'한복','hay':'하이','heo':'헤오','hiểu':'히에우','hiện':'히엔','hiệu':'히에우','hoàn':'호안','hoặc':'호악','hàn':'한','hàng':'항','hát':'핫','hình':'힌','hòa':'호아','hóa':'호아','hôm':'홈','hơi':'허이','hơn':'헌','hấp':'헙','hằng':'항','hệ':'헤','họ':'호','học':'혹','hỏa':'호아','hỏi':'호이','hợp':'헙','internet':'인터넷','jeju':'제주','k':'케이','karaoke':'까라오께','kem':'껨','khi':'키','khiến':'키엔','khoảng':'콰앙','khoảnh':'코아인','khoẻ':'콰에','khá':'카','khác':'칵','khách':'칵','khí':'키','khó':'코','không':'콩','khăn':'칸','khẩu':'커우','khắc':'칵','khỏe':'콰에','kia':'끼아','kimchi':'김치','kinh':'낀','kể':'께','kỹ':'끼','la':'라','lai':'라이','latte':'라떼','loại':'로아이','luôn':'루온','ly':'리','là':'라','làm':'람','lâu':'러우','lòng':'롱','lông':'롱','lúc':'룩','lương':'르엉','lạc':'락','lại':'라이','lạnh':'라인','lần':'런','lắm':'람','lịch':'릭','lối':'로이','lồng':'롱','lỗi':'로이','lớn':'런','lời':'러이','lợi':'러이','mai':'마이','mang':'망','miệng':'미엥','mua':'무어','muối':'무오이','muốn':'무온','mì':'미','mình':'밍','mía':'미아','mò':'모','món':'몬','môn':'몬','mùa':'무어','mùi':'무이','mười':'므어이','mất':'멋','mấy':'머이','mệt':'멧','mỗi':'모이','một':'못','mới':'머이','mức':'믁','nam':'남','nay':'나이','nem':'넴','netflix':'넷플릭스','ngay':'응아이','nghe':'응에','nghiệp':'응이엡','nghỉ':'응이','ngon':'응온','ngoài':'응오아이','ngành':'응아인','ngày':'응아이','ngân':'응언','ngơi':'응어이','người':'응으어이','ngọc':'응옥','ngọt':'응옷','nhanh':'냐인','nhau':'냐우','nhiêu':'니에우','nhiều':'니에우','nhà':'냐','nhàng':'냥','nhé':'녜','nhóm':'뇸','như':'느','nhạc':'냑','nhảy':'냐이','nhất':'녓','nhẹ':'녜','nhỏ':'뇨','nhớ':'녀','nhỡ':'녀','những':'니응','nào':'나오','này':'나이','nâu':'너우','nên':'넨','nói':'노이','nóng':'농','năm':'남','năng':'낭','nơi':'너이','nước':'느억','nấu':'너우','nặng':'낭','nếu':'네우','nếu như':'네우 느','nổi':'노이','phim':'핌','phát':'팟','phê':'페','phòng':'퐁','phương':'프엉','phải':'파이','phần':'펀','phố':'포','phộng':'퐁','phở':'퍼','phụ':'푸','pop':'팝','qua':'꽈','quan':'꽌','quen':'꾸엔','quán':'꽌','quả':'꽈','quốc':'꾸옥','ra':'자','rau':'라우','riêng':'지엥','rán':'잔','rất':'럿','rẻ':'제','rồi':'조이','sa':'사','sao':'싸오','sau':'싸우','seoul':'서울','sinh':'신','siêu':'씨에우','smoothie':'스무디','suối':'쑤오이','sáng':'쌍','sát':'쌋','sáu':'싸우','sân':'선','sô':'쏘','sôi':'쏘이','sĩ':'시','sạn':'싼','sầu':'써우','sẽ':'세','sếp':'셉','số':'쏘','sống':'송','sốt':'쏫','sở':'써','sữa':'쓰어','taekwondo':'태권도','thao':'타오','thay':'타이','theo':'테오','thiệu':'티에우','thoại':'토아이','thoảng':'토앙','thuốc':'투옥','thuộc':'투옥','thành':'타인','thêm':'템','thì':'티','thích':'틱','thói':'토이','thú':'투','thường':'트엉','thưởng':'트엉','thấy':'터이','thẳng':'탕','thế':'테','thể':'테','thỉnh':'틴','thị':'티','thịt':'팃','thống':'통','thời':'터이','thứ':'트','thức':'특','thử':'트으','tin':'띤','tiếng':'띠엥','tiếp':'띠엡','tiết':'띠엣','tiền':'띠엔','tiệc':'띠엑','tiện':'띠엔','toilet':'또일렛','topping':'토핑','trong':'쫑','truyền':'쯔옌','trà':'짜','trách':'짜익','trái':'짜이','tráng':'짱','trên':'쩬','trưa':'쯔어','trưng':'쯩','trước':'쯔억','trường':'쯔엉','trạm':'짬','trận':'쩐','trẻ':'째','trợ':'쩌','trứng':'쯩','trực':'쯕','tuyệt':'뚜옛','tuần':'뚜언','tv':'띠비','tàu':'따우','tám':'땀','tâm':'떰','tây':'떠이','tên':'뗀','tìm':'띰','tính':'띤','tò':'또','tôi':'또이','tôm':'똠','tùy':'뚜이','tươi':'뜨어이','tương':'뜨엉','tại':'따이','tấm':'떰','tập':'떱','tế':'떼','tỏa':'또아','tối':'또이','tốt':'똣','từ':'뜨','từng':'뜽','tự':'뜨','uống':'우옹','video':'비디오','viên':'비엔','việc':'비엑','viện':'비엔','việt':'비엣','vui':'부이','và':'바','vào':'바오','vâng':'봉','vé':'베','vì':'비','văn':'반','văn hóa':'반 호아','vũ':'부','vận':'번','vậy':'버이','vẻ':'베','về':'베','vệ':'베','vị':'비','với':'버이','vụ':'부','vừa':'브어','xa':'싸','xe':'쎄','xem':'쎔','xin':'씬','xoài':'쏘아이','xuyên':'쑤옌','xuất':'쑤엇','xèo':'쎄오','xúc':'쑥','yêu':'이에우','à':'아','án':'안','áo':'아오','âm':'엄','ép':'엡','ít':'잇','ông':'옹','ăn':'안','đang':'당','đen':'덴','đi':'디','điều':'디에우','điểm':'디엠','điện':'디엔','đá':'다','đâu':'더우','đây':'데이','đã':'다','đình':'딘','đó':'도','đường':'드엉','được':'드억','đại':'다이','đảo':'다오','đấu':'더우','đầu':'더우','đậu':'더우','đắt':'닷','đằng':'당','đặc':'닥','đặt':'닷','đẹp':'뎁','đến':'덴','đề':'데','để':'데','địa':'디아','định':'딘','đồ':'도','đồn':'돈','đồng':'동','độ':'도','đội':'도이','động':'동','đợi':'더이','đủ':'두','đừng':'등','ơn':'언','ảnh':'아인','ổ':'오','ổn':'온','ớt':'엇','ở':'어'
+};
+
+// 베트남어 발음은 단순 철자 변환이 아니라 자주 쓰이는 구/어휘를 우선 처리한 뒤
+// 개별 단어를 변환합니다. 따라서 "Xin lỗi"처럼 두 단어가 결합된 표현도 제대로 표기됩니다.
+const VI_PRON_PHRASES={
+'cửa hàng tiện lợi':'끄어 항 띠엔 러이','văn hóa hàn quốc':'반 호아 한 꾸옥','có ngon không':'꼬 응온 콩','có nóng không':'꼬 농 콩','có ngọt không':'꼬 응옷 콩','giá bao nhiêu':'자 바오 니에우','chờ một chút':'쩌 못 쭛','có cay không':'꼬 까이 콩','đồng nghiệp':'동 응이엡','nhà vệ sinh':'냐 베 신','thường nghe':'트엉 응에','địa phương':'디아 프엉','đến từ đâu':'덴 뜨 더우','điện thoại':'디엔 토아이','không sao':'콩 싸오','công việc':'꽁 비엑','tên là gì':'뗀 라 지','bao nhiêu':'바오 니에우','bệnh viện':'베인 비엔','khách sạn':'칵 싼','bạn thích':'반 틱','tôi thích':'또이 틱','mua ở đâu':'무어 어 더우','rất thích':'럿 틱','cơm chiên':'껌 찌엔','xin chào':'씬 짜오','một chút':'못 쭛','hàn quốc':'한 꾸옥','việt nam':'비엣 남','trái cây':'짜이 꺼이','thể thao':'테 타오','ngày mai':'응아이 마이','giúp tôi':'줍 또이','tôi muốn':'또이 무온','xin lỗi':'씬 로이','văn hóa':'반 호아','rất vui':'럿 부이','gặp bạn':'갑 반','lần đầu':'런 더우','hôm nay':'홈 나이','hôm qua':'홈 꽈','tại sao':'따이 싸오','thế nào':'테 나오','sân bay':'선 바이','tôi cần':'또이 껀','đặt chỗ':'닷 쪼','gần đây':'건 데이','bài hát':'바이 핫','âm nhạc':'엄 냑','bulgogi':'불고기','cảm ơn':'깜 언','làm ơn':'람 언','cà phê':'까 페','bạn bè':'반 베','có thể':'꼬 테','bạn có':'반 꼬','kimchi':'김치','ở đâu':'어 더우','ca sĩ':'까 시','k-pop':'케이팝'
+};
+function viPron(text){
+  let s=(text||'').trim();
+  if(!s) return '';
+  // 가장 긴 구부터 치환합니다. 괄호/구두점은 별도로 보존합니다.
+  const phrases=Object.keys(VI_PRON_PHRASES).sort((a,b)=>b.length-a.length);
+  const marked=[];
+  phrases.forEach(ph=>{
+    const re=new RegExp('(^|[^\\p{L}])('+ph.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')(?=$|[^\\p{L}])','giu');
+    s=s.replace(re,(m,pre)=>{const token='§'+marked.length+'§';marked.push(VI_PRON_PHRASES[ph]);return pre+token;});
+  });
+  s=s.split(/(§\d+§)/).map(part=>{
+    const m=part.match(/^§(\d+)§$/); if(m) return marked[Number(m[1])]||'';
+    return part.split(/(\s+)/).map(tok=>{
+      const m2=tok.match(/^([^\p{L}]*)([\p{L}À-ỹ-]+)([^\p{L}]*)$/u);
+      if(!m2) return tok;
+      const word=m2[2].toLowerCase();
+      return m2[1]+(VI_PRON_WORDS[word]||m2[2])+m2[3];
+    }).join('');
+  }).join('');
+  return s.replace(/§\d+§/g,'').replace(/\s{2,}/g,' ').trim();
+}
+
+
+function closeBasicAccordions(){
+  // Basic Phrases의 1단계/2단계 아코디언을 모두 닫습니다.
+  document.querySelectorAll("#basic .basic-panel.open,#basic .basic-sub-panel.open").forEach(el=>el.classList.remove("open"));
+  document.querySelectorAll("#basic .basic-toggle.open,#basic .basic-sub-toggle.open").forEach(el=>el.classList.remove("open"));
+}
+
+function toggleBasicSub(key){
+  const panel=document.getElementById("basic-sub-panel-"+key);
+  const btn=document.getElementById("basic-sub-btn-"+key);
+  const wasOpen=panel.classList.contains("open");
+  const parent=btn.closest(".basic-panel");
+  // 같은 1단계 메뉴 안에서는 한 번에 하나의 2단계만 엽니다.
+  parent.querySelectorAll(".basic-sub-panel.open").forEach(el=>el.classList.remove("open"));
+  parent.querySelectorAll(".basic-sub-toggle.open").forEach(el=>el.classList.remove("open"));
+  if(!wasOpen){panel.classList.add("open");btn.classList.add("open");}
+}
+
+function toggleBasic(index){
+  const panel=document.getElementById("basic-panel-"+index);
+  const btn=document.getElementById("basic-btn-"+index);
+  const wasOpen=panel.classList.contains("open");
+  // 다른 1단계 메뉴를 누르는 순간 기존의 2단계까지 모두 초기화합니다.
+  closeBasicAccordions();
+  if(!wasOpen){panel.classList.add("open");btn.classList.add("open");}
+}
+
+/* 한국어 조사(은/는) 자동 선택 */
+function capFirst(t){return t?t.charAt(0).toUpperCase()+t.slice(1):t;}
+function josaEunNeun(w){
+  const c=(w||'').slice(-1); const code=c.charCodeAt(0);
+  if(code>=0xAC00&&code<=0xD7A3) return ((code-0xAC00)%28)?'은':'는';
+  return '은';
+}
+
+/* 키오스크 데이터 — 한국어/베트남어/발음을 한자리에서 관리합니다.
+   발음은 검수된 값이며 자동 생성하지 않습니다. */
+const KIOSK_DATA={
+  'food-order':{target:'kiosk-result-food',title:'무엇을 주문할까요?',choices:[
+    ['쌀국수','phở','퍼'],['분짜','bún chả','분 짜'],['반미','bánh mì','바인 미'],
+    ['껌떰(덮밥)','cơm tấm','껌 떰'],['반쎄오','bánh xèo','바인 쎄오'],
+    ['월남쌈','gỏi cuốn','고이 꾸온'],['짜조(튀김롤)','nem rán','넴 잔'],
+    ['볶음면','mì xào','미 싸오'],['볶음밥','cơm chiên','껌 찌엔'],
+    ['밥','cơm','껌'],['물','nước','느억']
+  ],template:(x)=>({ko:x[0]+' 주세요.',vi:'Cho tôi '+x[1]+'.',pron:'쪼 또이 '+x[2]}),
+    alternate:(x)=>({ko:x[0]+' 있나요?',vi:'Có '+x[1]+' không?',pron:'꼬 '+x[2]+' 콩?'})},
+  'food-question':{target:'kiosk-result-food',title:'무엇을 물어볼까요?',choices:[
+    ['매운가요?','Món này có cay không?','몬 나이 꼬 까이 콩?'],
+    ['뜨거운가요?','Món này có nóng không?','몬 나이 꼬 농 콩?'],
+    ['달아요?','Món này có ngọt không?','몬 나이 꼬 응옷 콩?'],
+    ['맛있나요?','Món này có ngon không?','몬 나이 꼬 응온 콩?'],
+    ['고기가 들어 있나요?','Món này có thịt không?','몬 나이 꼬 팃 콩?'],
+    ['포장할 수 있나요?','Có thể gói mang đi không?','꼬 테 고이 망 디 콩?'],
+    ['여기서 먹을 수 있나요?','Có thể ăn ở đây không?','꼬 테 안 어 데이 콩?'],
+    ['지금 주문할 수 있나요?','Bây giờ gọi món được không?','버이 저 고이 몬 드억 콩?']
+  ],template:(x)=>({ko:x[0],vi:x[1],pron:x[2]})},
+  'food-request':{target:'kiosk-result-food',title:'어떻게 요청할까요?',choices:[
+    ['맵지 않게 해주세요.','Làm ơn đừng cay.','람 언 등 까이.'],
+    ['물 한 병 주세요.','Cho tôi một chai nước.','쪼 또이 못 짜이 느억.'],
+    ['얼음은 빼 주세요.','Không cho đá nhé.','콩 쪼 다 녜.'],
+    ['조금만 주세요.','Cho tôi một ít thôi.','쪼 또이 못 잇 토이.'],
+    ['계산해 주세요.','Tính tiền giúp tôi.','띤 띠엔 줍 또이.']
+  ],template:(x)=>({ko:x[0],vi:x[1],pron:x[2]})},
+  'cafe-menu':{target:'kiosk-result-cafe',title:'메뉴를 선택하세요',choices:[
+    ['연유 커피(아이스)','cà phê sữa đá','까 페 쓰어 다'],
+    ['블랙 커피(아이스)','cà phê đen đá','까 페 덴 다'],
+    ['코코넛 커피','cà phê dừa','까 페 즈어'],
+    ['아메리카노','americano','아메리까노'],
+    ['밀크티','trà sữa','짜 쓰어'],['아이스티','trà đá','짜 다'],['차','trà','짜'],
+    ['생과일주스','nước ép trái cây','느억 엡 짜이 꺼이'],
+    ['스무디','sinh tố','신 또'],['생수','nước suối','느억 쑤오이'],
+    ['케이크','bánh ngọt','바인 응옷'],['반미','bánh mì','바인 미']
+  ],template:(x)=>({ko:x[0]+' 주세요.',vi:'Cho tôi '+x[1]+'.',pron:'쪼 또이 '+x[2]}),
+    alternate:(x)=>({ko:x[0]+' 있나요?',vi:'Có '+x[1]+' không?',pron:'꼬 '+x[2]+' 콩?'})},
+  'cafe-option':{target:'kiosk-result-cafe',title:'옵션을 선택하세요',choices:[
+    ['아이스로 주세요.','Cho đá nhé.','쪼 다 녜.'],
+    ['뜨겁게 주세요.','Cho nóng nhé.','쪼 농 녜.'],
+    ['작은 사이즈로 주세요.','Cho cỡ nhỏ nhé.','쪼 꺼 뇨 녜.'],
+    ['중간 사이즈로 주세요.','Cho cỡ vừa nhé.','쪼 꺼 브어 녜.'],
+    ['큰 사이즈로 주세요.','Cho cỡ lớn nhé.','쪼 꺼 런 녜.'],
+    ['설탕은 조금만 주세요.','Cho ít đường nhé.','쪼 잇 드엉 녜.']
+  ],template:(x)=>({ko:x[0],vi:x[1],pron:x[2]})},
+  'loc-place':{target:'kiosk-result-loc',title:'장소를 선택하세요',choices:[
+    ['화장실','nhà vệ sinh','냐 베 신'],['편의점','cửa hàng tiện lợi','끄어 항 띠엔 러이'],
+    ['식당','nhà hàng','냐 항'],['카페','quán cà phê','꽌 까 페'],
+    ['약국','nhà thuốc','냐 투옥'],['병원','bệnh viện','베인 비엔'],
+    ['ATM','máy ATM','마이 에이티엠'],['출구','lối ra','로이 자'],
+    ['공항','sân bay','선 바이'],['버스 정류장','trạm xe buýt','짬 쎄 부잇'],
+    ['기차역','ga tàu','가 따우'],['호텔','khách sạn','칵 싼'],
+    ['은행','ngân hàng','응언 항'],['시장','chợ','쩌'],
+    ['경찰서','đồn công an','돈 꽁 안']
+  ],template:(x)=>({ko:x[0]+josaEunNeun(x[0])+' 어디예요?',vi:capFirst(x[1])+' ở đâu?',pron:x[2]+' 어 더우?'}),
+    alternate:(x)=>({ko:x[0]+'에 어떻게 가나요?',vi:'Đi đến '+x[1]+' như thế nào?',pron:'디 덴 '+x[2]+' 느 테 나오?'})}
+};
+function renderKioskSentence(r, label){
+  return '<div class="kiosk-sentence"><div class="kiosk-sentence-label">'+label+'</div><div class="ko">'+esc(r.ko)+'</div><div class="vi">'+esc(r.vi)+'</div><div class="pron">'+esc(r.pron)+'</div></div>';
+}
+function openKiosk(key){
+  const d=KIOSK_DATA[key]; if(!d)return;
+  const target=document.getElementById(d.target); if(!target)return;
+  target.hidden=false;
+  target.innerHTML='<div style="font-weight:800;margin-bottom:8px">'+d.title+'</div><div class="kiosk-menu">'+d.choices.map((x,i)=>'<button class="kiosk-choice" type="button" onclick="selectKiosk(\''+key+'\','+i+')">'+x[0]+'</button>').join('')+'</div><div class="kiosk-sentence-area" id="'+d.target+'-sentence-area"></div><button class="kiosk-close" type="button" onclick="closeKiosk(\''+d.target+'\')">닫기</button>';
+  document.querySelectorAll('.kiosk-result').forEach(el=>{if(el!==target){el.hidden=true;el.innerHTML='';}});
+}
+function selectKiosk(key,i){
+  const d=KIOSK_DATA[key]; const x=d.choices[i]; const target=document.getElementById(d.target); if(!target)return;
+  const area=document.getElementById(d.target+'-sentence-area'); if(!area)return;
+  const r=d.template(x);
+  let html=renderKioskSentence(r,'사용할 문장');
+  if(d.alternate) html+=renderKioskSentence(d.alternate(x),'다른 표현');
+  area.innerHTML=html;
+  target.hidden=false;
+  area.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function closeKiosk(id){const el=document.getElementById(id);if(el){el.hidden=true;el.innerHTML='';}}
+
+let currentTopicKey=null;
+
+function showTab(id){
+  // 탭을 다시 선택하거나 다른 탭으로 이동하면 Basic Phrases의
+  // 1단계/2단계 아코디언 상태를 초기화합니다.
+  closeBasicAccordions();
+  if(id==="talk"){resetTalk();}
+  ["basic","talk","translate"].forEach(x=>document.getElementById(x).hidden=x!==id);
+  ["basic","talk","translate"].forEach(x=>document.getElementById("nav-"+x).classList.toggle("active",x===id));
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+async function openTopic(key){
+  if(languageDataReady) await languageDataReady;
+  if(!topics || !topics[key]){
+    console.error("Let's Talk data is not ready:", key);
+    return;
+  }
+  currentTopicKey=key;
+  document.getElementById("topicPicker").style.display="none";
+  renderQuestionList();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function closeTopic(){
+  resetTalk();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function resetTalk(){
+  currentTopicKey=null;
+  document.getElementById("topicPicker").style.display="";
+  document.getElementById("talkFlow").innerHTML="";
+}
+
+/* 베트남어(대) → 발음(중) → 한국어(소) 3단 표기 */
+function trio(o){
+  return '<span class="t-vi">'+o.vi+'</span>'+
+         '<span class="t-pron">'+o.pron+'</span>'+
+         '<span class="t-ko">'+o.ko+'</span>';
+}
+
+function backBtn(action,label){
+  return '<button class="back" onclick="'+action+'"><span class="back-arrow">←</span>'+label+'</button>';
+}
+
+function renderQuestionList(){
+  const t=topics[currentTopicKey];
+  const out=document.getElementById("talkFlow");
+  if(!t||!out) return;
+  out.innerHTML=backBtn("closeTopic()","주제 선택으로")+
+    '<div class="section-title"><h2>'+t.title+'</h2><p>질문을 누르면 예시 답변이, 답변을 누르면 꼬리 질문이 펼쳐집니다.</p></div>'+
+    '<div class="question-btn-list">'+t.q.map((q,i)=>
+      '<div class="q-item">'+
+        '<button class="question-btn" id="qbtn-'+i+'" onclick="toggleQuestion('+i+')">'+
+          '<span class="qnum">'+(i+1)+'</span>'+
+          '<span class="qtext">'+trio(q)+'</span>'+
+          '<span class="qtoggle">⌄</span>'+
+        '</button>'+
+        '<div class="q-panel" id="qpanel-'+i+'">'+
+          '<div class="choice-label">💡 이렇게 대답해 보세요 · Hãy trả lời như thế này</div>'+
+          '<div class="choice-list">'+q.choices.map((c,ci)=>
+            '<div class="choice-item">'+
+              '<button class="choice-btn" id="cbtn-'+i+'-'+ci+'" onclick="toggleChoice('+i+','+ci+')">'+
+                '<span class="ctext">'+trio(c)+'</span>'+
+                '<span class="ctoggle">⌄</span>'+
+              '</button>'+
+              '<div class="followup-list" id="flist-'+i+'-'+ci+'">'+
+                '<div class="fl-label">💬 꼬리 질문 · Câu hỏi tiếp theo</div>'+
+                c.followups.map((f,fi)=>
+                  '<article class="followup-item">'+
+                    '<div class="fnum">FOLLOW-UP '+(fi+1)+'</div>'+
+                    trio(f)+
+                  '</article>').join("")+
+              '</div>'+
+            '</div>').join("")+
+          '</div>'+
+        '</div>'+
+      '</div>').join("")+
+    '</div>';
+}
+
+function nudgeIntoView(el){
+  setTimeout(()=>{
+    const r=el.getBoundingClientRect();
+    if(r.top<70||r.top>window.innerHeight*0.55){window.scrollBy({top:r.top-90,behavior:"smooth"});}
+  },60);
+}
+
+/* 질문을 누르면 그 아래에 예시 답변이 펼쳐짐 (다른 질문은 자동으로 접힘) */
+function toggleQuestion(qIndex){
+  const panel=document.getElementById("qpanel-"+qIndex);
+  const btn=document.getElementById("qbtn-"+qIndex);
+  const wasOpen=panel.classList.contains("open");
+  document.querySelectorAll("#talkFlow .q-panel.open,#talkFlow .followup-list.open").forEach(el=>el.classList.remove("open"));
+  document.querySelectorAll("#talkFlow .question-btn.open,#talkFlow .choice-btn.open").forEach(el=>el.classList.remove("open"));
+  if(!wasOpen){
+    panel.classList.add("open");
+    btn.classList.add("open");
+    nudgeIntoView(btn);
+  }
+}
+
+/* 답변을 누르면 그 자리 바로 아래에서 꼬리 질문이 펼쳐짐 */
+function toggleChoice(qIndex,cIndex){
+  const list=document.getElementById("flist-"+qIndex+"-"+cIndex);
+  const btn=document.getElementById("cbtn-"+qIndex+"-"+cIndex);
+  const wasOpen=list.classList.contains("open");
+  document.querySelectorAll("#talkFlow .followup-list.open").forEach(el=>el.classList.remove("open"));
+  document.querySelectorAll("#talkFlow .choice-btn.open").forEach(el=>el.classList.remove("open"));
+  if(!wasOpen){
+    list.classList.add("open");
+    btn.classList.add("open");
+    nudgeIntoView(btn);
+  }
+}
+
+/* ===================== 번역 ===================== */
+
+/* 온라인 번역 결과처럼 사전에 없는 문장에만 사용하는 보조 발음 변환 */
+function transliterate(text){ return viPron(text); }
+
+/* --- 앱 내장 기초 어휘 + 문장 사전 (오프라인) --- */
+/* 기초 단어는 온라인 번역보다 먼저 검색됩니다. 발음은 검수된 값입니다. */
+let VOCAB=[]
+
+/* 현장에서 자주 쓰는 추가 문장 (인터넷 없이 즉시 번역됨) */
+let EXTRA=[];
+
+let PHRASES=[];
+function normKo(s){return (s||"").toLowerCase().replace(/[\s.,!?~·"'’“”()\-]/g,"");}
+function normVi(s){return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/đ/g,"d").replace(/[^a-z0-9\s]/g,"").replace(/\s+/g," ").trim();}
+
+function buildPhraseBank(){
+  const seen={};
+  const add=(ko,vi,pron)=>{
+    if(!ko||!vi) return;
+    const key=normKo(ko)+"|"+normVi(vi);
+    if(seen[key]) return;
+    seen[key]=1;
+    PHRASES.push({ko:ko,vi:vi,pron:pron||"",nk:normKo(ko),nv:normVi(vi)});
+  };
+  document.querySelectorAll("#basic .phrase").forEach(el=>{
+    const g=c=>{const n=el.querySelector("."+c);return n?n.textContent.trim():"";};
+    add(g("ko"),g("vi"),g("pron"));
+  });
+  VOCAB.forEach(e=>add(e.ko,e.vi,e.pron));
+  EXTRA.forEach(e=>add(e.ko,e.vi,e.pron));
+  Object.keys(topics).forEach(k=>{
+    topics[k].q.forEach(q=>{
+      add(q.ko,q.vi,q.pron);
+      (q.choices||[]).forEach(c=>{
+        add(c.ko,c.vi,c.pron);
+        (c.followups||[]).forEach(f=>add(f.ko,f.vi,f.pron));
+      });
+    });
+  });
+}
+
+function bigrams(s){const a=[];for(let i=0;i<s.length-1;i++)a.push(s.substr(i,2));return a;}
+function dice(a,b){
+  if(!a||!b) return 0;
+  if(a===b) return 1;
+  const A=bigrams(a),B=bigrams(b);
+  if(!A.length||!B.length) return 0;
+  const map={};A.forEach(x=>map[x]=(map[x]||0)+1);
+  let hit=0;B.forEach(x=>{if(map[x]>0){map[x]--;hit++;}});
+  return 2*hit/(A.length+B.length);
+}
+
+function localLookup(text,dir){
+  const isKo=dir==="ko2vi";
+  const n=isKo?normKo(text):normVi(text);
+  if(!n) return {exact:null,near:[]};
+  let exact=null;const scored=[];
+  PHRASES.forEach(p=>{
+    const target=isKo?p.nk:p.nv;
+    const s=dice(n,target);
+    if(s===1&&!exact) exact=p;
+    if(s>=0.55) scored.push({p:p,s:s});
+  });
+  scored.sort((a,b)=>b.s-a.s);
+  return {exact:exact,near:scored.slice(0,3).map(x=>x.p)};
+}
+
+/* --- 온라인 번역: Google 번역 엔드포인트 우선 + MyMemory fallback --- */
+/*
+  Google의 공개 번역 엔드포인트를 우선 사용합니다.
+  별도 API 키가 필요하지 않아 개인용 정적 웹에서 바로 사용할 수 있습니다.
+  다만 공식 Cloud Translation API가 아니므로 SLA/보장된 사용량은 없습니다.
+  실패하면 기존 MyMemory를 fallback으로 사용합니다.
+*/
+async function googleTranslate(text,dir){
+  const sl=dir==="ko2vi"?"ko":"vi";
+  const tl=dir==="ko2vi"?"vi":"ko";
+  const url="https://translate.googleapis.com/translate_a/single?client=gtx&sl="+sl+"&tl="+tl+"&dt=t&q="+encodeURIComponent(text);
+  const ctrl=new AbortController();
+  const timer=setTimeout(()=>ctrl.abort(),10000);
+  try{
+    const res=await fetch(url,{signal:ctrl.signal});
+    clearTimeout(timer);
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const data=await res.json();
+    const out=Array.isArray(data)&&Array.isArray(data[0])?data[0].map(x=>x&&x[0]?x[0]:"").join("").trim():"";
+    if(!out) throw new Error("empty");
+    return out;
+  }catch(e){
+    clearTimeout(timer);
+    throw e;
+  }
+}
+
+async function myMemoryTranslate(text,dir){
+  const pair=dir==="ko2vi"?"ko|vi":"vi|ko";
+  const url="https://api.mymemory.translated.net/get?q="+encodeURIComponent(text)+"&langpair="+pair;
+  const ctrl=new AbortController();
+  const timer=setTimeout(()=>ctrl.abort(),10000);
+  try{
+    const res=await fetch(url,{signal:ctrl.signal});
+    clearTimeout(timer);
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const data=await res.json();
+    const out=data&&data.responseData&&data.responseData.translatedText;
+    if(!out) throw new Error("empty");
+    if(/MYMEMORY WARNING|QUERY LENGTH LIMIT|INVALID/i.test(out)) throw new Error("quota");
+    return out.trim();
+  }catch(e){
+    clearTimeout(timer);
+    throw e;
+  }
+}
+
+async function onlineTranslate(text,dir){
+  try{
+    return {text:await googleTranslate(text,dir),engine:"Google"};
+  }catch(e){
+    return {text:await myMemoryTranslate(text,dir),engine:"MyMemory"};
+  }
+}
+
+/* --- 상태 & UI --- */
+let dir="ko2vi";
+let lastResult=null;
+let history=[];
+
+function loadHistory(){
+  try{const raw=localStorage.getItem("helloworld-vietnam-tr-history");if(raw) history=JSON.parse(raw)||[];}catch(e){}
+  renderHistory();
+}
+function saveHistory(){
+  try{localStorage.setItem("helloworld-vietnam-tr-history",JSON.stringify(history.slice(0,12)));}catch(e){}
+}
+
+function swapDirection(){
+  dir=dir==="ko2vi"?"vi2ko":"ko2vi";
+  const ko="🇰🇷 한국어",id="🇻🇳 Tiếng Việt";
+  document.getElementById("dirFrom").textContent=dir==="ko2vi"?ko:id;
+  document.getElementById("dirTo").textContent=dir==="ko2vi"?id:ko;
+  document.getElementById("srcText").placeholder=dir==="ko2vi"
+    ?"번역할 한국어 문장을 입력하세요."
+    :"Nhập câu tiếng Việt cần dịch.";
+  document.getElementById("trResult").innerHTML="";
+}
+
+function updateCounter(){
+  document.getElementById("charCount").textContent=document.getElementById("srcText").value.length+"자";
+}
+function clearInput(){
+  document.getElementById("srcText").value="";
+  updateCounter();
+  document.getElementById("trResult").innerHTML="";
+  document.getElementById("srcText").focus();
+}
+function quickFill(t){
+  if(dir!=="ko2vi") swapDirection();
+  document.getElementById("srcText").value=t;
+  updateCounter();
+  runTranslate();
+}
+function inputKey(e){
+  if(e.key==="Enter"&&(e.ctrlKey||e.metaKey)){e.preventDefault();runTranslate();}
+}
+
+function esc(s){return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+
+function resultCard(o){
+  const showPron=o.pron&&o.pron.length>0;
+  return '<article class="result-card">'+
+    '<span class="result-tag '+o.tagClass+'">'+o.tag+'</span>'+
+    '<div class="result-src">'+esc(o.srcLabel)+' '+esc(o.src)+(o.srcPron?'<br><span style="color:var(--accent);font-weight:600">'+esc(o.srcPron)+'</span>':'')+'</div>'+
+    '<div class="result-main">'+esc(o.out)+'</div>'+
+    (showPron?'<div class="result-pron">'+esc(o.pron)+'</div>':'')+
+    '<div class="result-actions">'+
+      '<button class="res-btn primary" type="button" onclick="showBig()">👁 크게 보여주기</button>'+
+      '<button class="res-btn" type="button" onclick="copyResult(this)">📋 복사하기</button>'+
+    '</div>'+
+    (o.altHtml||"")+
+  '</article>';
+}
+
+function nearHtml(near,dir2){
+  if(!near||!near.length) return "";
+  return '<div class="result-alt"><div class="result-alt-label">📚 앱에 있는 비슷한 문장</div>'+
+    near.map(p=>'<div class="alt-item"><b>'+esc(p.vi)+'</b><br>'+esc(p.pron)+'<br>'+esc(p.ko)+'</div>').join("")+
+    '</div>';
+}
+
+async function runTranslate(){
+  const box=document.getElementById("trResult");
+  const text=document.getElementById("srcText").value.trim();
+  if(!text){box.innerHTML='<div class="note">번역할 문장을 먼저 입력해 주세요.</div>';return;}
+
+  const isKo=dir==="ko2vi";
+  const srcLabel=isKo?"🇰🇷":"🇻🇳";
+  const local=localLookup(text,dir);
+
+  if(local.exact){
+    const p=local.exact;
+    const out=isKo?p.vi:p.ko;
+    lastResult={out:out,pron:isKo?p.pron:"",src:text};
+    box.innerHTML=resultCard({
+      tag:"📚 앱 사전 · 오프라인",tagClass:"tag-offline",
+      srcLabel:srcLabel,src:text,srcPron:isKo?"":p.pron,
+      out:out,pron:isKo?p.pron:""
+    });
+    pushHistory(text,out,isKo?p.pron:"");
+    return;
+  }
+
+  box.innerHTML='<div class="note">🔄 번역 중입니다…</div>';
+  try{
+    const online=await onlineTranslate(text,dir);
+    const out=online.text;
+    const pron=isKo?transliterate(out):"";
+    lastResult={out:out,pron:pron,src:text};
+    box.innerHTML=resultCard({
+      tag:"🌐 온라인 번역 · "+online.engine,tagClass:"tag-online",
+      srcLabel:srcLabel,src:text,srcPron:isKo?"":transliterate(text),
+      out:out,pron:pron,
+      altHtml:nearHtml(local.near)
+    });
+    pushHistory(text,out,pron);
+  }catch(e){
+    let msg="인터넷에 연결되어 있는지 확인한 뒤 다시 시도해 주세요.";
+    if(e&&e.message==="quota") msg="온라인 번역의 하루 무료 사용량을 넘었을 수 있습니다. 잠시 후 다시 시도해 주세요.";
+    box.innerHTML='<article class="result-card" style="border-color:var(--line)">'+
+      '<span class="result-tag tag-error">⚠️ 온라인 번역 실패</span>'+
+      '<div class="result-src">'+esc(srcLabel+" "+text)+'</div>'+
+      '<div style="font-size:14px;line-height:1.6;color:#555">'+msg+'<br>아래 앱 내장 문장은 인터넷 없이도 바로 쓸 수 있습니다.</div>'+
+      nearHtml(local.near)+
+    '</article>';
+  }
+}
+
+function pushHistory(src,out,pron){
+  history.unshift({src:src,out:out,pron:pron||"",dir:dir});
+  history=history.slice(0,12);
+  saveHistory();
+  renderHistory();
+}
+
+function renderHistory(){
+  const wrap=document.getElementById("trHistoryWrap");
+  const box=document.getElementById("trHistory");
+  if(!wrap||!box) return;
+  if(!history.length){wrap.hidden=true;box.innerHTML="";return;}
+  wrap.hidden=false;
+  box.innerHTML=history.map((h,i)=>
+    '<div class="hist-item" onclick="reuseHistory('+i+')">'+
+      '<div class="h-out">'+esc(h.out)+'</div>'+
+      (h.pron?'<div class="h-pron">'+esc(h.pron)+'</div>':'')+
+      '<div class="h-in">↩ '+esc(h.src)+'</div>'+
+    '</div>').join("");
+}
+
+function reuseHistory(i){
+  const h=history[i];
+  if(!h) return;
+  if(h.dir!==dir) swapDirection();
+  document.getElementById("srcText").value=h.src;
+  updateCounter();
+  runTranslate();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function clearHistory(){
+  history=[];
+  saveHistory();
+  renderHistory();
+}
+
+function showBig(){
+  if(!lastResult) return;
+  document.getElementById("bigText").textContent=lastResult.out;
+  document.getElementById("bigSub").textContent=lastResult.pron||lastResult.src;
+  document.getElementById("bigView").hidden=false;
+}
+function closeBig(){document.getElementById("bigView").hidden=true;}
+
+function copyResult(btn){
+  if(!lastResult) return;
+  const done=()=>{const o=btn.textContent;btn.textContent="✅ 복사됨";setTimeout(()=>btn.textContent=o,1400);};
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(lastResult.out).then(done).catch(()=>fallbackCopy(lastResult.out,done));
+  }else{fallbackCopy(lastResult.out,done);}
+}
+function fallbackCopy(text,cb){
+  const ta=document.createElement("textarea");
+  ta.value=text;ta.style.position="fixed";ta.style.opacity="0";
+  document.body.appendChild(ta);ta.select();
+  try{document.execCommand("copy");cb();}catch(e){}
+  document.body.removeChild(ta);
+}
+
+async function initLanguageData(){
+  // Synchronous local fallback first: works even from file:// and before network/cache fetch completes.
+  let data=window.VIETNAM_DATA||null;
+  if(data){
+    topics=data.topics||{};
+    VOCAB=data.vocab||[];
+    EXTRA=data.extra||[];
+  }
+  // When served over http(s), refresh from the JSON source if available.
+  if(location.protocol!=="file:"){
+    try{
+      const res=await fetch("../data/vietnam.json",{cache:"no-store"});
+      if(res.ok){
+        const fresh=await res.json();
+        topics=fresh.topics||topics;
+        VOCAB=fresh.vocab||VOCAB;
+        EXTRA=fresh.extra||EXTRA;
+      }
+    }catch(e){
+      console.warn("JSON refresh failed; using bundled local data",e);
+    }
+  }
+  buildPhraseBank();
+  loadHistory();
+  addBasicCounts();
+  addBasicSubCounts();
+}
+
+function addBasicCounts(){
+  document.querySelectorAll("#basic .basic-item").forEach(item=>{
+    const btn=item.querySelector(":scope > .basic-toggle");
+    const panel=item.querySelector(":scope > .basic-panel");
+    if(!btn||!panel||btn.querySelector(".basic-count")) return;
+    const count=panel.querySelectorAll(".phrase").length;
+    const arrow=btn.querySelector(".basic-arrow");
+    const badge=document.createElement("span");
+    badge.className="basic-count"; badge.textContent=count;
+    btn.insertBefore(badge,arrow);
+  });
+}
+
+
+function addBasicSubCounts(){
+  document.querySelectorAll("#basic .basic-subitem").forEach(item=>{
+    const btn=item.querySelector(":scope > .basic-sub-toggle");
+    const panel=item.querySelector(":scope > .basic-sub-panel");
+    if(!btn||!panel||btn.querySelector(".basic-sub-count")) return;
+    const count=panel.querySelectorAll(".phrase").length;
+    const arrow=btn.querySelector(".basic-sub-arrow");
+    const badge=document.createElement("span");
+    badge.className="basic-sub-count";
+    badge.textContent=count;
+    btn.insertBefore(badge,arrow);
+  });
+}
+
+const languageDataReady=initLanguageData();
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeBig();});
+if("serviceWorker" in navigator){addEventListener("load",()=>navigator.serviceWorker.register("../sw.js"));}
+</script>
+</body>
+</html>

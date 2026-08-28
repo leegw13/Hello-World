@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f5f1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="HelloWorld">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/icon-192.png">
+<title>HelloWorld — Indonesia</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app">
+<header>
+  <a class="back" href="../index.html"><span class="back-arrow">←</span> 국가 선택</a>
+  <div class="logo">🇮🇩</div>
+  <h1>Halo Indonesia</h1>
+  <div class="subtitle">Small Talk & Culture Exchange</div>
+</header>
+
+<main>
+<section id="basic" class="screen">
+  <div class="section-title">
+    <h2>📚 Basic Phrases</h2>
+    <p>현장에서 자주 쓰는 기본 표현 · Ungkapan dasar</p>
+  </div>
+
+  <div class="basic-accordion">
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-0" type="button" onclick="toggleBasic(0)"><span class="basic-icon">👋</span><span class="basic-title"><span class="basic-ko">인사 & 자기소개</span><span class="basic-id">Salam & Perkenalan</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-0"><div class="phrase-list"><div class="phrase"><div class="ko">안녕하세요.</div><div class="id">Halo!</div><div class="pron">할로</div></div><div class="phrase"><div class="ko">저는 한국에서 왔어요.</div><div class="id">Saya dari Korea.</div><div class="pron">사야 다리 꼬레아</div></div><div class="phrase"><div class="ko">만나서 반가워요.</div><div class="id">Senang bertemu dengan Anda.</div><div class="pron">스낭 버르뜨무 등안 안다</div></div><div class="phrase"><div class="ko">이름이 뭐예요?</div><div class="id">Siapa nama Anda?</div><div class="pron">시아빠 나마 안다</div></div><div class="phrase"><div class="ko">제 이름은 ○○이에요.</div><div class="id">Nama saya ○○.</div><div class="pron">나마 사야 ○○</div></div><div class="phrase"><div class="ko">어디에서 왔어요?</div><div class="id">Anda dari mana?</div><div class="pron">안다 다리 마나</div></div><div class="phrase"><div class="ko">인도네시아에 처음 왔어요.</div><div class="id">Ini pertama kali saya ke Indonesia.</div><div class="pron">이니 뻐르따마 깔리 사야 끄 인도네시아</div></div><div class="phrase"><div class="ko">인도네시아가 좋아요.</div><div class="id">Saya suka Indonesia.</div><div class="pron">사야 수까 인도네시아</div></div></div></div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-1" type="button" onclick="toggleBasic(1)"><span class="basic-icon">🙏</span><span class="basic-title"><span class="basic-ko">정중한 표현</span><span class="basic-id">Ungkapan Sopan</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-1"><div class="phrase-list"><div class="phrase"><div class="ko">감사합니다.</div><div class="id">Terima kasih.</div><div class="pron">뜨리마 까시</div></div><div class="phrase"><div class="ko">미안해요.</div><div class="id">Maaf.</div><div class="pron">마아프</div></div><div class="phrase"><div class="ko">괜찮습니다.</div><div class="id">Tidak masalah.</div><div class="pron">띠닥 마살라</div></div><div class="phrase"><div class="ko">부탁드려요.</div><div class="id">Tolong, ya.</div><div class="pron">똘롱 야</div></div><div class="phrase"><div class="ko">잠시만 기다려 주세요.</div><div class="id">Tunggu sebentar, ya.</div><div class="pron">뚱구 스븐따르 야</div></div><div class="phrase"><div class="ko">다시 말씀해 주세요.</div><div class="id">Bisa ulangi?</div><div class="pron">비사 울랑이</div></div><div class="phrase"><div class="ko">잘 모르겠어요.</div><div class="id">Saya kurang mengerti.</div><div class="pron">사야 꾸랑 믕어르띠</div></div></div></div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-2" type="button" onclick="toggleBasic(2)"><span class="basic-icon">🍽️</span><span class="basic-title"><span class="basic-ko">음식점에서</span><span class="basic-id">Di Restoran</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-2">
+  <div class="basic-kiosk-card">
+    <div class="basic-kiosk-title">🍽️ 자주 쓰는 표현</div>
+    <button class="kiosk-action" type="button" onclick="openKiosk('food-order')">🍽️ ○○ 주세요</button>
+    <button class="kiosk-action" type="button" onclick="openKiosk('food-question')">❓ ○○인가요?</button>
+    <button class="kiosk-action" type="button" onclick="openKiosk('food-request')">🙏 요청하기</button>
+    <div class="kiosk-result" id="kiosk-result-food" hidden></div>
+  </div>
+  <div class="basic-extra-title">다른 표현</div>
+  <div class="phrase-list">
+    <div class="phrase"><div class="ko">메뉴판을 볼 수 있을까요?</div><div class="id">Boleh saya lihat menunya?</div><div class="pron">볼레 사야 리핫 메뉴냐</div></div>
+    <div class="phrase"><div class="ko">계산해 주세요.</div><div class="id">Minta bill, ya.</div><div class="pron">민따 빌 야</div></div>
+    <div class="phrase"><div class="ko">물 한 병 주세요.</div><div class="id">Minta satu botol air, ya.</div><div class="pron">민따 사뚜 보똘 아이르 야</div></div>
+  </div>
+</div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-3" type="button" onclick="toggleBasic(3)"><span class="basic-icon">☕</span><span class="basic-title"><span class="basic-ko">카페에서</span><span class="basic-id">Di Kafe</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-3">
+  <div class="basic-kiosk-card">
+    <div class="basic-kiosk-title">☕ 주문하기</div>
+    <button class="kiosk-action" type="button" onclick="openKiosk('cafe-menu')">☕ 메뉴 선택</button>
+    <button class="kiosk-action" type="button" onclick="openKiosk('cafe-option')">⚙️ 옵션 선택</button>
+    <div class="kiosk-result" id="kiosk-result-cafe" hidden></div>
+  </div>
+  <div class="basic-extra-title">다른 표현</div>
+  <div class="phrase-list">
+    <div class="phrase"><div class="ko">여기서 마실게요.</div><div class="id">Saya minum di sini, ya.</div><div class="pron">사야 미눔 디 시니 야</div></div>
+    <div class="phrase"><div class="ko">포장해 주세요.</div><div class="id">Tolong bungkus, ya.</div><div class="pron">똘롱 붕꾸스 야</div></div>
+    <div class="phrase"><div class="ko">여기 좀 닦아 주세요.</div><div class="id">Tolong bersihkan di sini, ya.</div><div class="pron">똘롱 버르시흐깐 디 시니 야</div></div>
+  </div>
+</div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-4" type="button" onclick="toggleBasic(4)"><span class="basic-icon">📍</span><span class="basic-title"><span class="basic-ko">길을 물어볼 때</span><span class="basic-id">Saat Menanyakan Arah</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-4">
+  <div class="basic-kiosk-card">
+    <div class="basic-kiosk-title">📍 장소를 선택하세요</div>
+    <button class="kiosk-action" type="button" onclick="openKiosk('loc-place')">📍 장소 선택</button>
+    <div class="kiosk-result" id="kiosk-result-loc" hidden></div>
+  </div>
+  <div class="basic-extra-title">다른 표현</div>
+  <div class="phrase-list">
+    <div class="phrase"><div class="ko">여기가 어디예요?</div><div class="id">Di mana ini?</div><div class="pron">디 마나 이니</div></div>
+    <div class="phrase"><div class="ko">얼마나 걸려요?</div><div class="id">Berapa lama?</div><div class="pron">버라빠 라마</div></div>
+    <div class="phrase"><div class="ko">도와주실 수 있나요?</div><div class="id">Bisa membantu saya?</div><div class="pron">비사 멤반뚜 사야</div></div>
+  </div>
+</div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-5" type="button" onclick="toggleBasic(5)"><span class="basic-icon">💬</span><span class="basic-title"><span class="basic-ko">일상 대화</span><span class="basic-id">Percakapan Sehari-hari</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-5"><div class="phrase-list"><div class="phrase"><div class="ko">오늘 어때요?</div><div class="id">Bagaimana hari ini?</div><div class="pron">바가이마나 하리 이니</div></div><div class="phrase"><div class="ko">무슨 일을 하세요?</div><div class="id">Apa pekerjaan Anda?</div><div class="pron">아빠 뻐꺼르자안 안다</div></div><div class="phrase"><div class="ko">학생이에요?</div><div class="id">Apakah Anda seorang pelajar?</div><div class="pron">아빠까 안다 스오랑 뻘라자르</div></div><div class="phrase"><div class="ko">무엇을 공부하세요?</div><div class="id">Apa yang Anda pelajari?</div><div class="pron">아빠 양 안다 뻘라자리</div></div><div class="phrase"><div class="ko">취미가 뭐예요?</div><div class="id">Apa hobi Anda?</div><div class="pron">아빠 호비 안다</div></div><div class="phrase"><div class="ko">음악을 좋아해요?</div><div class="id">Apakah Anda suka musik?</div><div class="pron">아빠까 안다 수까 무식</div></div><div class="phrase"><div class="ko">축구를 좋아해요?</div><div class="id">Apakah Anda suka sepak bola?</div><div class="pron">아빠까 안다 수까 스빡 볼라</div></div><div class="phrase"><div class="ko">한국 음식 좋아해요?</div><div class="id">Apakah Anda suka makanan Korea?</div><div class="pron">아빠까 안다 수까 마까난 꼬레아</div></div><div class="phrase"><div class="ko">한국에 가본 적 있어요?</div><div class="id">Apakah Anda pernah ke Korea?</div><div class="pron">아빠까 안다 뻐르나 끄 꼬레아</div></div><div class="phrase"><div class="ko">주말에는 무엇을 해요?</div><div class="id">Apa yang Anda lakukan di akhir pekan?</div><div class="pron">아빠 양 안다 라꾸깐 디 아끼르 뻬깐</div></div><div class="phrase"><div class="ko">오늘 날씨가 좋네요.</div><div class="id">Cuacanya bagus hari ini.</div><div class="pron">쭈아짜냐 바구스 하리 이니</div></div></div></div>
+</div>
+<div class="basic-item">
+<button class="basic-toggle" id="basic-btn-6" type="button" onclick="toggleBasic(6)"><span class="basic-icon">🔤</span><span class="basic-title"><span class="basic-ko">기초 단어</span><span class="basic-id">Kosakata Dasar</span></span><span class="basic-arrow">⌄</span></button>
+<div class="basic-panel" id="basic-panel-6"><div class="basic-sub-list"><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-people" type="button" onclick="toggleBasicSub('vocab-people')"><span class="basic-sub-title">🔤 사람</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-people"><div class="phrase-list"><div class="phrase"><div class="ko">나 / 저</div><div class="id">Saya</div><div class="pron">사야</div></div><div class="phrase"><div class="ko">너 / 당신</div><div class="id">Kamu</div><div class="pron">까무</div></div><div class="phrase"><div class="ko">당신</div><div class="id">Anda</div><div class="pron">안다</div></div><div class="phrase"><div class="ko">우리</div><div class="id">Kami / Kita</div><div class="pron">까미 / 끼따</div></div><div class="phrase"><div class="ko">그들</div><div class="id">Mereka</div><div class="pron">므레까</div></div><div class="phrase"><div class="ko">친구</div><div class="id">Teman</div><div class="pron">뜨만</div></div><div class="phrase"><div class="ko">사람</div><div class="id">Orang</div><div class="pron">오랑</div></div><div class="phrase"><div class="ko">남자</div><div class="id">Laki-laki</div><div class="pron">라끼 라끼</div></div><div class="phrase"><div class="ko">여자</div><div class="id">Perempuan</div><div class="pron">뻐럼뿌안</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-question" type="button" onclick="toggleBasicSub('vocab-question')"><span class="basic-sub-title">🔤 의문사</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-question"><div class="phrase-list"><div class="phrase"><div class="ko">무엇</div><div class="id">Apa</div><div class="pron">아빠</div></div><div class="phrase"><div class="ko">누구</div><div class="id">Siapa</div><div class="pron">시아빠</div></div><div class="phrase"><div class="ko">어디</div><div class="id">Di mana</div><div class="pron">디 마나</div></div><div class="phrase"><div class="ko">언제</div><div class="id">Kapan</div><div class="pron">까빤</div></div><div class="phrase"><div class="ko">왜</div><div class="id">Kenapa</div><div class="pron">끄나빠</div></div><div class="phrase"><div class="ko">어떻게</div><div class="id">Bagaimana</div><div class="pron">바가이마나</div></div><div class="phrase"><div class="ko">얼마 / 몇</div><div class="id">Berapa</div><div class="pron">버라빠</div></div><div class="phrase"><div class="ko">어느</div><div class="id">Yang mana</div><div class="pron">양 마나</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-verbs" type="button" onclick="toggleBasicSub('vocab-verbs')"><span class="basic-sub-title">🔤 기본 동사</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-verbs"><div class="phrase-list"><div class="phrase"><div class="ko">있다</div><div class="id">Ada</div><div class="pron">아다</div></div><div class="phrase"><div class="ko">없다</div><div class="id">Tidak ada</div><div class="pron">띠닥 아다</div></div><div class="phrase"><div class="ko">먹다</div><div class="id">Makan</div><div class="pron">마깐</div></div><div class="phrase"><div class="ko">마시다</div><div class="id">Minum</div><div class="pron">미눔</div></div><div class="phrase"><div class="ko">가다</div><div class="id">Pergi</div><div class="pron">뻐르기</div></div><div class="phrase"><div class="ko">오다</div><div class="id">Datang</div><div class="pron">다땅</div></div><div class="phrase"><div class="ko">보다</div><div class="id">Lihat</div><div class="pron">리핫</div></div><div class="phrase"><div class="ko">알다</div><div class="id">Tahu</div><div class="pron">따후</div></div><div class="phrase"><div class="ko">이해하다</div><div class="id">Mengerti</div><div class="pron">믕어르띠</div></div><div class="phrase"><div class="ko">말하다</div><div class="id">Bicara</div><div class="pron">비짜라</div></div><div class="phrase"><div class="ko">듣다</div><div class="id">Dengar</div><div class="pron">등아르</div></div><div class="phrase"><div class="ko">기다리다</div><div class="id">Tunggu</div><div class="pron">뚱구</div></div><div class="phrase"><div class="ko">도와주다</div><div class="id">Bantu</div><div class="pron">반뚜</div></div><div class="phrase"><div class="ko">사다</div><div class="id">Beli</div><div class="pron">블리</div></div><div class="phrase"><div class="ko">주다</div><div class="id">Beri</div><div class="pron">버리</div></div><div class="phrase"><div class="ko">가져오다</div><div class="id">Bawa</div><div class="pron">바와</div></div><div class="phrase"><div class="ko">찾다</div><div class="id">Cari</div><div class="pron">짜리</div></div><div class="phrase"><div class="ko">좋아하다</div><div class="id">Suka</div><div class="pron">수까</div></div><div class="phrase"><div class="ko">원하다</div><div class="id">Mau</div><div class="pron">마우</div></div><div class="phrase"><div class="ko">할 수 있다</div><div class="id">Bisa</div><div class="pron">비사</div></div><div class="phrase"><div class="ko">해도 된다</div><div class="id">Boleh</div><div class="pron">볼레</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-state" type="button" onclick="toggleBasicSub('vocab-state')"><span class="basic-sub-title">🔤 상태·성질</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-state"><div class="phrase-list"><div class="phrase"><div class="ko">좋다</div><div class="id">Bagus</div><div class="pron">바구스</div></div><div class="phrase"><div class="ko">맛있다</div><div class="id">Enak</div><div class="pron">에낙</div></div><div class="phrase"><div class="ko">맵다</div><div class="id">Pedas</div><div class="pron">뻐다스</div></div><div class="phrase"><div class="ko">달다</div><div class="id">Manis</div><div class="pron">마니스</div></div><div class="phrase"><div class="ko">뜨겁다</div><div class="id">Panas</div><div class="pron">빠나스</div></div><div class="phrase"><div class="ko">차갑다</div><div class="id">Dingin</div><div class="pron">딩인</div></div><div class="phrase"><div class="ko">크다</div><div class="id">Besar</div><div class="pron">브사르</div></div><div class="phrase"><div class="ko">작다</div><div class="id">Kecil</div><div class="pron">끄찔</div></div><div class="phrase"><div class="ko">많다</div><div class="id">Banyak</div><div class="pron">바냑</div></div><div class="phrase"><div class="ko">적다 / 조금</div><div class="id">Sedikit</div><div class="pron">스디낏</div></div><div class="phrase"><div class="ko">빠르다</div><div class="id">Cepat</div><div class="pron">쯔빳</div></div><div class="phrase"><div class="ko">느리다</div><div class="id">Lambat</div><div class="pron">람밧</div></div><div class="phrase"><div class="ko">비싸다</div><div class="id">Mahal</div><div class="pron">마할</div></div><div class="phrase"><div class="ko">싸다</div><div class="id">Murah</div><div class="pron">무라</div></div><div class="phrase"><div class="ko">쉽다</div><div class="id">Mudah</div><div class="pron">무다</div></div><div class="phrase"><div class="ko">어렵다</div><div class="id">Sulit</div><div class="pron">술릿</div></div><div class="phrase"><div class="ko">바쁘다</div><div class="id">Sibuk</div><div class="pron">시북</div></div><div class="phrase"><div class="ko">피곤하다</div><div class="id">Lelah</div><div class="pron">렐라</div></div><div class="phrase"><div class="ko">괜찮다</div><div class="id">Baik-baik saja</div><div class="pron">바익 바익 사자</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-time" type="button" onclick="toggleBasicSub('vocab-time')"><span class="basic-sub-title">🔤 시간</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-time"><div class="phrase-list"><div class="phrase"><div class="ko">지금</div><div class="id">Sekarang</div><div class="pron">스까랑</div></div><div class="phrase"><div class="ko">오늘</div><div class="id">Hari ini</div><div class="pron">하리 이니</div></div><div class="phrase"><div class="ko">내일</div><div class="id">Besok</div><div class="pron">베속</div></div><div class="phrase"><div class="ko">어제</div><div class="id">Kemarin</div><div class="pron">끄마린</div></div><div class="phrase"><div class="ko">아침</div><div class="id">Pagi</div><div class="pron">빠기</div></div><div class="phrase"><div class="ko">점심</div><div class="id">Siang</div><div class="pron">시앙</div></div><div class="phrase"><div class="ko">저녁</div><div class="id">Malam</div><div class="pron">말람</div></div><div class="phrase"><div class="ko">나중에</div><div class="id">Nanti</div><div class="pron">난띠</div></div><div class="phrase"><div class="ko">지금 바로</div><div class="id">Sekarang juga</div><div class="pron">스까랑 주가</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-places" type="button" onclick="toggleBasicSub('vocab-places')"><span class="basic-sub-title">🔤 장소</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-places"><div class="phrase-list"><div class="phrase"><div class="ko">여기</div><div class="id">Di sini</div><div class="pron">디 시니</div></div><div class="phrase"><div class="ko">거기 / 저기</div><div class="id">Di situ / Di sana</div><div class="pron">디 시뚜 / 디 사나</div></div><div class="phrase"><div class="ko">화장실</div><div class="id">Toilet</div><div class="pron">똘렛</div></div><div class="phrase"><div class="ko">식당</div><div class="id">Restoran</div><div class="pron">레스또란</div></div><div class="phrase"><div class="ko">카페</div><div class="id">Kafe</div><div class="pron">까페</div></div><div class="phrase"><div class="ko">편의점</div><div class="id">Minimarket</div><div class="pron">미니마르껫</div></div><div class="phrase"><div class="ko">약국</div><div class="id">Apotek</div><div class="pron">아뽀떽</div></div><div class="phrase"><div class="ko">병원</div><div class="id">Rumah sakit</div><div class="pron">루마 사낏</div></div><div class="phrase"><div class="ko">공항</div><div class="id">Bandara</div><div class="pron">반다라</div></div><div class="phrase"><div class="ko">호텔</div><div class="id">Hotel</div><div class="pron">호텔</div></div><div class="phrase"><div class="ko">은행</div><div class="id">Bank</div><div class="pron">방크</div></div><div class="phrase"><div class="ko">시장</div><div class="id">Pasar</div><div class="pron">빠사르</div></div><div class="phrase"><div class="ko">상점</div><div class="id">Toko</div><div class="pron">또꼬</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-food" type="button" onclick="toggleBasicSub('vocab-food')"><span class="basic-sub-title">🔤 음식·음료</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-food"><div class="phrase-list"><div class="phrase"><div class="ko">음식</div><div class="id">Makanan</div><div class="pron">마까난</div></div><div class="phrase"><div class="ko">물</div><div class="id">Air</div><div class="pron">아이르</div></div><div class="phrase"><div class="ko">밥</div><div class="id">Nasi</div><div class="pron">나시</div></div><div class="phrase"><div class="ko">커피</div><div class="id">Kopi</div><div class="pron">꼬삐</div></div><div class="phrase"><div class="ko">차</div><div class="id">Teh</div><div class="pron">떼</div></div><div class="phrase"><div class="ko">우유</div><div class="id">Susu</div><div class="pron">수수</div></div><div class="phrase"><div class="ko">설탕</div><div class="id">Gula</div><div class="pron">굴라</div></div><div class="phrase"><div class="ko">닭고기</div><div class="id">Ayam</div><div class="pron">아얌</div></div><div class="phrase"><div class="ko">소고기</div><div class="id">Daging sapi</div><div class="pron">다깅 사삐</div></div><div class="phrase"><div class="ko">돼지고기</div><div class="id">Daging babi</div><div class="pron">다깅 바비</div></div><div class="phrase"><div class="ko">생선</div><div class="id">Ikan</div><div class="pron">이깐</div></div><div class="phrase"><div class="ko">채소</div><div class="id">Sayur</div><div class="pron">사유르</div></div><div class="phrase"><div class="ko">과일</div><div class="id">Buah</div><div class="pron">부아</div></div><div class="phrase"><div class="ko">할랄</div><div class="id">Halal</div><div class="pron">할랄</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-direction" type="button" onclick="toggleBasicSub('vocab-direction')"><span class="basic-sub-title">🔤 방향·위치</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-direction"><div class="phrase-list"><div class="phrase"><div class="ko">왼쪽</div><div class="id">Kiri</div><div class="pron">끼리</div></div><div class="phrase"><div class="ko">오른쪽</div><div class="id">Kanan</div><div class="pron">까난</div></div><div class="phrase"><div class="ko">앞</div><div class="id">Depan</div><div class="pron">드빤</div></div><div class="phrase"><div class="ko">뒤</div><div class="id">Belakang</div><div class="pron">블라깡</div></div><div class="phrase"><div class="ko">위</div><div class="id">Atas</div><div class="pron">아따스</div></div><div class="phrase"><div class="ko">아래</div><div class="id">Bawah</div><div class="pron">바와</div></div><div class="phrase"><div class="ko">안</div><div class="id">Dalam</div><div class="pron">달람</div></div><div class="phrase"><div class="ko">밖</div><div class="id">Luar</div><div class="pron">루아르</div></div><div class="phrase"><div class="ko">가까이</div><div class="id">Dekat</div><div class="pron">드깟</div></div><div class="phrase"><div class="ko">멀리</div><div class="id">Jauh</div><div class="pron">자우</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-numbers" type="button" onclick="toggleBasicSub('vocab-numbers')"><span class="basic-sub-title">🔤 숫자</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-numbers"><div class="phrase-list"><div class="phrase"><div class="ko">하나</div><div class="id">Satu</div><div class="pron">사뚜</div></div><div class="phrase"><div class="ko">둘</div><div class="id">Dua</div><div class="pron">두아</div></div><div class="phrase"><div class="ko">셋</div><div class="id">Tiga</div><div class="pron">띠가</div></div><div class="phrase"><div class="ko">넷</div><div class="id">Empat</div><div class="pron">음빳</div></div><div class="phrase"><div class="ko">다섯</div><div class="id">Lima</div><div class="pron">리마</div></div><div class="phrase"><div class="ko">여섯</div><div class="id">Enam</div><div class="pron">으남</div></div><div class="phrase"><div class="ko">일곱</div><div class="id">Tujuh</div><div class="pron">뚜주</div></div><div class="phrase"><div class="ko">여덟</div><div class="id">Delapan</div><div class="pron">들라빤</div></div><div class="phrase"><div class="ko">아홉</div><div class="id">Sembilan</div><div class="pron">슴빌란</div></div><div class="phrase"><div class="ko">열</div><div class="id">Sepuluh</div><div class="pron">스뿔루</div></div></div></div>
+</div><div class="basic-subitem">
+<button class="basic-sub-toggle" id="basic-sub-btn-vocab-polite" type="button" onclick="toggleBasicSub('vocab-polite')"><span class="basic-sub-title">🔤 기본 표현</span><span class="basic-sub-arrow">⌄</span></button>
+<div class="basic-sub-panel" id="basic-sub-panel-vocab-polite"><div class="phrase-list"><div class="phrase"><div class="ko">네 / 예</div><div class="id">Ya</div><div class="pron">야</div></div><div class="phrase"><div class="ko">아니요</div><div class="id">Tidak</div><div class="pron">띠닥</div></div><div class="phrase"><div class="ko">감사합니다</div><div class="id">Terima kasih</div><div class="pron">뜨리마 까시</div></div><div class="phrase"><div class="ko">미안해요</div><div class="id">Maaf</div><div class="pron">마아프</div></div><div class="phrase"><div class="ko">부탁해요</div><div class="id">Tolong</div><div class="pron">똘롱</div></div><div class="phrase"><div class="ko">괜찮아요</div><div class="id">Tidak apa-apa</div><div class="pron">띠닥 아빠 아빠</div></div><div class="phrase"><div class="ko">잠시만</div><div class="id">Sebentar</div><div class="pron">스븐따르</div></div></div></div>
+</div></div></div>
+</div>
+  </div>
+</section>
+
+<section id="talk" class="screen" hidden>
+  <div class="section-title">
+    <h2>💬 Let's Talk!</h2>
+    <p>대화 주제를 선택하세요 · Pilih topik percakapan</p>
+  </div>
+
+  <div id="topicPicker" class="topic-grid">
+    <button class="topic" onclick="openTopic('food')"><div class="emoji">🍜</div><div class="ko">음식 & 카페</div><div class="id">Makanan & Kafe</div></button>
+    <button class="topic" onclick="openTopic('music')"><div class="emoji">🎵</div><div class="ko">음악</div><div class="id">Musik</div></button>
+    <button class="topic" onclick="openTopic('sports')"><div class="emoji">⚽</div><div class="ko">스포츠</div><div class="id">Olahraga</div></button>
+    <button class="topic" onclick="openTopic('school')"><div class="emoji">🏫</div><div class="ko">일 & 학교</div><div class="id">Kerja & Sekolah</div></button>
+    <button class="topic" onclick="openTopic('korea')"><div class="emoji">🇰🇷</div><div class="ko">한국 문화</div><div class="id">Budaya Korea</div></button>
+  </div>
+  <div id="talkFlow"></div>
+</section>
+
+<section id="translate" class="screen" hidden>
+  <div class="section-title">
+    <h2>🔄 Translate</h2>
+    <p>한국어 ↔ 인도네시아어 · 글로 주고받는 양방향 통역</p>
+  </div>
+
+  <div class="translation-box">
+    <div class="dir-row">
+      <div id="dirFrom" class="dir-chip">🇰🇷 한국어</div>
+      <button id="swapBtn" class="swap-btn" type="button" onclick="swapDirection()" aria-label="방향 바꾸기">⇄</button>
+      <div id="dirTo" class="dir-chip">🇮🇩 Bahasa Indonesia</div>
+    </div>
+
+    <textarea id="srcText" class="tr-input" rows="3" placeholder="번역할 문장을 입력하세요."
+      oninput="updateCounter()" onkeydown="inputKey(event)"></textarea>
+    <div class="tr-meta">
+      <span id="charCount">0자</span>
+      <span class="tr-hint">Ctrl/⌘ + Enter 로도 번역</span>
+    </div>
+
+    <div class="tr-actions">
+      <button class="tr-go" type="button" onclick="runTranslate()">🔄 번역하기</button>
+      <button class="tr-clear" type="button" onclick="clearInput()">지우기</button>
+    </div>
+  </div>
+
+  <div id="trResult"></div>
+
+  <div class="tr-quick">
+    <div class="tr-quick-label">⚡ 자주 쓰는 문장</div>
+    <div class="tr-quick-list">
+            <button class="tr-quick-btn" type="button" onclick="quickFill('너무 비싸요.')">너무 비싸요</button>
+      <button class="tr-quick-btn" type="button" onclick="quickFill('화장실이 어디예요?')">화장실이 어디예요?</button>
+      <button class="tr-quick-btn" type="button" onclick="quickFill('도와주세요.')">도와주세요</button>
+      <button class="tr-quick-btn" type="button" onclick="quickFill('이거 매워요?')">이거 매워요?</button>
+            <button class="tr-quick-btn" type="button" onclick="quickFill('다시 말씀해 주세요.')">다시 말씀해 주세요</button>
+      <button class="tr-quick-btn" type="button" onclick="quickFill('계산해 주세요.')">계산해 주세요</button>
+    </div>
+  </div>
+
+  <div id="trHistoryWrap" class="tr-history" hidden>
+    <div class="tr-history-head">
+      <span>🕘 최근 번역</span>
+      <button class="tr-history-clear" type="button" onclick="clearHistory()">전체 삭제</button>
+    </div>
+    <div id="trHistory"></div>
+  </div>
+
+  <div class="note">
+    🔤 기초 단어는 온라인 번역보다 먼저 앱 사전에서 찾습니다.<br>
+    📚 앱에 들어 있는 문장은 <b>인터넷 없이</b> 즉시 번역됩니다.<br>
+    🌐 기초 어휘·앱 문장에 없는 문장은 온라인 번역을 사용합니다.<br>
+    발음은 인도네시아어 철자를 한글로 옮긴 근사치입니다.
+  </div>
+</section>
+
+<div id="bigView" class="big-view" hidden onclick="closeBig()">
+  <div class="big-inner">
+    <div class="big-label">상대에게 보여주세요</div>
+    <div id="bigText" class="big-text"></div>
+    <div id="bigSub" class="big-sub"></div>
+    <div class="big-close">화면을 누르면 닫힙니다</div>
+  </div>
+</div>
+</main>
+</div>
+
+<nav class="bottom-nav">
+  <div class="bottom-nav-inner">
+    <button id="nav-basic" class="nav-btn active" onclick="showTab('basic')"><span class="nav-icon">📚</span><span class="nav-label">Basic Phrases</span></button>
+    <button id="nav-talk" class="nav-btn" onclick="showTab('talk')"><span class="nav-icon">💬</span><span class="nav-label">Let's Talk!</span></button>
+    <button id="nav-translate" class="nav-btn" onclick="showTab('translate')"><span class="nav-icon">🔄</span><span class="nav-label">Translate</span></button>
+  </div>
+</nav>
+
+<script src="../data/indonesia.js"></script>
+<script>
+/*
+  각 질문(question)은 아래 구조를 가짐:
+  {
+    ko, id, pron,               // 질문 본문
+    choices: [
+      { ko, id, pron,           // 객관식 보기(예시 답변)
+        followups: [ {ko,id,pron}, ... ]   // 그 답변을 골랐을 때 이어지는 꼬리 질문들
+      }, ...
+    ]
+  }
+*/
+let topics={};
+
+function closeBasicAccordions(){
+  // Basic Phrases의 1단계/2단계 아코디언을 모두 닫습니다.
+  document.querySelectorAll("#basic .basic-panel.open,#basic .basic-sub-panel.open").forEach(el=>el.classList.remove("open"));
+  document.querySelectorAll("#basic .basic-toggle.open,#basic .basic-sub-toggle.open").forEach(el=>el.classList.remove("open"));
+}
+
+function toggleBasicSub(key){
+  const panel=document.getElementById("basic-sub-panel-"+key);
+  const btn=document.getElementById("basic-sub-btn-"+key);
+  const wasOpen=panel.classList.contains("open");
+  const parent=btn.closest(".basic-panel");
+  // 같은 1단계 메뉴 안에서는 한 번에 하나의 2단계만 엽니다.
+  parent.querySelectorAll(".basic-sub-panel.open").forEach(el=>el.classList.remove("open"));
+  parent.querySelectorAll(".basic-sub-toggle.open").forEach(el=>el.classList.remove("open"));
+  if(!wasOpen){panel.classList.add("open");btn.classList.add("open");}
+}
+
+function toggleBasic(index){
+  const panel=document.getElementById("basic-panel-"+index);
+  const btn=document.getElementById("basic-btn-"+index);
+  const wasOpen=panel.classList.contains("open");
+  // 다른 1단계 메뉴를 누르는 순간 기존의 2단계까지 모두 초기화합니다.
+  closeBasicAccordions();
+  if(!wasOpen){panel.classList.add("open");btn.classList.add("open");}
+}
+
+const KIOSK_DATA={
+  'food-order':{target:'kiosk-result-food',title:'무엇을 주문할까요?',choices:[
+    ['물','Air','아이르'],['밥','Nasi','나시'],['면','Mie','미'],['나시고렝','Nasi goreng','나시 고렝'],['미고렝','Mie goreng','미 고렝'],['사테','Sate','사떼'],['박소','Bakso','박소'],['아얌고렝','Ayam goreng','아얌 고렝'],['나시 아얌','Nasi ayam','나시 아얌'],['채소 볶음','Tumis sayur','뚜미스 사유르']
+  ],template:(x)=>({ko:x[0]+' 주세요.',id:'Saya mau '+x[1]+', ya.',pron:'사야 마우 '+x[2]+' 야'})},
+  'food-question':{target:'kiosk-result-food',title:'무엇을 물어볼까요?',choices:[
+    ['매운가요?','Apakah ini pedas?','아빠까 이니 뻐다스'],['뜨거운가요?','Apakah ini panas?','아빠까 이니 빠나스'],['달아요?','Apakah ini manis?','아빠까 이니 마니스'],['맛있나요?','Apakah ini enak?','아빠까 이니 에낙'],['할랄인가요?','Apakah makanan ini halal?','아빠까 마까난 이니 할랄'],['포장할 수 있나요?','Bisa dibungkus?','비사 디붕꾸스'],['여기서 먹을 수 있나요?','Bisa makan di sini?','비사 마깐 디 시니'],['지금 주문할 수 있나요?','Bisa pesan sekarang?','비사 뻐산 스까랑']
+  ],template:(x)=>({ko:x[0],id:x[1],pron:x[2]})},
+  'food-request':{target:'kiosk-result-food',title:'어떻게 요청할까요?',choices:[
+    ['맵지 않게 해주세요.','Jangan pedas, ya.','장안 뻐다스 야'],['물 한 병 주세요.','Minta satu botol air, ya.','민따 사뚜 보똘 아이르 야'],['계산해 주세요.','Minta bill, ya.','민따 빌 야']
+  ],template:(x)=>({ko:x[0],id:x[1],pron:x[2]})},
+  'cafe-menu':{target:'kiosk-result-cafe',title:'메뉴를 선택하세요',choices:[
+    ['아메리카노','Americano','아메리까노'],['카페라떼','Café latte','까페 라떼'],['카푸치노','Cappuccino','까푸치노'],['에스프레소','Espresso','에스쁘레소'],['아이스커피','Es kopi','에스 꼬삐'],['아이스티','Es teh','에스 떼'],['차','Teh','떼'],['핫초콜릿','Cokelat panas','초끌랏 빠나스'],['주스','Jus','주스'],['스무디','Smoothie','스무디'],['생수','Air mineral','아이르 미네랄'],['케이크','Kue','꾸에'],['크루아상','Croissant','크루아상']
+  ],template:(x)=>({ko:x[0]+' 주세요.',id:'Saya mau '+x[1]+', ya.',pron:'사야 마우 '+x[2]+' 야'}),alternate:(x)=>({ko:x[0]+' 있나요?',id:'Apakah ada '+x[1]+'?',pron:'아빠까 아다 '+x[2]})},
+  'cafe-option':{target:'kiosk-result-cafe',title:'옵션을 선택하세요',choices:[
+    ['아이스로','Dingin','딩인'],['뜨겁게','Panas','빠나스'],['작은 사이즈로','Ukuran kecil','우꾸란 끄찔'],['중간 사이즈로','Ukuran sedang','우꾸란 스당'],['큰 사이즈로','Ukuran besar','우꾸란 브사르']
+  ],template:(x)=>({ko:x[0]+' 주세요.',id:'Tolong '+x[1]+', ya.',pron:'똘롱 '+x[2]+' 야'})},
+  'loc-place':{target:'kiosk-result-loc',title:'장소를 선택하세요',choices:[
+    ['화장실','toilet','똘렛'],['편의점','minimarket','미니마르껫'],['식당','restoran','레스또란'],['카페','kafe','까페'],['약국','apotek','아뽀떽'],['병원','rumah sakit','루마 사낏'],['ATM','ATM','아떼엠'],['출구','pintu keluar','삔뚜 끌루아르'],['공항','bandara','반다라'],['버스 정류장','halte bus','할떼 부스'],['기차역','stasiun kereta','스타시운 끄레따'],['호텔','hotel','호텔'],['은행','bank','방크'],['경찰서','kantor polisi','깐또르 뽈리시']
+  ],template:(x)=>({ko:x[0]+'는 어디인가요?',id:'Di mana '+x[1]+'?',pron:'디 마나 '+x[2]}),alternate:(x)=>({ko:x[0]+'에 어떻게 가나요?',id:'Bagaimana cara ke '+x[1]+'?',pron:'바가이마나 짜라 끄 '+x[2]})}
+};
+function renderKioskSentence(r, label){
+  return '<div class="kiosk-sentence"><div class="kiosk-sentence-label">'+label+'</div><div class="ko">'+r.ko+'</div><div class="id">'+r.id+'</div><div class="pron">'+r.pron+'</div></div>';
+}
+function openKiosk(key){
+  const d=KIOSK_DATA[key]; if(!d)return;
+  const target=document.getElementById(d.target); if(!target)return;
+  target.hidden=false;
+  target.innerHTML='<div style="font-weight:800;margin-bottom:8px">'+d.title+'</div><div class="kiosk-menu">'+d.choices.map((x,i)=>'<button class="kiosk-choice" type="button" onclick="selectKiosk(\''+key+'\','+i+')">'+x[0]+'</button>').join('')+'</div><div class="kiosk-sentence-area" id="'+d.target+'-sentence-area"></div><button class="kiosk-close" type="button" onclick="closeKiosk(\''+d.target+'\')">닫기</button>';
+  document.querySelectorAll('.kiosk-result').forEach(el=>{if(el!==target){el.hidden=true;el.innerHTML='';}});
+}
+function selectKiosk(key,i){
+  const d=KIOSK_DATA[key]; const x=d.choices[i]; const target=document.getElementById(d.target); if(!target)return;
+  const area=document.getElementById(d.target+'-sentence-area'); if(!area)return;
+  const r=d.template(x);
+  let html=renderKioskSentence(r,'사용할 문장');
+  if(d.alternate) html+=renderKioskSentence(d.alternate(x),'다른 표현');
+  area.innerHTML=html;
+  target.hidden=false;
+  area.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function closeKiosk(id){const el=document.getElementById(id);if(el){el.hidden=true;el.innerHTML='';}}
+
+let currentTopicKey=null;
+
+function showTab(id){
+  // 탭을 다시 선택하거나 다른 탭으로 이동하면 Basic Phrases의
+  // 1단계/2단계 아코디언 상태를 초기화합니다.
+  closeBasicAccordions();
+  if(id==="talk"){resetTalk();}
+  ["basic","talk","translate"].forEach(x=>document.getElementById(x).hidden=x!==id);
+  ["basic","talk","translate"].forEach(x=>document.getElementById("nav-"+x).classList.toggle("active",x===id));
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+async function openTopic(key){
+  if(languageDataReady) await languageDataReady;
+  if(!topics || !topics[key]){
+    console.error("Let's Talk data is not ready:", key);
+    return;
+  }
+  currentTopicKey=key;
+  document.getElementById("topicPicker").style.display="none";
+  renderQuestionList();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function closeTopic(){
+  resetTalk();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function resetTalk(){
+  currentTopicKey=null;
+  document.getElementById("topicPicker").style.display="";
+  document.getElementById("talkFlow").innerHTML="";
+}
+
+/* 인도네시아어(대) → 발음(중) → 한국어(소) 3단 표기 */
+function trio(o){
+  return '<span class="t-id">'+o.id+'</span>'+
+         '<span class="t-pron">'+o.pron+'</span>'+
+         '<span class="t-ko">'+o.ko+'</span>';
+}
+
+function backBtn(action,label){
+  return '<button class="back" onclick="'+action+'"><span class="back-arrow">←</span>'+label+'</button>';
+}
+
+function renderQuestionList(){
+  const t=topics[currentTopicKey];
+  const out=document.getElementById("talkFlow");
+  if(!t||!out) return;
+  out.innerHTML=backBtn("closeTopic()","주제 선택으로")+
+    '<div class="section-title"><h2>'+t.title+'</h2><p>질문을 누르면 예시 답변이, 답변을 누르면 꼬리 질문이 펼쳐집니다.</p></div>'+
+    '<div class="question-btn-list">'+t.q.map((q,i)=>
+      '<div class="q-item">'+
+        '<button class="question-btn" id="qbtn-'+i+'" onclick="toggleQuestion('+i+')">'+
+          '<span class="qnum">'+(i+1)+'</span>'+
+          '<span class="qtext">'+trio(q)+'</span>'+
+          '<span class="qtoggle">⌄</span>'+
+        '</button>'+
+        '<div class="q-panel" id="qpanel-'+i+'">'+
+          '<div class="choice-label">💡 이렇게 대답해 보세요 · Coba jawab seperti ini</div>'+
+          '<div class="choice-list">'+q.choices.map((c,ci)=>
+            '<div class="choice-item">'+
+              '<button class="choice-btn" id="cbtn-'+i+'-'+ci+'" onclick="toggleChoice('+i+','+ci+')">'+
+                '<span class="ctext">'+trio(c)+'</span>'+
+                '<span class="ctoggle">⌄</span>'+
+              '</button>'+
+              '<div class="followup-list" id="flist-'+i+'-'+ci+'">'+
+                '<div class="fl-label">💬 꼬리 질문 · Pertanyaan lanjutan</div>'+
+                c.followups.map((f,fi)=>
+                  '<article class="followup-item">'+
+                    '<div class="fnum">FOLLOW-UP '+(fi+1)+'</div>'+
+                    trio(f)+
+                  '</article>').join("")+
+              '</div>'+
+            '</div>').join("")+
+          '</div>'+
+        '</div>'+
+      '</div>').join("")+
+    '</div>';
+}
+
+function nudgeIntoView(el){
+  setTimeout(()=>{
+    const r=el.getBoundingClientRect();
+    if(r.top<70||r.top>window.innerHeight*0.55){window.scrollBy({top:r.top-90,behavior:"smooth"});}
+  },60);
+}
+
+/* 질문을 누르면 그 아래에 예시 답변이 펼쳐짐 (다른 질문은 자동으로 접힘) */
+function toggleQuestion(qIndex){
+  const panel=document.getElementById("qpanel-"+qIndex);
+  const btn=document.getElementById("qbtn-"+qIndex);
+  const wasOpen=panel.classList.contains("open");
+  document.querySelectorAll("#talkFlow .q-panel.open,#talkFlow .followup-list.open").forEach(el=>el.classList.remove("open"));
+  document.querySelectorAll("#talkFlow .question-btn.open,#talkFlow .choice-btn.open").forEach(el=>el.classList.remove("open"));
+  if(!wasOpen){
+    panel.classList.add("open");
+    btn.classList.add("open");
+    nudgeIntoView(btn);
+  }
+}
+
+/* 답변을 누르면 그 자리 바로 아래에서 꼬리 질문이 펼쳐짐 */
+function toggleChoice(qIndex,cIndex){
+  const list=document.getElementById("flist-"+qIndex+"-"+cIndex);
+  const btn=document.getElementById("cbtn-"+qIndex+"-"+cIndex);
+  const wasOpen=list.classList.contains("open");
+  document.querySelectorAll("#talkFlow .followup-list.open").forEach(el=>el.classList.remove("open"));
+  document.querySelectorAll("#talkFlow .choice-btn.open").forEach(el=>el.classList.remove("open"));
+  if(!wasOpen){
+    list.classList.add("open");
+    btn.classList.add("open");
+    nudgeIntoView(btn);
+  }
+}
+
+/* ===================== 번역 ===================== */
+
+/* --- 인도네시아어 → 한글 발음 근사 변환 --- */
+const CONS_ONSET={ng:11,ny:2,sy:9,kh:15,ch:14,b:7,c:13,d:3,f:17,g:0,h:18,j:12,k:1,l:5,m:6,n:2,p:8,q:1,r:5,s:9,t:4,v:7,w:11,x:9,y:11,z:12};
+const CONS_STAND={b:7,c:14,d:3,f:17,g:0,h:18,j:12,k:1,l:5,m:6,n:2,p:8,q:1,r:5,s:9,t:4,v:7,w:11,x:9,y:11,z:12,ng:11,ny:2,sy:9,kh:15,ch:14};
+const CODA={k:1,ng:21,n:4,m:16,l:8,p:17,t:19,b:17,d:19,g:1};
+const V_PLAIN={a:0,i:20,u:13,e:18,o:8};
+const V_Y={a:2,i:20,u:17,e:7,o:12};
+const V_W={a:9,i:16,u:13,e:15,o:14};
+const DIGRAPHS=["ng","ny","sy","kh","ch"];
+
+function syl(cho,jung,jong){return String.fromCharCode(0xAC00+(cho*21+jung)*28+jong);}
+function isVowel(ch){return "aiueo".indexOf(ch)>=0;}
+
+/* e 를 /e/(ㅔ)로 읽는 흔한 단어들 (그 외의 e 는 약모음으로 처리) */
+const E_WORDS=["enak","menu","meter","meja","media","medis","metode","mereka","restoran","resep","reservasi","rekomendasi","kafe","hotel","tempe","sate","sore","teh","becak","kereta","ekonomi","elektronik","energi","edukasi","efek","era","konser","presiden","profesor","apotek","model","novel","seleksi","sepeda","nenek","kakek","bebek","lele","desember","september","november","desain","email","ide","kecap","tante","polisi","indonesia","enerjik","energik","efektif","selfie","hotel"];
+const SPECIAL={dj:"디제이",tv:"띠비",kpop:"케이뽑",kdrama:"케이드라마",kfood:"케이푸드",wifi:"와이파이",ok:"오케이"};
+
+function transliterate(text){
+  if(!text) return "";
+  return text.split(/(\s+)/).map(w=>{
+    if(/^\s+$/.test(w)) return w;
+    /* 반복형(anak-anak)은 하이픈 단위로 나눠 붙여 읽음 */
+    return w.toLowerCase().split("-").map(part=>{
+      const clean=part.replace(/[^a-z]/g,"");
+      return clean?wordToHangul(clean):"";
+    }).join("");
+  }).filter(x=>x!=="").join(" ").replace(/\s+/g," ").trim();
+}
+
+function wordToHangul(raw){
+  /* 겹자음은 하나로 (topping → toping). ng 는 이중자로 따로 처리 */
+  if(SPECIAL[raw]) return SPECIAL[raw];
+  /* 겹자음 단순화 (topping → toping). n·m·l 은 형태소 경계라 유지 */
+  const w=raw.replace(/([bcdfhjkpqrstvwxz])\1+/g,"$1");
+  const eIsE=E_WORDS.some(x=>w.indexOf(x)===0);
+  const tok=[];
+  let i=0;
+  while(i<w.length){
+    if(isVowel(w[i])){tok.push({t:"v",v:w[i]});i++;continue;}
+    const two=w.substr(i,2);
+    if(DIGRAPHS.indexOf(two)>=0){tok.push({t:"c",v:two});i+=2;continue;}
+    tok.push({t:"c",v:w[i]});i++;
+  }
+  const syls=[];
+  const place=c=>{
+    if(c==="h"&&syls.length) return;
+    const prev=syls[syls.length-1];
+    if(prev&&!prev.stand&&!prev.coda&&CODA[c]!==undefined){prev.coda=c;return;}
+    syls.push({stand:c});
+  };
+  let pend=[];
+  for(const t of tok){
+    if(t.t==="c"){pend.push(t.v);continue;}
+    let onset=null;
+    if(pend.length){
+      onset=pend.pop();
+      const prev=syls[syls.length-1];
+      if(onset==="ng"&&!pend.length&&prev&&!prev.stand&&!prev.coda){prev.coda="ng";onset=null;}
+      pend.forEach(place);
+      pend=[];
+    }
+    syls.push({onset:onset,vowel:t.v,coda:null});
+  }
+  pend.forEach(place);
+  /* 모음 뒤 l 은 앞 음절 받침으로도 붙임 (selamat → 슬라맛) */
+  for(let k=0;k<syls.length-1;k++){
+    const a=syls[k],b=syls[k+1];
+    if(a&&!a.stand&&!a.coda&&b&&!b.stand&&b.onset==="l") a.coda="l";
+  }
+  let lastV=-1;
+  syls.forEach((s,k)=>{if(!s.stand) lastV=k;});
+  let out="";
+  for(let k=0;k<syls.length;k++){
+    const s=syls[k];
+    if(s.stand){
+      const c=s.stand;
+      if(c==="ng"){out+="응";continue;}
+      out+=syl(CONS_STAND[c]!==undefined?CONS_STAND[c]:11,18,0);
+      continue;
+    }
+    let cho=11,glide=null;
+    if(s.onset){
+      cho=CONS_ONSET[s.onset]!==undefined?CONS_ONSET[s.onset]:11;
+      if(s.onset==="y"||s.onset==="ny"||s.onset==="sy") glide="y";
+      else if(s.onset==="w") glide="w";
+    }
+    let jung;
+    if(glide==="y") jung=V_Y[s.vowel];
+    else if(glide==="w") jung=V_W[s.vowel];
+    else jung=V_PLAIN[s.vowel];
+    if(s.vowel==="e"&&!glide){
+      const nx=syls[k+1];
+      const beforeR=(nx&&nx.stand==="r")||s.coda==="r";
+      const isLast=(k===lastV);
+      const funcWord=(w.length<=2);                   /* ke · se → 끄 · 스 */
+      if(funcWord) jung=18;
+      else if(isLast||eIsE) jung=5;                   /* ㅔ */
+      else if(beforeR) jung=4;                        /* 어르 */
+      else if(!s.coda&&"pbfv".indexOf(s.onset||"")>=0) jung=4;  /* 뻐 · 버 */
+      else jung=18;                                   /* ㅡ */
+    }
+    if(jung===undefined) jung=18;
+    out+=syl(cho,jung,s.coda?(CODA[s.coda]||0):0);
+  }
+  return out;
+}
+
+/* --- 앱 내장 기초 어휘 + 문장 사전 (오프라인) --- */
+/* 기초 단어는 온라인 번역보다 먼저 검색됩니다. */
+let VOCAB=[]
+
+/* 현장에서 자주 쓰는 추가 문장 (인터넷 없이 즉시 번역됨) */
+let EXTRA=[];
+
+let PHRASES=[];
+function normKo(s){return (s||"").toLowerCase().replace(/[\s.,!?~·"'’“”()\-]/g,"");}
+function normId(s){return (s||"").toLowerCase().replace(/[^a-z0-9\s]/g,"").replace(/\s+/g," ").trim();}
+
+function buildPhraseBank(){
+  const seen={};
+  const add=(ko,id,pron)=>{
+    if(!ko||!id) return;
+    const key=normKo(ko)+"|"+normId(id);
+    if(seen[key]) return;
+    seen[key]=1;
+    PHRASES.push({ko:ko,id:id,pron:pron||transliterate(id),nk:normKo(ko),ni:normId(id)});
+  };
+  document.querySelectorAll("#basic .phrase").forEach(el=>{
+    const g=c=>{const n=el.querySelector("."+c);return n?n.textContent.trim():"";};
+    add(g("ko"),g("id"),g("pron"));
+  });
+  VOCAB.forEach(e=>add(e.ko,e.id,e.pron));
+  EXTRA.forEach(e=>add(e.ko,e.id,e.pron));
+  Object.keys(topics).forEach(k=>{
+    topics[k].q.forEach(q=>{
+      add(q.ko,q.id,q.pron);
+      (q.choices||[]).forEach(c=>{
+        add(c.ko,c.id,c.pron);
+        (c.followups||[]).forEach(f=>add(f.ko,f.id,f.pron));
+      });
+    });
+  });
+}
+
+function bigrams(s){const a=[];for(let i=0;i<s.length-1;i++)a.push(s.substr(i,2));return a;}
+function dice(a,b){
+  if(!a||!b) return 0;
+  if(a===b) return 1;
+  const A=bigrams(a),B=bigrams(b);
+  if(!A.length||!B.length) return 0;
+  const map={};A.forEach(x=>map[x]=(map[x]||0)+1);
+  let hit=0;B.forEach(x=>{if(map[x]>0){map[x]--;hit++;}});
+  return 2*hit/(A.length+B.length);
+}
+
+function localLookup(text,dir){
+  const isKo=dir==="ko2id";
+  const n=isKo?normKo(text):normId(text);
+  if(!n) return {exact:null,near:[]};
+  let exact=null;const scored=[];
+  PHRASES.forEach(p=>{
+    const target=isKo?p.nk:p.ni;
+    const s=dice(n,target);
+    if(s===1&&!exact) exact=p;
+    if(s>=0.55) scored.push({p:p,s:s});
+  });
+  scored.sort((a,b)=>b.s-a.s);
+  return {exact:exact,near:scored.slice(0,3).map(x=>x.p)};
+}
+
+/* --- 온라인 번역: Google 번역 엔드포인트 우선 + MyMemory fallback --- */
+/*
+  Google의 공개 번역 엔드포인트를 우선 사용합니다.
+  별도 API 키가 필요하지 않아 개인용 정적 웹에서 바로 사용할 수 있습니다.
+  다만 공식 Cloud Translation API가 아니므로 SLA/보장된 사용량은 없습니다.
+  실패하면 기존 MyMemory를 fallback으로 사용합니다.
+*/
+async function googleTranslate(text,dir){
+  const sl=dir==="ko2id"?"ko":"id";
+  const tl=dir==="ko2id"?"id":"ko";
+  const url="https://translate.googleapis.com/translate_a/single?client=gtx&sl="+sl+"&tl="+tl+"&dt=t&q="+encodeURIComponent(text);
+  const ctrl=new AbortController();
+  const timer=setTimeout(()=>ctrl.abort(),10000);
+  try{
+    const res=await fetch(url,{signal:ctrl.signal});
+    clearTimeout(timer);
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const data=await res.json();
+    const out=Array.isArray(data)&&Array.isArray(data[0])?data[0].map(x=>x&&x[0]?x[0]:"").join("").trim():"";
+    if(!out) throw new Error("empty");
+    return out;
+  }catch(e){
+    clearTimeout(timer);
+    throw e;
+  }
+}
+
+async function myMemoryTranslate(text,dir){
+  const pair=dir==="ko2id"?"ko|id":"id|ko";
+  const url="https://api.mymemory.translated.net/get?q="+encodeURIComponent(text)+"&langpair="+pair;
+  const ctrl=new AbortController();
+  const timer=setTimeout(()=>ctrl.abort(),10000);
+  try{
+    const res=await fetch(url,{signal:ctrl.signal});
+    clearTimeout(timer);
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const data=await res.json();
+    const out=data&&data.responseData&&data.responseData.translatedText;
+    if(!out) throw new Error("empty");
+    if(/MYMEMORY WARNING|QUERY LENGTH LIMIT|INVALID/i.test(out)) throw new Error("quota");
+    return out.trim();
+  }catch(e){
+    clearTimeout(timer);
+    throw e;
+  }
+}
+
+async function onlineTranslate(text,dir){
+  try{
+    return {text:await googleTranslate(text,dir),engine:"Google"};
+  }catch(e){
+    return {text:await myMemoryTranslate(text,dir),engine:"MyMemory"};
+  }
+}
+
+/* --- 상태 & UI --- */
+let dir="ko2id";
+let lastResult=null;
+let history=[];
+
+function loadHistory(){
+  try{const raw=localStorage.getItem("halo-tr-history");if(raw) history=JSON.parse(raw)||[];}catch(e){}
+  renderHistory();
+}
+function saveHistory(){
+  try{localStorage.setItem("halo-tr-history",JSON.stringify(history.slice(0,12)));}catch(e){}
+}
+
+function swapDirection(){
+  dir=dir==="ko2id"?"id2ko":"ko2id";
+  const ko="🇰🇷 한국어",id="🇮🇩 Bahasa Indonesia";
+  document.getElementById("dirFrom").textContent=dir==="ko2id"?ko:id;
+  document.getElementById("dirTo").textContent=dir==="ko2id"?id:ko;
+  document.getElementById("srcText").placeholder=dir==="ko2id"
+    ?"번역할 한국어 문장을 입력하세요."
+    :"Ketik kalimat bahasa Indonesia di sini.";
+  document.getElementById("trResult").innerHTML="";
+}
+
+function updateCounter(){
+  document.getElementById("charCount").textContent=document.getElementById("srcText").value.length+"자";
+}
+function clearInput(){
+  document.getElementById("srcText").value="";
+  updateCounter();
+  document.getElementById("trResult").innerHTML="";
+  document.getElementById("srcText").focus();
+}
+function quickFill(t){
+  if(dir!=="ko2id") swapDirection();
+  document.getElementById("srcText").value=t;
+  updateCounter();
+  runTranslate();
+}
+function inputKey(e){
+  if(e.key==="Enter"&&(e.ctrlKey||e.metaKey)){e.preventDefault();runTranslate();}
+}
+
+function esc(s){return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+
+function resultCard(o){
+  const showPron=o.pron&&o.pron.length>0;
+  return '<article class="result-card">'+
+    '<span class="result-tag '+o.tagClass+'">'+o.tag+'</span>'+
+    '<div class="result-src">'+esc(o.srcLabel)+' '+esc(o.src)+(o.srcPron?'<br><span style="color:var(--accent);font-weight:600">'+esc(o.srcPron)+'</span>':'')+'</div>'+
+    '<div class="result-main">'+esc(o.out)+'</div>'+
+    (showPron?'<div class="result-pron">'+esc(o.pron)+'</div>':'')+
+    '<div class="result-actions">'+
+      '<button class="res-btn primary" type="button" onclick="showBig()">👁 크게 보여주기</button>'+
+      '<button class="res-btn" type="button" onclick="copyResult(this)">📋 복사하기</button>'+
+    '</div>'+
+    (o.altHtml||"")+
+  '</article>';
+}
+
+function nearHtml(near,dir2){
+  if(!near||!near.length) return "";
+  return '<div class="result-alt"><div class="result-alt-label">📚 앱에 있는 비슷한 문장</div>'+
+    near.map(p=>'<div class="alt-item"><b>'+esc(p.id)+'</b><br>'+esc(p.pron)+'<br>'+esc(p.ko)+'</div>').join("")+
+    '</div>';
+}
+
+async function runTranslate(){
+  const box=document.getElementById("trResult");
+  const text=document.getElementById("srcText").value.trim();
+  if(!text){box.innerHTML='<div class="note">번역할 문장을 먼저 입력해 주세요.</div>';return;}
+
+  const isKo=dir==="ko2id";
+  const srcLabel=isKo?"🇰🇷":"🇮🇩";
+  const local=localLookup(text,dir);
+
+  if(local.exact){
+    const p=local.exact;
+    const out=isKo?p.id:p.ko;
+    lastResult={out:out,pron:isKo?p.pron:"",src:text};
+    box.innerHTML=resultCard({
+      tag:"📚 앱 사전 · 오프라인",tagClass:"tag-offline",
+      srcLabel:srcLabel,src:text,srcPron:isKo?"":p.pron,
+      out:out,pron:isKo?p.pron:""
+    });
+    pushHistory(text,out,isKo?p.pron:"");
+    return;
+  }
+
+  box.innerHTML='<div class="note">🔄 번역 중입니다…</div>';
+  try{
+    const online=await onlineTranslate(text,dir);
+    const out=online.text;
+    const pron=isKo?transliterate(out):"";
+    lastResult={out:out,pron:pron,src:text};
+    box.innerHTML=resultCard({
+      tag:"🌐 온라인 번역 · "+online.engine,tagClass:"tag-online",
+      srcLabel:srcLabel,src:text,srcPron:isKo?"":transliterate(text),
+      out:out,pron:pron,
+      altHtml:nearHtml(local.near)
+    });
+    pushHistory(text,out,pron);
+  }catch(e){
+    let msg="인터넷에 연결되어 있는지 확인한 뒤 다시 시도해 주세요.";
+    if(e&&e.message==="quota") msg="온라인 번역의 하루 무료 사용량을 넘었을 수 있습니다. 잠시 후 다시 시도해 주세요.";
+    box.innerHTML='<article class="result-card" style="border-color:var(--line)">'+
+      '<span class="result-tag tag-error">⚠️ 온라인 번역 실패</span>'+
+      '<div class="result-src">'+esc(srcLabel+" "+text)+'</div>'+
+      '<div style="font-size:14px;line-height:1.6;color:#555">'+msg+'<br>아래 앱 내장 문장은 인터넷 없이도 바로 쓸 수 있습니다.</div>'+
+      nearHtml(local.near)+
+    '</article>';
+  }
+}
+
+function pushHistory(src,out,pron){
+  history.unshift({src:src,out:out,pron:pron||"",dir:dir});
+  history=history.slice(0,12);
+  saveHistory();
+  renderHistory();
+}
+
+function renderHistory(){
+  const wrap=document.getElementById("trHistoryWrap");
+  const box=document.getElementById("trHistory");
+  if(!wrap||!box) return;
+  if(!history.length){wrap.hidden=true;box.innerHTML="";return;}
+  wrap.hidden=false;
+  box.innerHTML=history.map((h,i)=>
+    '<div class="hist-item" onclick="reuseHistory('+i+')">'+
+      '<div class="h-out">'+esc(h.out)+'</div>'+
+      (h.pron?'<div class="h-pron">'+esc(h.pron)+'</div>':'')+
+      '<div class="h-in">↩ '+esc(h.src)+'</div>'+
+    '</div>').join("");
+}
+
+function reuseHistory(i){
+  const h=history[i];
+  if(!h) return;
+  if(h.dir!==dir) swapDirection();
+  document.getElementById("srcText").value=h.src;
+  updateCounter();
+  runTranslate();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function clearHistory(){
+  history=[];
+  saveHistory();
+  renderHistory();
+}
+
+function showBig(){
+  if(!lastResult) return;
+  document.getElementById("bigText").textContent=lastResult.out;
+  document.getElementById("bigSub").textContent=lastResult.pron||lastResult.src;
+  document.getElementById("bigView").hidden=false;
+}
+function closeBig(){document.getElementById("bigView").hidden=true;}
+
+function copyResult(btn){
+  if(!lastResult) return;
+  const done=()=>{const o=btn.textContent;btn.textContent="✅ 복사됨";setTimeout(()=>btn.textContent=o,1400);};
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(lastResult.out).then(done).catch(()=>fallbackCopy(lastResult.out,done));
+  }else{fallbackCopy(lastResult.out,done);}
+}
+function fallbackCopy(text,cb){
+  const ta=document.createElement("textarea");
+  ta.value=text;ta.style.position="fixed";ta.style.opacity="0";
+  document.body.appendChild(ta);ta.select();
+  try{document.execCommand("copy");cb();}catch(e){}
+  document.body.removeChild(ta);
+}
+
+async function initLanguageData(){
+  // Synchronous local fallback first: works even from file:// and before network/cache fetch completes.
+  let data=window.INDONESIA_DATA||null;
+  if(data){
+    topics=data.topics||{};
+    VOCAB=data.vocab||[];
+    EXTRA=data.extra||[];
+  }
+  // When served over http(s), refresh from the JSON source if available.
+  if(location.protocol!=="file:"){
+    try{
+      const res=await fetch("../data/indonesia.json",{cache:"no-store"});
+      if(res.ok){
+        const fresh=await res.json();
+        topics=fresh.topics||topics;
+        VOCAB=fresh.vocab||VOCAB;
+        EXTRA=fresh.extra||EXTRA;
+      }
+    }catch(e){
+      console.warn("JSON refresh failed; using bundled local data",e);
+    }
+  }
+  buildPhraseBank();
+  loadHistory();
+  addBasicCounts();
+  addBasicSubCounts();
+}
+
+function addBasicCounts(){
+  document.querySelectorAll("#basic .basic-item").forEach(item=>{
+    const btn=item.querySelector(":scope > .basic-toggle");
+    const panel=item.querySelector(":scope > .basic-panel");
+    if(!btn||!panel||btn.querySelector(".basic-count")) return;
+    const count=panel.querySelectorAll(".phrase").length;
+    const arrow=btn.querySelector(".basic-arrow");
+    const badge=document.createElement("span");
+    badge.className="basic-count"; badge.textContent=count;
+    btn.insertBefore(badge,arrow);
+  });
+}
+
+
+function addBasicSubCounts(){
+  document.querySelectorAll("#basic .basic-subitem").forEach(item=>{
+    const btn=item.querySelector(":scope > .basic-sub-toggle");
+    const panel=item.querySelector(":scope > .basic-sub-panel");
+    if(!btn||!panel||btn.querySelector(".basic-sub-count")) return;
+    const count=panel.querySelectorAll(".phrase").length;
+    const arrow=btn.querySelector(".basic-sub-arrow");
+    const badge=document.createElement("span");
+    badge.className="basic-sub-count";
+    badge.textContent=count;
+    btn.insertBefore(badge,arrow);
+  });
+}
+
+const languageDataReady=initLanguageData();
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeBig();});
+if("serviceWorker" in navigator){addEventListener("load",()=>navigator.serviceWorker.register("../sw.js"));}
+</script>
+</body>
+</html>
