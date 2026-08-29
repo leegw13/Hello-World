@@ -16,8 +16,12 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/validate-data.mjs
+      - run: node scripts/build-file-bundle.mjs
+      - run: git diff --exit-code -- js/generated data/generated
       - run: node --check js/app.js
       - run: node --check js/config.js
+      - run: node --check js/languages/kiosk.js
       - run: node --check js/services/data-loader.js
       - run: node --check js/services/history.js
       - run: node --check js/services/translator.js
+      - run: node --check js/generated/app.bundle.js

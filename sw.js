@@ -1,8 +1,10 @@
-const CACHE = "helloworld-static-v6";
+const CACHE = "helloworld-static-v12";
 const ASSETS = [
   "./", "./index.html", "./app.html", "./manifest.webmanifest", "./sw.js",
   "./css/style.css",
   "./js/app.js", "./js/config.js",
+  "./js/languages/kiosk.js",
+  "./js/generated/app.bundle.js", "./data/generated/id.js", "./data/generated/vi.js",
   "./js/services/data-loader.js", "./js/services/history.js", "./js/services/translator.js",
   "./data/indonesia.json", "./data/vietnam.json", "./icons/icon-192.png", "./icons/icon-512.png",
   "./indonesia/index.html", "./vietnam/index.html"

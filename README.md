@@ -4,13 +4,19 @@
 
 ## 로컬 실행
 
-ES 모듈과 JSON `fetch`를 사용하므로 파일을 직접 열지 말고 정적 서버로 실행합니다.
+GitHub Pages 배포와 정적 서버 실행을 권장합니다.
 
 ```sh
 python -m http.server 8000
 ```
 
 그다음 `http://localhost:8000`을 엽니다.
+
+HTML 파일을 직접 열어도 자동 생성된 호환 번들을 통해 실행됩니다. 소스 또는 JSON을 수정한 뒤에는 다음 명령으로 호환 번들을 갱신합니다.
+
+```sh
+node scripts/build-file-bundle.mjs
+```
 
 ## 구조
 

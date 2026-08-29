@@ -830,6 +830,36 @@
               "ko": "열",
               "id": "Sepuluh",
               "pron": "스뿔루"
+            },
+            {
+              "ko": "스물",
+              "id": "Dua puluh",
+              "pron": "두아 뿔루"
+            },
+            {
+              "ko": "백",
+              "id": "Seratus",
+              "pron": "스라뚜스"
+            },
+            {
+              "ko": "천",
+              "id": "Seribu",
+              "pron": "스리부"
+            },
+            {
+              "ko": "만",
+              "id": "Sepuluh ribu",
+              "pron": "스뿔루 리부"
+            },
+            {
+              "ko": "십만",
+              "id": "Seratus ribu",
+              "pron": "스라뚜스 리부"
+            },
+            {
+              "ko": "백만",
+              "id": "Satu juta",
+              "pron": "사뚜 주따"
             }
           ]
         },

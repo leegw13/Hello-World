@@ -4,7 +4,7 @@ export function createHistory(storageKey) {
   return {
     all: () => entries.slice(),
     add(entry) {
-      entries = [entry, ...entries.filter(item => item.input !== entry.input || item.direction !== entry.direction)].slice(0, 12);
+      entries = [entry, ...entries.filter(item => item.input !== entry.input || item.direction !== entry.direction)].slice(0, 30);
       try { localStorage.setItem(storageKey, JSON.stringify(entries)); } catch { /* storage is optional */ }
     },
     clear() {
